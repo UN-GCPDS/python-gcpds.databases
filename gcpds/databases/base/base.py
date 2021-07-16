@@ -1,10 +1,8 @@
-""""""
-
 from .google_drive_downloader import GoogleDriveDownloader as gdd
 from scipy.io import loadmat
 import os
 from abc import ABCMeta, abstractmethod
-from typing import Union, Optional, Tuple
+from typing import Union, Optional
 import numpy as np
 # from .databases import databases
 import json
@@ -12,7 +10,6 @@ import mne
 import sys
 import tables
 import logging
-import warnings
 
 ALL = 'all'
 mne.set_log_level('CRITICAL')
@@ -362,100 +359,63 @@ class DatabaseBase(metaclass=ABCMeta):
         """"""
         logging.warning("This database has not non-task data")
 
-
-########################################################################
-class GIGA_BCI(DatabaseBase):
-    """"""
-
     # ----------------------------------------------------------------------
-    def load_subject(self, subject: int, mode: str) -> None:
+    def test_integrity(self):
         """"""
-        if not mode in ['training', 'evaluation']:
-            raise Exception(
-                f"No mode {mode} available, only 'training', 'evaluation'")
+        import logging
 
-        self.runs = self.metadata[f'runs'][subject - 1]
+        if 'runs_training' in self.metadata:
+            if self.metadata['subjects'] != len(self.metadata['runs_training']):
+                logging.error(
+                    "Number of 'subjects' not correspond with the number of 'runs' for training.")
 
-        if self.path is None:
-            self.path = self.metadata['directory']
+            try:
+                for subj in range(1, self.metadata['subjects'] + 1):
+                    if not self.metadata['subject_training_pattern'](subj) in self.metadata['subject_training_files']:
+                        logging.error(
+                            f"'{self.metadata['subject_training_pattern'](subj)}' not in 'fids.json'")
+            except:
+                logging.error('Pattern for trainning files not working!')
+                pass
 
-        sessions = []
-        for run in range(self.runs):
-            filename_subject = self.metadata[f'subject_pattern'](
-                subject, run + 1)
+        if 'runs_evaluation' in self.metadata:
+            if self.metadata['subjects'] != len(self.metadata['runs_evaluation']):
+                logging.error(
+                    "Number of 'subjects' not correspond with the number of 'runs' for evaluation.")
 
-            if os.path.split(filename_subject)[-1] not in self.metadata[f'subject_files'].keys():
-                raise Exception(
-                    f"Subject {subject} not in list of subjects.")
+            try:
+                for subj in range(1, self.metadata['subjects'] + 1):
+                    if not self.metadata['subject_evaluation_pattern'](subj) in self.metadata['subject_evaluation_files']:
+                        logging.error(
+                            f"'{self.metadata['subject_evaluation_pattern'](subj)}' not in 'fids.json'")
+            except:
+                logging.error('Pattern for trainning files not working!')
+                pass
 
-            fid, size = self.metadata[f'subject_files'][os.path.split(
-                filename_subject)[-1]]
+        self.load_subject(1)
 
-            self.subject = subject
-            self.mode = mode
+        gdata = self.get_data()
 
-            sessions.append(load_mat(self.path, filename_subject, fid, size))
+        if len(gdata) != 2:
+            logging.error(
+                "The method 'get_data' MUST return a tuple of 2 elements (data, classes).")
+        else:
+            data, class_ = gdata
 
-        artifacts = []
-        for run in range(self.runs):
-            filename_artifact = self.metadata[f'artifact_pattern'](
-                subject, run + 1)
+            if data.ndim != 3:
+                logging.error(
+                    "The first element of the method 'get_data' MUST be a 3 dimencional array (trials, channels, time)")
 
-            fid, size = self.metadata[f'subject_files'][os.path.split(
-                filename_artifact)[-1]]
+            if data.shape[0] != len(class_):
+                logging.error(
+                    "The method 'get_data' MUST have the same number of trials.")
 
-            artifacts.append(
-                load_mat(self.path, filename_artifact, fid, size))
+            if data.shape[1] != len(self.metadata['channels']):
+                logging.error(
+                    f"The second dimension of the first element of the method 'get_data' MUST have the same number of channels ({len(self.metadata['channels'])})")
 
-        return sessions, artifacts
+        ndata = self.non_task()
 
-    # ----------------------------------------------------------------------
-    def get_run(self, run: int, classes: Optional[list] = ALL, channels: Optional[list] = ALL, reject_bad_trials: Optional[bool] = True) -> Tuple[np.ndarray, np.ndarray]:
-        """"""
-        classes = self.format_class_selector(classes)
-        channels = self.format_channels_selectors(channels)
-        super().get_run(run, classes, channels, reject_bad_trials)
-
-        data = self.data_[run]
-
-        classes_list = data[4][0]
-        starts = data[2][0]
-        end = int(self.metadata['sampling_rate'] * self.metadata['duration'])
-
-        run = np.array([data[1][start:start + end] for start in starts])
-
-        # trial x channel x time
-        run = np.moveaxis(run, 2, 1)
-
-        # Select channels
-        run = run[:, channels - 1, :]
-
-        idx = []
-        c = []
-        for cls in classes:
-            idx.append(np.where(np.array(classes_list) == cls + 1)[0])
-            c.append([cls] * len(idx[-1]))
-
-        return run[np.concatenate(idx), :, :], np.concatenate(c)
-
-    # ----------------------------------------------------------------------
-    def non_task(self, non_task_classes: Optional[list] = ALL, runs: Optional[list] = ALL, channels: Optional[list] = ALL) -> np.ndarray:
-        """"""
-        channels = self.format_channels_selectors(channels)
-        non_task_classes = self.format_non_class_selector(non_task_classes)
-        runs = self.format_runs(runs)
-
-        rst = []
-        for session in runs:
-            # 13: pre_rest
-            # 14: post_rest
-            rst_rn = []
-            nt = [self.data_[session][13].T, self.data_[session][14].T,
-                  *np.moveaxis(self.artifacts_[session], 0, 1)]
-
-            for index in non_task_classes:
-                rst_rn.append(nt[index][channels - 1])
-            rst.append(rst_rn)
-
-        return rst
-
+        if len(ndata) != len(self.metadata['non_task_classes']):
+            logging.error(
+                "The method 'non_task' must return a tuple of the same size of 'non_task_classes' classes.")

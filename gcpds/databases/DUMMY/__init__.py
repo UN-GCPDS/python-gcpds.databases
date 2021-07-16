@@ -32,8 +32,8 @@ class Database(DatabaseBase):
         'subject_training_files': fids['DUMMY training'],
         'subject_training_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
 
-        'subject_evaluation_files': {},
-        'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
+        # 'subject_evaluation_files': fids['DUMMY evaluation'],
+        # 'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
 
         'metadata': fids['DUMMY metadata'],
         'directory': 'databases/DUMMY',
@@ -58,15 +58,10 @@ class Database(DatabaseBase):
         classes = self.format_class_selector(classes)
         channels = self.format_channels_selectors(channels)
 
-    # ----------------------------------------------------------------------
-    def get_data(self,
-                 classes: Optional[list] = ALL,
-                 channels: Optional[list] = ALL,
-                 reject_bad_trials: Optional[bool] = True,
-                 keep_runs_separated: bool = False,
-                 ) -> list:
-        """Return all runs."""
-        classes = self.format_class_selector(classes)
+        data = self.data.reshape(-1, 16, 1000)
+        cls = [0] * 30 + [1] * 30
+
+        return data, cls
 
     # ----------------------------------------------------------------------
     def non_task(self,
@@ -77,6 +72,10 @@ class Database(DatabaseBase):
         """"""
         channels = self.format_channels_selectors(channels)
         non_task_classes = self.format_non_class_selector(non_task_classes)
+
+        data = [np.random.random(size=(10, 16, 1000)) for i in range(
+            len(self.metadata['non_task_classes']))]
+        return data
 
 
 ########################################################################

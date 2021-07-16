@@ -3,4 +3,5 @@ from gcpds.databases import GIGA_MI_ME, BCI_Competition_IV, HighGamma_ME, GIGA_B
 
 db = DUMMY()
 print(db)
-db.load_subject(2)
+
+db.test_integrity()
