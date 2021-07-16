@@ -1,0 +1,6138 @@
+{
+ "PhysionetMMI training": {
+    "S096R01.edf": [
+      "15_LPr9vzMFeIeC_1r4vNo_gMn4FXUume",
+      1275936
+    ],
+    "S096R03.edf": [
+      "1Ai5v1KBjNdFQz4QH7ZLr1K-Ysh0jCLrs",
+      2596896
+    ],
+    "S096R02.edf": [
+      "1DR3d4vyhgvoGoZq0pMk9V3r2HyqaNsY0",
+      1275936
+    ],
+    "S096R04.edf": [
+      "1ZDGWrq_oKsxRjPN9i8Ff3ytQ_VA4KMz9",
+      2596896
+    ],
+    "S096R05.edf": [
+      "1fIKcoY7gHixeEAuhA13M_rU_m1ORa0Od",
+      2596896
+    ],
+    "S096R06.edf": [
+      "1fraCf_nz016WI6njyyIiqKXHNoOVLpe7",
+      2596896
+    ],
+    "S096R07.edf": [
+      "13dmqO-0rmi87co_q-RYSceXRmIWc-Ikq",
+      2596896
+    ],
+    "S096R08.edf": [
+      "15698McFxW9sp3DS64xvaHA6qPluIV5--",
+      2596896
+    ],
+    "S096R10.edf": [
+      "1B0cNIfQXQDbsbpw-SIDZnstdo0irA5v0",
+      2596896
+    ],
+    "S096R09.edf": [
+      "1j5rD1i9l_iVTLLlZlwOlFgU4BKOKUeI5",
+      2596896
+    ],
+    "S096R11.edf": [
+      "1Q3abv2Bh8tUVqFGHqLqQuWYjh6Z1XPeI",
+      2596896
+    ],
+    "S096R12.edf": [
+      "19F33GLLYIwRYzeWhfsuR9BszXmiaD2vS",
+      2596896
+    ],
+    "S096R13.edf": [
+      "1F7pdCeZqFSwDkhC4LHiD5YGlXt3xK54C",
+      2596896
+    ],
+    "S096R14.edf": [
+      "11DoGjo7TDvzedLQDMz5SYh8oVojaefx_",
+      2596896
+    ],
+    "S095R01.edf": [
+      "16EM_6GX-UnuR0d_LplT16oscCLdXegz2",
+      1275936
+    ],
+    "S095R02.edf": [
+      "19mTSwpSIGwNBTc3oLMFrtjwgaCL_Wpp6",
+      1275936
+    ],
+    "S095R04.edf": [
+      "1TDl0pEtHAU-UVnEmL6pS-zGo3fzrJu0p",
+      2596896
+    ],
+    "S095R03.edf": [
+      "1YMlKUFgPL25X-D7sZM2PWUQDHszFCd9T",
+      2596896
+    ],
+    "S095R05.edf": [
+      "1yvobLFS577jWeSgxnyvkKFX9YyUbAXZ1",
+      2596896
+    ],
+    "S095R06.edf": [
+      "1jtSWv4s7gxSMvkZCz9yRV9b6lupf0BX2",
+      2596896
+    ],
+    "S095R07.edf": [
+      "1z2q8qnx2UJEoJIaS0wPf8v2W6kQZm7EQ",
+      2596896
+    ],
+    "S095R08.edf": [
+      "1rJBOH-Ehs75L7TRbkvoF08ZV3jlBKUCA",
+      2596896
+    ],
+    "S095R09.edf": [
+      "1TouZmV0UhCWCWMzCcKIuZ7KHeqBJYypC",
+      2596896
+    ],
+    "S095R10.edf": [
+      "10vvTc_m4iI3hbjhcy1wDZAi-OdP_D6FO",
+      2596896
+    ],
+    "S095R11.edf": [
+      "1w8buawaCJDyVVYouWKNzZ4ohakYT5y5w",
+      2596896
+    ],
+    "S095R12.edf": [
+      "1TrQIaCasAN3_UvdI7h1pTBfSGqvDcLXJ",
+      2596896
+    ],
+    "S095R13.edf": [
+      "1QSPnCyHKDpffdIUMGwjFcgcSumypk-hH",
+      2596896
+    ],
+    "S095R14.edf": [
+      "1ekgt-6N5lUr4WPDVrn5yuU3-v3GD0pVK",
+      2596896
+    ],
+    "S098R01.edf": [
+      "1D2I8ZDxh7iMsXnbsiZwEHx8W_Kj3xVRc",
+      1275936
+    ],
+    "S098R02.edf": [
+      "1r1n_RSJ2UH3GOCU82f7ScU7FgM2GG4lx",
+      1275936
+    ],
+    "S098R04.edf": [
+      "1WKT4dOImU5zPAVikaYg5Dqw_O4YgQyqq",
+      2555616
+    ],
+    "S098R03.edf": [
+      "1V2bSCWRFX2isKx9DZVid_G9sa0devzFx",
+      2555616
+    ],
+    "S098R05.edf": [
+      "1FbTSl2P19OnI5B4oHnVfUJvVYLiKw2Vq",
+      2555616
+    ],
+    "S098R06.edf": [
+      "1p6po6I7uomYPtoVggehJGnM3LIukWhmE",
+      2555616
+    ],
+    "S098R08.edf": [
+      "1aRN4K8_5GYzqlfjRr-Kf6YUhwGWt01gf",
+      2555616
+    ],
+    "S098R07.edf": [
+      "1_3LNyCOgXn4xz4sesqtQUGWt6tL-Y-Tz",
+      2555616
+    ],
+    "S098R09.edf": [
+      "1lOvLp2jezSEBAmNbW7gCiQjefQqm_Aog",
+      2555616
+    ],
+    "S098R10.edf": [
+      "1q6LoQMtXF_VoFQ5Jo0NW7aog-w1b_x2L",
+      2555616
+    ],
+    "S098R12.edf": [
+      "14hFUFW3kESRTRhSd2MB2j6psk4UP4ekc",
+      2555616
+    ],
+    "S098R11.edf": [
+      "1BzVk2YNDkXE2gCfgoW7BDMmqUf3c2j7g",
+      2555616
+    ],
+    "S098R13.edf": [
+      "1Ks5Bb94U0gSnbjtewbxCn9l8g5JuKmlR",
+      2555616
+    ],
+    "S098R14.edf": [
+      "1VniXRyR-l-7ZYoi5qBGlKdqLiQ3vp5xz",
+      2555616
+    ],
+    "S099R01.edf": [
+      "1pWSiLS5B72-G9WQZ0xSRP_QA1OXS9Zmw",
+      1275936
+    ],
+    "S099R02.edf": [
+      "1KwOhAJ_LBToelvyZOqoShTMCI38_lsPm",
+      1275936
+    ],
+    "S099R03.edf": [
+      "1LIXfduq2SMqINUD0dCKvuJ6ldbgixn0a",
+      2555616
+    ],
+    "S099R04.edf": [
+      "11yofZa8ABVm-x17bEYerbdrKivHfKxrt",
+      2555616
+    ],
+    "S099R06.edf": [
+      "1aIXYzG-9upYcrgevO3w00xXbjGWGdfBD",
+      2555616
+    ],
+    "S099R05.edf": [
+      "1NR23RIkT6ZLawaHibXDY3fLH-gTDS140",
+      2555616
+    ],
+    "S099R07.edf": [
+      "1hib5RUwsoWcdjuOkGm3sqPwv3fcKM6PS",
+      2555616
+    ],
+    "S099R08.edf": [
+      "1e7aG2CSxUDbkDT7re_EEgVkQnUELticP",
+      2555616
+    ],
+    "S099R10.edf": [
+      "1d-Qs7uPk4s8h7fpxI0uEuq1MUTYGwr2e",
+      2555616
+    ],
+    "S099R09.edf": [
+      "1D_tPxbK1fZ6IgzIvYDhsrSYyZH19FbSB",
+      2555616
+    ],
+    "S099R11.edf": [
+      "1p5pwOMN_ymSg60if1MCDQK6SbS1BXBDv",
+      2555616
+    ],
+    "S099R12.edf": [
+      "153K58_DzZ7J-OtFxURIU3B28pgvrLOsp",
+      2555616
+    ],
+    "S099R13.edf": [
+      "1S2UMD2X2-FX1IGYQE6bxj_M-VjFHOcic",
+      2555616
+    ],
+    "S099R14.edf": [
+      "1XMlpr5uQ7tdiYTRX2XjoIPiaqopOwZna",
+      2555616
+    ],
+    "S097R01.edf": [
+      "1VMoVpfN8x31iuL4r0-Frdw8K7B7-vOFI",
+      1275936
+    ],
+    "S097R02.edf": [
+      "1gP_HAdpSMoecKHqKF96rhkoiWV54Z4ei",
+      1255296
+    ],
+    "S097R03.edf": [
+      "1bBF6R3r0WWUWCniOrRyis5zkBRfoZQq1",
+      2555616
+    ],
+    "S097R04.edf": [
+      "1_ueF4naxPsH-WSxH9mPEjDljQzVeaRHI",
+      2555616
+    ],
+    "S097R05.edf": [
+      "1YmnHQAH5NJ10Ebez_XFBYE-10f48eZBj",
+      2555616
+    ],
+    "S097R06.edf": [
+      "1qtRoHmMS_mYbQjMBtMrWo8GiIclUoD3P",
+      2555616
+    ],
+    "S097R07.edf": [
+      "185Cn8xopCRE_M6VLcrSJIUaD75mRkxQ_",
+      2555616
+    ],
+    "S097R09.edf": [
+      "1yg1D-JH0J27swfkkSSKOEWz_F42QSlDu",
+      2555616
+    ],
+    "S097R08.edf": [
+      "1GT8gsllz-TdjUD5j4RYMIgLG8-aj1Mp7",
+      2555616
+    ],
+    "S097R10.edf": [
+      "1qNMrOSXiLUKjHcWuBuAf2EC-egXgTv3p",
+      2555616
+    ],
+    "S097R11.edf": [
+      "17mCyMTDUUPQSnoIS9ERBs57bZ-oYbRDL",
+      2555616
+    ],
+    "S097R13.edf": [
+      "1njU1MF9MTTQCXhwDuVt1MQaiQbRtVSco",
+      2555616
+    ],
+    "S097R12.edf": [
+      "1je_tgdfxYbnPHi-YkdKohaHTP_ZWI1JE",
+      2555616
+    ],
+    "S097R14.edf": [
+      "1XJZW137iYxbdKlaolnb-iy4fhtpRzLik",
+      2555616
+    ],
+    "S100R01.edf": [
+      "1nnFxnT9Apq3nzbXb_OaEF4qIVxcoY0uS",
+      1275936
+    ],
+    "S100R02.edf": [
+      "1nnqZw-IeNfYF91_7bGycPPS7Dfd6IC4k",
+      1275936
+    ],
+    "S100R03.edf": [
+      "1GIgqehE8mF0AHgenCML0A8Wl4OOiZ90H",
+      2047872
+    ],
+    "S100R05.edf": [
+      "1744ojjfm8gKcVvk4QuOaEkF-av4SRvNg",
+      2047872
+    ],
+    "S100R04.edf": [
+      "1Ti9ZQmKEex8SFnRW-bOe3yO0FyorR5Ia",
+      2047872
+    ],
+    "S100R06.edf": [
+      "1Egdk5zXudhDF9nKmOOaxKKA4aKdU9k1_",
+      2047872
+    ],
+    "S100R08.edf": [
+      "1YaSbi0yoc9nbvFnilplzFmoRVlo2J7mm",
+      2047872
+    ],
+    "S100R07.edf": [
+      "17--xAldPfTzDXg-1dUU9QRjH5Q25BDrF",
+      2047872
+    ],
+    "S100R10.edf": [
+      "1M9cFq3sgLT1rqQu6s6R7-7IMskkYSWtq",
+      2047872
+    ],
+    "S100R09.edf": [
+      "1yxTSTfXZ0SGBwU-neOV3_yhpjwbxH0lC",
+      2047872
+    ],
+    "S100R11.edf": [
+      "1AqfVwLq4lppR4x2sHW4DWm5yyL2UQ8AD",
+      2047872
+    ],
+    "S100R13.edf": [
+      "1DoSp4OkxePVrlhWXUI4CTH81u6-Vmtfw",
+      2047872
+    ],
+    "S100R12.edf": [
+      "1ULF2YqIM0Nnjlt2RcNn2e8eOgvR_1_t4",
+      2047872
+    ],
+    "S100R14.edf": [
+      "1CquBwvlxclx3Gz8xalgSFAXzJ82WK3ss",
+      2047872
+    ],
+    "S102R01.edf": [
+      "1tkQS1zITmxNo1xeWBjyvfMblKDPnGdPv",
+      1275936
+    ],
+    "S102R02.edf": [
+      "1UxMxnMa8PG8PbpFzv6d-VTzmsQgBpQJz",
+      1275936
+    ],
+    "S102R03.edf": [
+      "1BoVN8EACr_KwVNbJDHwh4NrKcoAa-Gh0",
+      2555616
+    ],
+    "S102R04.edf": [
+      "1pcmlt4yBMbXRh3MXCzadnG4nGgN0wbVL",
+      2555616
+    ],
+    "S102R05.edf": [
+      "1lYHCgPwpELL8tSAwG0-6-DPzeSMiO838",
+      2555616
+    ],
+    "S102R06.edf": [
+      "16sUs5HQgf83zIjpFyKgUY0cBopPUQBVL",
+      2555616
+    ],
+    "S102R07.edf": [
+      "1QzmZ7hcsM0zLCfpPN94KGF-MxTKJakq_",
+      2555616
+    ],
+    "S102R08.edf": [
+      "18Xd3OQT3vIEcyPLTUkT43PuVCmCmVqXq",
+      2555616
+    ],
+    "S102R09.edf": [
+      "11-4_Bu-p0yR0nvfgM-2VEFCCDTwo7h95",
+      2555616
+    ],
+    "S102R10.edf": [
+      "18QeMruCpkxTfYxYoB3RvoPG2jd_R08G1",
+      2555616
+    ],
+    "S102R11.edf": [
+      "1ZaDbgpDzaGvYixSJzsnOWg5Ul1nMKRBm",
+      2555616
+    ],
+    "S102R12.edf": [
+      "12bB9JBzsptLEmUKHehABfnBUYQ3o-uha",
+      2555616
+    ],
+    "S102R14.edf": [
+      "1X3aJpS4zh6mwjBhKnXtQDgS6o1FWYXwS",
+      2576256
+    ],
+    "S102R13.edf": [
+      "16H7PL2rRF5GbAaMq7OKSSxFtBEuH3tPn",
+      2555616
+    ],
+    "S103R02.edf": [
+      "1Vwv-FhnKnkfo8_fceV_SgJWuA6_XcIwc",
+      1275936
+    ],
+    "S103R01.edf": [
+      "1p-z52YUZ9_N-yqxahI5p7OW3LoT6HKl-",
+      1275936
+    ],
+    "S103R03.edf": [
+      "1BBbEHg1sR-yAWeX9sqf-NPH7MjTvc-5F",
+      2596896
+    ],
+    "S103R05.edf": [
+      "1peHFqrriyOHvQ3y0ALRqkU8bQYhy42e2",
+      2596896
+    ],
+    "S103R04.edf": [
+      "10YZXMx1OsmpGSiVBay_dzHa9SaE06xfo",
+      2596896
+    ],
+    "S103R06.edf": [
+      "17pcB31D9Te1NEPU8wfsDjymez1V9kwRf",
+      2596896
+    ],
+    "S103R07.edf": [
+      "11gzSWEQp53aaouN9m89GiVkCF9U9n5fH",
+      2596896
+    ],
+    "S103R08.edf": [
+      "1v9w7fh9ZByxH-MKLD5Ve6txKffYmk-Aj",
+      2596896
+    ],
+    "S103R09.edf": [
+      "1D3rxJowyM0SBzAuQclFg8wV7Ucdzj_or",
+      2596896
+    ],
+    "S103R10.edf": [
+      "1orSzif0UsQzfg-euOhLdGWCgFpErenwV",
+      2596896
+    ],
+    "S103R11.edf": [
+      "1DKBBc_r5dbwQDGvWLfJfVI2P527sI6NH",
+      2596896
+    ],
+    "S103R13.edf": [
+      "1_vd87WWM5JXokjpoUbayjGtMxgV1mEUC",
+      2596896
+    ],
+    "S103R12.edf": [
+      "1IqUo4GKgQkWHCv-3qQTdYFPcI07uTOf4",
+      2596896
+    ],
+    "S103R14.edf": [
+      "19usb_uHU4IHP--oJ8ROz8fSdXUoJ3kYk",
+      2596896
+    ],
+    "S101R01.edf": [
+      "1HIPVWOw2-3qpF0-8TqdQEV50gvw2VHtP",
+      1275936
+    ],
+    "S101R03.edf": [
+      "1fj4R71yAWcy27r1PSpiFqcVIx8bC1haq",
+      2596896
+    ],
+    "S101R02.edf": [
+      "16sdUdZUu_jPHJg9C9MWUU8cqZel_3o65",
+      1275936
+    ],
+    "S101R04.edf": [
+      "10i_Iu6HjnkWjQS9dwulN4OYVJ7sJEz2f",
+      2596896
+    ],
+    "S101R05.edf": [
+      "1-jBBKN0U7pq6HchYrmt-AhaPzFh6NREK",
+      2596896
+    ],
+    "S101R06.edf": [
+      "1T6pIt0cR8CAEKhz3YJRGzrfxSt4f0nYF",
+      2596896
+    ],
+    "S101R07.edf": [
+      "1u3TfIA0J3K9i5GYs8q-bTcHiVC7AtGKN",
+      2596896
+    ],
+    "S101R08.edf": [
+      "1DYhdJizRBsrMS872-HR6rdXQ4gAPxpXy",
+      2596896
+    ],
+    "S101R09.edf": [
+      "1bRExWUGVO2Cr1tP3X7pVh3xjzYURnaoP",
+      2596896
+    ],
+    "S101R11.edf": [
+      "1cU93ErY2svYt9gjokaRpv6gTPg2fZv3M",
+      2596896
+    ],
+    "S101R10.edf": [
+      "1BZ8pFs-GiO1GHBd1Ts7beBCmV0Wlxf76",
+      2596896
+    ],
+    "S101R12.edf": [
+      "1KRzSaWi-JeQ5Ky4WvvKdtMJKLKGVVAhx",
+      2596896
+    ],
+    "S101R13.edf": [
+      "1YRrcZJwMFnk67s9-ggGVow_LpUwSgHX2",
+      2596896
+    ],
+    "S101R14.edf": [
+      "1vBXQHVElewyhut2PHie-DkHWg4MeauZD",
+      2596896
+    ],
+    "S104R01.edf": [
+      "1vX0hW84PKQKy_fXXFgZ6O3ZTDPPhWDpY",
+      1275936
+    ],
+    "S104R02.edf": [
+      "1ZjK4ZIEUYc_0tXKy9OflipkZBqCq2lWa",
+      1275936
+    ],
+    "S104R03.edf": [
+      "1F2xgUDWNdA7nX1if3AV44u2dRqq7xhdE",
+      2555616
+    ],
+    "S104R05.edf": [
+      "1_eZlFidWPCNZx1tkrjjQ1Ybqf8dg772Q",
+      2555616
+    ],
+    "S104R04.edf": [
+      "1tL296XVH794Jy2CvxReFj9J431e48PvI",
+      2555616
+    ],
+    "S104R06.edf": [
+      "1LE_QOyW2xiEujUA58p4EHN69ajULdVy1",
+      2555616
+    ],
+    "S104R08.edf": [
+      "14474iLzxSQmVUzi10yyBTsmL_x_frVLG",
+      2204736
+    ],
+    "S104R07.edf": [
+      "1uqcvOgo-z1X6bnhyfoFU9gEVjYs3q41h",
+      2555616
+    ],
+    "S104R09.edf": [
+      "1_ZNBCb-9Lcm-iYUujczmHPr2110fwDVF",
+      2555616
+    ],
+    "S104R10.edf": [
+      "1k8ISjyS0vQae7ahUTsu_67XLoUo10MQd",
+      2555616
+    ],
+    "S104R11.edf": [
+      "1orne1rjX7iC8nTuKuMjxfqFV7sJCd0MW",
+      2555616
+    ],
+    "S104R12.edf": [
+      "18ltiT8dWWfXZdgHbOmEKabpsAT2XjNtN",
+      2555616
+    ],
+    "S104R13.edf": [
+      "1Bo583UjGrK9up8xeoP_n2xMj-QNZSM7R",
+      2555616
+    ],
+    "S104R14.edf": [
+      "1yBuHviPgj48ywTVNCF0A7Y2tGOSah4FL",
+      2555616
+    ],
+    "S105R01.edf": [
+      "1YrJ8QEf2ENTU37EdBmoQzLvmmuH8MCcu",
+      1275936
+    ],
+    "S105R03.edf": [
+      "1MRFHC_bBuslRKGPoWpyzu18N28BcCDL3",
+      2555616
+    ],
+    "S105R02.edf": [
+      "1TZYxoMrALWrrjkaf1a7DBZewm2OHafYw",
+      1275936
+    ],
+    "S105R04.edf": [
+      "17oPalPaGjLcBhXE0DMPApuZqrRK-QE71",
+      2555616
+    ],
+    "S105R06.edf": [
+      "1M1N-ucndlmT5jccDj3xTUfFBDCpwhEtj",
+      2555616
+    ],
+    "S105R05.edf": [
+      "14MSBExrNNMszb9tsrGkKTyKbAaoT-2Di",
+      2555616
+    ],
+    "S105R07.edf": [
+      "1hquBafaqOwcVkhQdY82my07CZ_--vetv",
+      2555616
+    ],
+    "S105R08.edf": [
+      "13xvNQ8rxQpuP5KhZMRCw-YnOLWjwmgsa",
+      2555616
+    ],
+    "S105R10.edf": [
+      "1LhGxSzJwCZUDNbca3OwHfWIO-MYytt8P",
+      2555616
+    ],
+    "S105R09.edf": [
+      "1Mt2AiRYEaN6_FOZnBBgZYvEDBGXRw0lf",
+      2555616
+    ],
+    "S105R11.edf": [
+      "18o2Vm1b0IGiCeFcWR9smah9bNYHL9E6u",
+      2555616
+    ],
+    "S105R12.edf": [
+      "1nNyBmdQ-eotN2RFW9GXVMa_yNeDQH-Ff",
+      2555616
+    ],
+    "S105R14.edf": [
+      "1-CqLGBgH5HmNUvhUZyEsVjtyNKPUA99-",
+      2555616
+    ],
+    "S105R13.edf": [
+      "1vbFpq2MqVmUdpAyFEAg-hFVDe2u6XLHe",
+      2555616
+    ],
+    "S107R01.edf": [
+      "1KtyndDrQmavirEGsEuCO-fKtGoXcfYQt",
+      1275936
+    ],
+    "S107R02.edf": [
+      "10WbNSOo--SyPgyI4zPuX5jZqYpwv_weL",
+      1275936
+    ],
+    "S107R04.edf": [
+      "1kzr_Vv4epb9d7WAsNhvI6NdVCLNjElGk",
+      2596896
+    ],
+    "S107R03.edf": [
+      "1Hynofl-syRQ4t7S8hVvEUVyz55EX4EA4",
+      2596896
+    ],
+    "S107R05.edf": [
+      "1FMlFUBsccPwPgSaMPeHmW6SPz3Ms9K2o",
+      2596896
+    ],
+    "S107R06.edf": [
+      "1DebShMsA-BRcKbNUN6hFXC4Vapdwqsac",
+      2596896
+    ],
+    "S107R07.edf": [
+      "19yh-NaK7-zUBCl3tFwkX6QsBssnQQB6a",
+      2596896
+    ],
+    "S107R08.edf": [
+      "1j3ww6dBcg1OWU2pDrGWmEfLNsoRQkY98",
+      2596896
+    ],
+    "S107R09.edf": [
+      "1sM1Y0JKo0g9OrPvIw-pv6E_Eu0NklKba",
+      2596896
+    ],
+    "S107R10.edf": [
+      "1hkM7RxEXgbuyhoHILREtiHx7CNWh5Jnq",
+      2596896
+    ],
+    "S107R11.edf": [
+      "1u5MM5qC27udhr18X1PU-W4yYckqvQB5b",
+      2596896
+    ],
+    "S107R12.edf": [
+      "1xm_t7n79bXn24u5M4YcoLcCzNvWhd0AS",
+      2596896
+    ],
+    "S107R13.edf": [
+      "1l_pU40wRy1Ts1kn9qlnXkhSqyR31xzv9",
+      2596896
+    ],
+    "S107R14.edf": [
+      "1VxV9mnN-lUCBU2_mCg7P9W9k4jXeKcTM",
+      2596896
+    ],
+    "S106R02.edf": [
+      "1dhXYDKgmt_N2O5Mcwyc20Yhv7N2-dfvy",
+      1275936
+    ],
+    "S106R01.edf": [
+      "11bTe8xrLUwk_ox496Qu2akJIMzFaI2en",
+      1275936
+    ],
+    "S106R03.edf": [
+      "12NY_0uqWhx9QCB3Ke_WQ3b_OEnoCr_gF",
+      2596896
+    ],
+    "S106R04.edf": [
+      "12HLGpHTvmkUZAzgKZq4FkI-Z7iTlrp-d",
+      2596896
+    ],
+    "S106R05.edf": [
+      "1i7PwVxz3akP-L4hAqf0FUcTWfTH4od8k",
+      780576
+    ],
+    "S106R06.edf": [
+      "1PlqPAHRghKpx0OjnST87-2D89IZG77ZL",
+      2596896
+    ],
+    "S106R07.edf": [
+      "1isLKe9ue56GKNtkkiSoNG0-4uHr7sf69",
+      2596896
+    ],
+    "S106R09.edf": [
+      "1LN8qPTVo3-m_jISzOt9UyIdMugcj8LQG",
+      2596896
+    ],
+    "S106R08.edf": [
+      "13IrGwCcN1NpgwZgrJOCM0QHFTaCCFv-U",
+      2596896
+    ],
+    "S106R10.edf": [
+      "1kmDxsdWdkJlSxqReEdEnoK1jutp-cXwf",
+      2596896
+    ],
+    "S106R11.edf": [
+      "1V799qmfgPrO75DQzgH9sirUFHqTrvmaT",
+      2596896
+    ],
+    "S106R12.edf": [
+      "1ZZqCT22U0eyfE3cb5wl9rD9uIHdd58Hw",
+      2596896
+    ],
+    "S106R13.edf": [
+      "1YCjD1AoYcaXZC5WBoJd3vII4yXEXoWX6",
+      2596896
+    ],
+    "S106R14.edf": [
+      "1gulldc3ROCLEzgWnHobcNNhmPH1MWlZm",
+      2596896
+    ],
+    "S109R02.edf": [
+      "1d54qsCBqiegPDMgM0o6Iwl-x0_fo7Yo-",
+      1275936
+    ],
+    "S109R01.edf": [
+      "1BQWBltenSg5NkHYsPSxSTNlnqUG-LNvp",
+      1255296
+    ],
+    "S109R04.edf": [
+      "1tZzr-7Lgy-K2qVq8wXMUrwiiGA2j40TK",
+      2555616
+    ],
+    "S109R03.edf": [
+      "1GvdTmVKiSzxF17bpukdNqp1LUWRiJUm0",
+      2555616
+    ],
+    "S109R05.edf": [
+      "1G0ysbKqpCzV6_KyFW-CVx7ASWEJjBdwM",
+      2555616
+    ],
+    "S109R06.edf": [
+      "10iLQNBy1AcXgztP7VRms1-M6euZqc2F9",
+      2555616
+    ],
+    "S109R08.edf": [
+      "15LQzfqaUBC3Wakw8bHSSDLruoqrNLeuT",
+      2555616
+    ],
+    "S109R07.edf": [
+      "1egKNZ1tDMl0AKxXh1-5dS-Epkmg7w0Tg",
+      2555616
+    ],
+    "S109R09.edf": [
+      "1q5a5ceLzpQdPZdkQfBTWZbZMCbYCt5sF",
+      2555616
+    ],
+    "S109R10.edf": [
+      "1FVsebEWFYdLK7w1WJeSRibk19Z6GOYnE",
+      2555616
+    ],
+    "S109R11.edf": [
+      "1l9uJ-vf-GvJxPfdGgyYgd_iNgJdGkgWi",
+      2555616
+    ],
+    "S109R12.edf": [
+      "1gjbbbNiotgp0-6tm4up-dVtmYtB3Rf1o",
+      2555616
+    ],
+    "S109R13.edf": [
+      "1am1yK14qa82UGe8emeHI_FHTTL3fHT_T",
+      2555616
+    ],
+    "S109R14.edf": [
+      "1GM3s6t-cdawXdW8Pc14zgHHJ_9ooHMYe",
+      2555616
+    ],
+    "S108R02.edf": [
+      "1QP57YsqRyXPbkbeYMX8d5ptS6H9HBthu",
+      1275936
+    ],
+    "S108R01.edf": [
+      "15PEgDTo3jBk3xMmXmt2GfGxXgnt6YcZS",
+      1275936
+    ],
+    "S108R03.edf": [
+      "1jCY08ytjZzKCaJHiZahlObkjOJtv3qYc",
+      2555616
+    ],
+    "S108R04.edf": [
+      "1Kxnwu7XkS1i8mhXA2aBjHXcGOjpHMdHp",
+      2555616
+    ],
+    "S108R06.edf": [
+      "1MOqMVJwCntHGgCQVNEs1dRZlmSO-FU30",
+      2555616
+    ],
+    "S108R05.edf": [
+      "1r84Ye4sRsetKqWic4mwdVGfrzewPab7d",
+      2555616
+    ],
+    "S108R07.edf": [
+      "1udSchZD3gfUcRQdnQepBDs_y_6Nh0twc",
+      2555616
+    ],
+    "S108R09.edf": [
+      "1632w86Va4ElbltDF37De371G4Xo7GdL7",
+      2555616
+    ],
+    "S108R08.edf": [
+      "1rspNHtdbkaKWQyukIb-IV4xh5zOmwLeA",
+      2555616
+    ],
+    "S108R10.edf": [
+      "1iBVufyxcp-PXrkuM4T90KMxgAgjHnBjE",
+      2555616
+    ],
+    "S108R11.edf": [
+      "1k_AMi-Ty0wwLGQwCgqUYuhxEgYD6p6px",
+      2555616
+    ],
+    "S108R13.edf": [
+      "1d1O4jayzzXGrZ_lgB1N9i0DDYXVQKtj9",
+      2555616
+    ],
+    "S108R12.edf": [
+      "1DIZAKt2Taxe0irWoqHRni-1Mi0JB5M8u",
+      2555616
+    ],
+    "S108R14.edf": [
+      "1ZcWB2kCp63i-yP_uc7E3udiGsVDDoQVh",
+      2555616
+    ],
+    "S001R01.edf": [
+      "1UxNrLUHXxuL2mLpDJmXTXRdNxshcags0",
+      1275936
+    ],
+    "S001R03.edf": [
+      "1FTCjCeGKSmqHyTzGHYIREbDdwZAZ0vZQ",
+      2596896
+    ],
+    "S001R02.edf": [
+      "1QB-L96p_J3kld2Wehr4U5tcpU653Q49n",
+      1275936
+    ],
+    "S001R04.edf": [
+      "1eQz4m3CEsnOcXFxabsc4L7bejOBYjjkE",
+      2596896
+    ],
+    "S001R05.edf": [
+      "1yv-RM6_IjxDqib6v3XW4CGwjLnAuhKx4",
+      2596896
+    ],
+    "S001R07.edf": [
+      "12qkWXmLFURdCtBSpzxdnw3t333Dn8ADJ",
+      2596896
+    ],
+    "S001R06.edf": [
+      "1HtSmArl5L7T4t0U62ewuGBl1Pi5NJ53H",
+      2596896
+    ],
+    "S001R08.edf": [
+      "10qnL-ZF4OxKOVZuDbGwDme9KJVM3NTNh",
+      2596896
+    ],
+    "S001R09.edf": [
+      "10oTD2SpDr1-2q2HK8BRJotQv4afczkME",
+      2596896
+    ],
+    "S001R11.edf": [
+      "1yVBf8siKCYavrEydmAU4QCc8Yrsxf04H",
+      2596896
+    ],
+    "S001R10.edf": [
+      "1apw2Ghnwkc3GpMXX8Tz0PLnLoei73DNp",
+      2596896
+    ],
+    "S001R12.edf": [
+      "1HoXIhtKVqRtP9Gq8uYBYdxJuJHK0Xpp8",
+      2596896
+    ],
+    "S001R13.edf": [
+      "1GUsbytxvIoyzxpaDw0jK_e9ESEAQA0Tv",
+      2596896
+    ],
+    "S001R14.edf": [
+      "1kzNqSqXeHcT8dZVW9BBDpckuLgnmxTxh",
+      2596896
+    ],
+    "S003R01.edf": [
+      "14lu8f3oE_nZdUFl-1pGZ3y1XfLj_NZrD",
+      1275936
+    ],
+    "S003R02.edf": [
+      "1BH-QDakb-leM9aYnhGJrAkxf9bmLJ3_w",
+      1275936
+    ],
+    "S003R03.edf": [
+      "19kpXlZXlanWNfktzAtOhN6v29ZwCRK7O",
+      2596896
+    ],
+    "S003R04.edf": [
+      "1YqeUliBPP2ckrNvFFoemDEvKTqDBeqTa",
+      2596896
+    ],
+    "S003R05.edf": [
+      "1jVZbSYumQey8dQRd0GBqYggVGZI8YWun",
+      2596896
+    ],
+    "S003R06.edf": [
+      "1ibTqyUcX-HqY9LNn8IC3Sgg-e9XPjHYb",
+      2596896
+    ],
+    "S003R07.edf": [
+      "1wNJUbTvU2ZrJZB_N2HT2UUttVLOQwqLq",
+      2596896
+    ],
+    "S003R08.edf": [
+      "1B-XS0CFgA9CwI_e9yZhXuKnyjqqONLSO",
+      2596896
+    ],
+    "S003R09.edf": [
+      "17AtmOEjOgo_8xq9I-_7LJZwbYyuZzCGR",
+      2596896
+    ],
+    "S003R10.edf": [
+      "17FH_XX71a0DsTlaEV4x4ZJvnJGlf4Rdm",
+      2596896
+    ],
+    "S003R11.edf": [
+      "12KYuc6RN4m4axCEoqZRhtaHMRkpyyND9",
+      2596896
+    ],
+    "S003R12.edf": [
+      "1KGvqfpr_CW6h0q0MgkHX1pbQGgUsiCll",
+      2596896
+    ],
+    "S003R13.edf": [
+      "1YxRMAJElLwY6Oe19yeliSvMEYNwx7YQs",
+      2596896
+    ],
+    "S003R14.edf": [
+      "1E4XnIns63BzBNbIe0eZVZpTGsQNeg8sa",
+      2596896
+    ],
+    "S004R01.edf": [
+      "1uUlD-KG923q_nb5m2nOajsp18tF8F4D1",
+      1275936
+    ],
+    "S004R02.edf": [
+      "1KOBgOcHqePymZOyBpxS41Ye2jNL6-uhM",
+      1275936
+    ],
+    "S004R03.edf": [
+      "1pDuDVnZDCjK91H6x8B_7BEvdc1DsGtgy",
+      2555616
+    ],
+    "S004R04.edf": [
+      "1eshXNxcnwe7t99565vFujLpaO8vyiMjY",
+      2555616
+    ],
+    "S004R05.edf": [
+      "1WEvqPZGi2Ap--r5c3KtbB_BDxyXZUqQ-",
+      2555616
+    ],
+    "S004R07.edf": [
+      "1iVSOR-pP7_zSphH9cfNLBDEMDVqxexjA",
+      2555616
+    ],
+    "S004R06.edf": [
+      "1Nm3aGZxuIj6QKyq63f4UFVXJAshB5bj0",
+      2555616
+    ],
+    "S004R08.edf": [
+      "10BtKxUMIq48oK67g79q7wCTAE6zJmPMI",
+      2555616
+    ],
+    "S004R09.edf": [
+      "1uR9Ob4EVsyTshvtHeoX2xM3g5WubMNoS",
+      2555616
+    ],
+    "S004R11.edf": [
+      "10nTgw7g-WHvAeOqshc6cv54uvxXrasxc",
+      2555616
+    ],
+    "S004R10.edf": [
+      "1ohhZc_sHcu3Jjc51kZjVxX3UNNAh5Flg",
+      2555616
+    ],
+    "S004R12.edf": [
+      "1yVHYAIORduxBRk40U1km_3XDFuEFkL3W",
+      2555616
+    ],
+    "S004R14.edf": [
+      "1FdKnidpJn7795efXsqzOk2bdcpIlZXtw",
+      2555616
+    ],
+    "S004R13.edf": [
+      "1nhkyI5IteRu4S9MFnFUN8sIukwsA4tV3",
+      2555616
+    ],
+    "S002R01.edf": [
+      "1SYXy-agtknjOYBh50R3e1Ae8CJjmC2jO",
+      1275936
+    ],
+    "S002R02.edf": [
+      "1EpRDnX0T-rK1EkZrAbQmLFn_rVwyMoc4",
+      1275936
+    ],
+    "S002R03.edf": [
+      "1NUghoiG_BTCo9zfW5BLS5N4bI2yMfosF",
+      2555616
+    ],
+    "S002R04.edf": [
+      "1Wr2bzSU-D5LiF620Fl9x4xby6qewGgrr",
+      2555616
+    ],
+    "S002R05.edf": [
+      "1IGeuOZ3JQRMxJga8KC_WKfAfGjO9ckHo",
+      2555616
+    ],
+    "S002R06.edf": [
+      "10MnlsCHf3e-0l5cMliqqgZWU4PdyulLr",
+      2555616
+    ],
+    "S002R07.edf": [
+      "1i2bE6dcAATEC6UTQ5alcM1UrmChBHJG4",
+      2555616
+    ],
+    "S002R08.edf": [
+      "1rtWh_Rx0S56mjB-Yq9eUNAxSDRD6XdIf",
+      2555616
+    ],
+    "S002R09.edf": [
+      "1RY-ZfWEc7RifLzBM8STQk2Dpbyhij92t",
+      2555616
+    ],
+    "S002R10.edf": [
+      "1bL-XKFzFnxPvfsru9TQ11JbmzuDqLHej",
+      2555616
+    ],
+    "S002R11.edf": [
+      "1eJlAm4qYJYKwT0af1l0ZBXm_VFdGbfQf",
+      2555616
+    ],
+    "S002R13.edf": [
+      "1GOc8tQNTgFPnv9Vojqf_g6oSaDPS53ln",
+      2555616
+    ],
+    "S002R12.edf": [
+      "1MSmkqBUbvQv5JqnyOsvwxZ-2HgWlHT1X",
+      2555616
+    ],
+    "S002R14.edf": [
+      "18Ouwx6A84M7dvXnDDKcwC5U0JKYyb9Iv",
+      2555616
+    ],
+    "S006R02.edf": [
+      "1J7xMVqf8069dyq8ZfnVhoZ1JS_h_Lyl4",
+      1275936
+    ],
+    "S006R01.edf": [
+      "1BhrqxF0ID9GapPlm0PV-tlX-fS50BHro",
+      1275936
+    ],
+    "S006R03.edf": [
+      "18TTI5s4SqMV56DhNdZP-sQ6_iBC0T5Uw",
+      2555616
+    ],
+    "S006R04.edf": [
+      "1aWeatB6QNdYwb8NQ372iH2OFqgHLOQy2",
+      2555616
+    ],
+    "S006R05.edf": [
+      "18qJ7TG_Ck5XdgwW01pYF8csVaDizvRDG",
+      2555616
+    ],
+    "S006R06.edf": [
+      "13QwC7eO0fWJkZrko3Iy_mpIkRGRMBgLV",
+      2555616
+    ],
+    "S006R07.edf": [
+      "1mer_AQrhcUE_buPnupM28zYH7T-vfjM9",
+      2555616
+    ],
+    "S006R08.edf": [
+      "12qFO8bzgdjrA0gGBVWsMWa2poN-vGrVO",
+      2555616
+    ],
+    "S006R09.edf": [
+      "1jH2l7waqkdNaCo-Exn5ntpynkTVTV8ar",
+      2555616
+    ],
+    "S006R10.edf": [
+      "1P3z2YE-gBPYNqZ7Cg_oSjcY_IjZriLJC",
+      2555616
+    ],
+    "S006R12.edf": [
+      "1MePJxL0kgq6D5JBKigWJqyqvAsiM7bZo",
+      2555616
+    ],
+    "S006R11.edf": [
+      "1HFc22Vbzt2rlAdLsy--cLEqwFSZCPsHx",
+      2555616
+    ],
+    "S006R13.edf": [
+      "1EZ93Oh4C1g65gYtBDUAkeIRHn7by97Yg",
+      2555616
+    ],
+    "S006R14.edf": [
+      "1eX_-LoyuqXuzVIVatzUTgw9sI4ssNJRJ",
+      2555616
+    ],
+    "S005R02.edf": [
+      "1V2hJpLAVfs-I7y_yamoxqCF2pWb4AfIK",
+      1275936
+    ],
+    "S005R01.edf": [
+      "1dvOr2urrFjAHMpGVnSdxV0BxojkGZjln",
+      1275936
+    ],
+    "S005R03.edf": [
+      "1-ngICdmnbi_5inMWjn2c1DgqSjAu70CX",
+      2555616
+    ],
+    "S005R04.edf": [
+      "1R-T00XsaaS2z3hCn1UH4jYLkl5UG9W2q",
+      2555616
+    ],
+    "S005R06.edf": [
+      "1o1C3DR9_4wY0YNsDZVgu5UfE8fU_YMAG",
+      2555616
+    ],
+    "S005R05.edf": [
+      "1eB-UefQYfNAV7lmc8KcfIThbGMGlMpAd",
+      2555616
+    ],
+    "S005R07.edf": [
+      "1ZBdlNjVzBCXiqGQr4aLEH7OBj5FOeskn",
+      2555616
+    ],
+    "S005R08.edf": [
+      "1Jmx5fifFlcjorr-ih3VhuLMBSVlGLzky",
+      2555616
+    ],
+    "S005R09.edf": [
+      "1f5pQgTmmUEHYP0uZymAbZTLJiKGJPVnm",
+      2555616
+    ],
+    "S005R10.edf": [
+      "1XBpskdWkH3YktYhGn54RwV-qd1bLOzNT",
+      2555616
+    ],
+    "S005R11.edf": [
+      "1wBRCHM3dqh95rwAiJITnRvgyO7hPg2TH",
+      2555616
+    ],
+    "S005R12.edf": [
+      "1J2scfn5T5uIXK1cnwOa4uctrR5-EhYVh",
+      2555616
+    ],
+    "S005R14.edf": [
+      "1zFEuJ4tkwsO45LN2_NvSGbanBebd9z-3",
+      2555616
+    ],
+    "S005R13.edf": [
+      "1R9i-olpR0CUBxJKnZJ7g75UKVOBxVEGB",
+      2555616
+    ],
+    "S007R01.edf": [
+      "1xJnfsnwTjzLrb4vFqr9Iwetkwb_L95jf",
+      1275936
+    ],
+    "S007R02.edf": [
+      "19FrxnUTSc9NOtpH8CzJY63zbd6NWBC5b",
+      1275936
+    ],
+    "S007R04.edf": [
+      "1OcRGeqqV60I0QefhNEAIUEkF9ypTujGo",
+      2596896
+    ],
+    "S007R03.edf": [
+      "1H4cpVXu-BA0vVvaCQROlqPb31nmzxIMv",
+      2596896
+    ],
+    "S007R05.edf": [
+      "1H8bJTPyCpcMUakTEwsPGR325sydmytZI",
+      2596896
+    ],
+    "S007R06.edf": [
+      "1fhlJCqCUBsLiyZFm9JJ7y4PrPmxzn0HY",
+      2596896
+    ],
+    "S007R08.edf": [
+      "1CgOZb4kQ_W81bU8CxfvI1LBYvwh2DZbm",
+      2596896
+    ],
+    "S007R07.edf": [
+      "1vDvALg_bdOOqulr9kvesRVeTvHJ5oqkw",
+      2596896
+    ],
+    "S007R09.edf": [
+      "1fIbw2oZFljuWd6c0COSFBC8Eag_SyqpT",
+      2596896
+    ],
+    "S007R10.edf": [
+      "1HJRbd_NGZnJ7ZAeo2CdfQ84T0KaqQutf",
+      2596896
+    ],
+    "S007R11.edf": [
+      "1KJn5shOhdXe72brHJvB4OVWl2wgSyX9l",
+      2596896
+    ],
+    "S007R12.edf": [
+      "1gJv4iNQMbP-s7v1WBEQMrZmx49rdkgP0",
+      2596896
+    ],
+    "S007R13.edf": [
+      "1jbtaK7tN06l5HSyRaZoB3-2scDaoxws3",
+      2596896
+    ],
+    "S007R14.edf": [
+      "1yHtXEIVz1Bd6g5QtSnn7J_qj6fqLh-kr",
+      2596896
+    ],
+    "S008R01.edf": [
+      "1lpIZMRalr2MDJ0ixG6VurUmTY3xw9k7v",
+      1275936
+    ],
+    "S008R02.edf": [
+      "1qDlvZW2JQxdPTXej1g2IenUNtuwRf9yH",
+      1275936
+    ],
+    "S008R04.edf": [
+      "1YHMp9Lfr9hbYOHHBGXItdO4jBZtsKfzi",
+      2555616
+    ],
+    "S008R03.edf": [
+      "12q14cBp_PdrKime57X1CAPPvH5PSUuuE",
+      2555616
+    ],
+    "S008R05.edf": [
+      "1D3KnqO7rXWvryo6LEgkraFyx7fW9ifbJ",
+      2555616
+    ],
+    "S008R07.edf": [
+      "13uzlAPwvO91VdVrGeiGjPhxh36xSKh6N",
+      2555616
+    ],
+    "S008R06.edf": [
+      "12uHJBpMECSU8yVKJVlaCsEVcuYn0ZX_b",
+      2555616
+    ],
+    "S008R08.edf": [
+      "15FdqpksBeZHF6lhiDENzWRBgY1KPa5To",
+      2555616
+    ],
+    "S008R09.edf": [
+      "1pE4Wz4PbRBZP0pOldTSFXGC9j53JCjW9",
+      2555616
+    ],
+    "S008R10.edf": [
+      "12ZnWPOfcA93jzzx01tGIBu_ODaHqUzBx",
+      2555616
+    ],
+    "S008R11.edf": [
+      "1jbvPKQNa6hG69NvwMxJWl9Xpewlz5_GB",
+      2555616
+    ],
+    "S008R12.edf": [
+      "1rQbmxMeGJzvQWDWzDGy6CBKtqP9HORU-",
+      2555616
+    ],
+    "S008R13.edf": [
+      "1zdjsxuSdlIhOxiOXqgiUQpKpLPHQOl3J",
+      2555616
+    ],
+    "S008R14.edf": [
+      "1O_7h3ykk_P5JPgFWuYxQSsu5lXMeYTcD",
+      2555616
+    ],
+    "S011R02.edf": [
+      "10nQbv6O4K8vl7t4pXt3niq_EPtFTsB97",
+      1275936
+    ],
+    "S011R01.edf": [
+      "12TUn2dEplfE9TTR2x837zJfVTuhILVpM",
+      1275936
+    ],
+    "S011R03.edf": [
+      "10-5XGGIo1gzAwA8EaT3vsycc9zO2wFOX",
+      2555616
+    ],
+    "S011R04.edf": [
+      "1_DzWmMpMq9KPzJYWWNrsSFTavxTE7Urm",
+      2555616
+    ],
+    "S011R05.edf": [
+      "1FDK8bUPb3g4dQZ7pMaODbwkmDy-FnV4m",
+      2555616
+    ],
+    "S011R06.edf": [
+      "1j6X4thzI652O6ysDT4Dl3klVd_lPwAKU",
+      2555616
+    ],
+    "S011R07.edf": [
+      "1hvatd1VVbUXBnZRO-1JJ1uta8tqzdAPf",
+      2555616
+    ],
+    "S011R08.edf": [
+      "1eD2TKyHKW-vZQo2eAH7uNfLBPEdxhQ2J",
+      2555616
+    ],
+    "S011R09.edf": [
+      "1m1t2Skv-6Jc_mw9mV-bMIc_TlxaFjI35",
+      2555616
+    ],
+    "S011R10.edf": [
+      "1PxQhSL1CQYUnJHyrPvOH-QIrQ-9yy7gq",
+      2555616
+    ],
+    "S011R11.edf": [
+      "1bAWDSQuVxxygQgreELtDcuzQObvqZDO7",
+      2555616
+    ],
+    "S011R12.edf": [
+      "1-RLkZgkDqIF0yR69kmlabm1ikOaQWqQL",
+      2555616
+    ],
+    "S011R13.edf": [
+      "17CxlRW_gW1nCWDbplIVjFdiRGkHws4-f",
+      2555616
+    ],
+    "S011R14.edf": [
+      "1jStVSMJdRqEdy_VBPdF8mCgcrp--M-tL",
+      2555616
+    ],
+    "S010R01.edf": [
+      "1YGu9V781grMADYHtJQrOBtLLlsF6riL8",
+      1275936
+    ],
+    "S010R03.edf": [
+      "1CApIhdGzfQq-WHHPkMbFsiFHNFNhWM0W",
+      2555616
+    ],
+    "S010R02.edf": [
+      "1iZR4GCn6wFFIR-UBcJ-6A0JdD6TLmLX7",
+      1275936
+    ],
+    "S010R04.edf": [
+      "1M8pD-6KQddFOexIgh8AXLva4X-T9zE5H",
+      2555616
+    ],
+    "S010R05.edf": [
+      "12z2vX2ew5EdJl2DIWdThY2sIPj9cpfUw",
+      2555616
+    ],
+    "S010R06.edf": [
+      "1YR29RMaXl1fusmnpQ8uJaCp4zPpHYLuM",
+      2555616
+    ],
+    "S010R07.edf": [
+      "1Yb9FLqtDYs01zKEDlQt7XBa089XFjuI7",
+      2555616
+    ],
+    "S010R08.edf": [
+      "13ppqjt6psOwMEfh_rMyYoFrXLjoVKlsk",
+      2555616
+    ],
+    "S010R09.edf": [
+      "13lcnvQoAhFnSGaFUWvfgLWPltNlu_vue",
+      2555616
+    ],
+    "S010R10.edf": [
+      "1dK-c5tfK1sfFs3g2p0jWz0zBVP2t_CNH",
+      2555616
+    ],
+    "S010R11.edf": [
+      "1rBkOq7pI5loAsSDGT_k066uTE3FOeDaD",
+      2555616
+    ],
+    "S010R12.edf": [
+      "18erppO8bfWo71A07pVa2dESkUJCDyGlh",
+      2555616
+    ],
+    "S010R13.edf": [
+      "1zdlj00OXB2V_kOrzQ-hhSma7HT0fKNIQ",
+      2555616
+    ],
+    "S010R14.edf": [
+      "1VI_RTO5YEtAMBSxOaELKkZ17C9a84ggi",
+      2555616
+    ],
+    "S009R01.edf": [
+      "1WFt27ztO_yekbFJhsguFjM0m_L1k6Rkt",
+      1275936
+    ],
+    "S009R03.edf": [
+      "1ryG8jSdFO9dkNV-dEtLubXBPQ3NAEVDQ",
+      2555616
+    ],
+    "S009R02.edf": [
+      "1sNaFntKnBWOgYM_1iuM8RVRiymHNMxk7",
+      1275936
+    ],
+    "S009R04.edf": [
+      "1iGDonYg0rKogc2jjAE6l2Ft2A0DZA_hU",
+      2555616
+    ],
+    "S009R05.edf": [
+      "1R24CZQ_Nj5tAVQJYKnyW9zYNCME8iiop",
+      2555616
+    ],
+    "S009R07.edf": [
+      "1tIROc38ZLy3wXw9GUt4SQbJ9bs62X53s",
+      2555616
+    ],
+    "S009R06.edf": [
+      "1lKS9Y4t_10kiC35cI8gpnWcvyN9v-uaQ",
+      2555616
+    ],
+    "S009R08.edf": [
+      "1aqnaI3D-IloPtWAIxAKVgXOdDDY1SOF9",
+      2555616
+    ],
+    "S009R09.edf": [
+      "1pquw63JjtJppDe5PlSc5kRJD-LJVSC9B",
+      2555616
+    ],
+    "S009R10.edf": [
+      "1-yZN2T9ldBzLiiLJ4GgHo-XXy_Lz1J_e",
+      2555616
+    ],
+    "S009R12.edf": [
+      "1IKaQlEOr8Vwj3gkvCo8dYLlqWvzRK1Ba",
+      2555616
+    ],
+    "S009R11.edf": [
+      "1js2ZNTJZNqwPg1NUzqBtpxYcTFAx-kkc",
+      2555616
+    ],
+    "S009R13.edf": [
+      "1sn7xCaOREg97goDvGHKAX3-f7h-ixNuA",
+      2555616
+    ],
+    "S009R14.edf": [
+      "1ON2LYe5AbgEWvKRteKFSsYnjAKFxFhPh",
+      2555616
+    ],
+    "S012R01.edf": [
+      "1CtfJFNrFMCTLL9RznZJHMGNH5QPg8loj",
+      1275936
+    ],
+    "S012R02.edf": [
+      "1P4y5jGq87D_wi4OTJxC_rebjgulnOhup",
+      1275936
+    ],
+    "S012R04.edf": [
+      "1FV3wqm7dHcoIvZiCdCjpvMDZat__DgWF",
+      2555616
+    ],
+    "S012R03.edf": [
+      "1i9onrNRk98vf_PgaTRVPg09tBuzChfGJ",
+      2555616
+    ],
+    "S012R05.edf": [
+      "1IDdyv1bTrckaSsZCG4v0aR39mdKdqNUI",
+      2555616
+    ],
+    "S012R07.edf": [
+      "10GzgJu1FemqbkcMJ8I3nJmkFzy2bnuLs",
+      2555616
+    ],
+    "S012R06.edf": [
+      "11EbdPmXLsIgt5OA8vdagAOuVQ_eQMisb",
+      2555616
+    ],
+    "S012R08.edf": [
+      "1FE_XrNXXBtJ_4hqUDUaMI_ljj7pq3w-C",
+      2555616
+    ],
+    "S012R09.edf": [
+      "1a23aXfmidXLmpRd_ccYrZkF0XRrZqYT2",
+      2555616
+    ],
+    "S012R11.edf": [
+      "10Mbb56GdD6ypEMAZB8XNh3fTsF0i9hoc",
+      2555616
+    ],
+    "S012R10.edf": [
+      "1Hpr00UBdPWmxViA-STQbMFNUCX_08hG7",
+      2555616
+    ],
+    "S012R12.edf": [
+      "1BUmPsArL7byVrLofzspGAjIogzSQ16lV",
+      2555616
+    ],
+    "S012R13.edf": [
+      "1V9ELQOYmkyA7vXLERneYOztxFzm04mCP",
+      2555616
+    ],
+    "S012R14.edf": [
+      "1t_TPNyCLkPpVIEy5KPRLfkCDsSoDWa_u",
+      2555616
+    ],
+    "S013R01.edf": [
+      "1jvehNIM_N56cDKLBMZ9-z_9xgDuSB7KZ",
+      1275936
+    ],
+    "S013R02.edf": [
+      "1nkvycJDD4tDUqf4aV9yJ0brEhI_yGpOk",
+      1275936
+    ],
+    "S013R03.edf": [
+      "1Fj_ulyrwYnq4DYc-Uai2_IrVuKsP4ikl",
+      2555616
+    ],
+    "S013R04.edf": [
+      "1kbTWLNDrgT3ru61wqPq-R8z-d5Sn5jLp",
+      2555616
+    ],
+    "S013R05.edf": [
+      "1Yz6i0av9Vb61h8SmGPI6hm9amGzsHtU7",
+      2555616
+    ],
+    "S013R07.edf": [
+      "1ZGj1P9a_pqQ-BXJenPZV7levHtF92zmC",
+      2555616
+    ],
+    "S013R06.edf": [
+      "1B2okMtOMkVFGJ3cFZWYsn7UOLuqwtDb9",
+      2555616
+    ],
+    "S013R08.edf": [
+      "1uQMyr7erg1GgB109cZ1V0RTt1yYFm9ke",
+      2555616
+    ],
+    "S013R10.edf": [
+      "1leqB8BZQztVAihlqZPRyGFj0eI6FqWoI",
+      2555616
+    ],
+    "S013R09.edf": [
+      "1BZZI4lcqwtqEnrdl6BKHNnS7LodE6g0w",
+      2555616
+    ],
+    "S013R11.edf": [
+      "1OXgdRtelwOcwvk7WKHesqdAKSZgbbyAZ",
+      2555616
+    ],
+    "S013R12.edf": [
+      "1pK1zFxtXeKDtMAx6i4b4nL3WHfO7agwH",
+      2555616
+    ],
+    "S013R14.edf": [
+      "1uvc2LtMfb1VWkmm7XaqsX5AIvFe1wYeu",
+      2555616
+    ],
+    "S013R13.edf": [
+      "1mluxolONtzr5M9RFiNgBHlvYSsepVVyS",
+      2555616
+    ],
+    "S014R02.edf": [
+      "1GtfApRXxtLYDUR-tsuAMKgW7kO4RSo6P",
+      1275936
+    ],
+    "S014R01.edf": [
+      "199eCpgWA3ptZyGAo-7iwX6VET513xiMw",
+      1255296
+    ],
+    "S014R03.edf": [
+      "1AqhuUq6xinobvtutIg5IDtEQKV4vaTk8",
+      2555616
+    ],
+    "S014R04.edf": [
+      "15yvb_QFXGWpKl5qwDezhQ-pbMTZF_5cD",
+      2555616
+    ],
+    "S014R06.edf": [
+      "1nS2Nz5nZEngXLMoF67D4PsIDJoBp94qw",
+      2555616
+    ],
+    "S014R05.edf": [
+      "116gBjn9s0XRpXJvEC5X4J8bKHRhXe3gn",
+      2555616
+    ],
+    "S014R07.edf": [
+      "1eBjg06wkkZLqfSsvUhzk0nAst4TSSxJp",
+      2555616
+    ],
+    "S014R08.edf": [
+      "1Fj6hLwU6QLfkX5pXWw1uHU4VsghFtXkw",
+      2555616
+    ],
+    "S014R09.edf": [
+      "1ibBCvqwKX1fQjzCJ9o-XvvVJr4KoDHwr",
+      2555616
+    ],
+    "S014R10.edf": [
+      "1tFL0hBAEQ-fSallVo587xrWQFucXyh5a",
+      2555616
+    ],
+    "S014R11.edf": [
+      "1SZ4xW5UmV_pJPam_R7J2fkyzLeUhr70F",
+      2555616
+    ],
+    "S014R12.edf": [
+      "1LbKfqjTHszkOr7GnMIlfIEBLVcUhjh30",
+      2555616
+    ],
+    "S014R13.edf": [
+      "1dOGVGpLHruqlT16a1apXRPGMmfsm1Ruh",
+      2555616
+    ],
+    "S014R14.edf": [
+      "1f7v9_31lJL1yJDXRDMpc7e8eDrf4Bxyw",
+      2555616
+    ],
+    "S016R01.edf": [
+      "1QBt3M3DY06ZyBBlBJA5cjZp6ZNv6e8M6",
+      1275936
+    ],
+    "S016R02.edf": [
+      "136c4hTlLYgRsARrB202Q5MglQpaqAiAz",
+      1275936
+    ],
+    "S016R03.edf": [
+      "1B057_qeMARTub6Rj4rMQP1vh-cpIhoP5",
+      2555616
+    ],
+    "S016R04.edf": [
+      "1_TCLrznNrwCVbg9QcikcwfRg49wZN5hI",
+      2555616
+    ],
+    "S016R05.edf": [
+      "1-rIF_oxm1PClsBo5RQtFMCreugSASyH2",
+      2555616
+    ],
+    "S016R06.edf": [
+      "1QVCmLtPPIpHfas-fg81KjIRJ5hnmjXsZ",
+      2555616
+    ],
+    "S016R07.edf": [
+      "1GbYpHKOVBLp2asgUbNev4gK7sMQRVZRm",
+      2555616
+    ],
+    "S016R08.edf": [
+      "16OCYvQI3uzOLb2eE3Ha6mAxV2-pwz8jI",
+      2555616
+    ],
+    "S016R09.edf": [
+      "19-Wv176H484coqlde8o-U7hA_XXINxQs",
+      2555616
+    ],
+    "S016R10.edf": [
+      "1q_NXg-dh0koxQHpa9wzPcdmtzllcSb8o",
+      2555616
+    ],
+    "S016R11.edf": [
+      "1VUv5TZ5hieY9XbQBretnCuHayTJ-XsXj",
+      2555616
+    ],
+    "S016R12.edf": [
+      "10GmK96-MeTSZ5qW2GVEPbqem5QNdMldS",
+      2555616
+    ],
+    "S016R14.edf": [
+      "1q-0tvjTyI0ZFJf14u3hG4Ap3MW4AgOHe",
+      2555616
+    ],
+    "S016R13.edf": [
+      "14ARd7la7EO6uazHwbCn8zfz33c29lTLG",
+      2555616
+    ],
+    "S015R01.edf": [
+      "1ny-2h4sq07U6VWZt3t4XRx0aXFcuVIds",
+      1275936
+    ],
+    "S015R02.edf": [
+      "14GJSuaGXvDjUO_dfYRXiXm7WHklCSiH3",
+      1275936
+    ],
+    "S015R03.edf": [
+      "1wJZk1tBUG0BdOjS9Rkibxi7fr3ofqb7w",
+      2555616
+    ],
+    "S015R04.edf": [
+      "1u1fi8SVaJI7WKuLO9esM6YfA5O0zI2Dl",
+      2555616
+    ],
+    "S015R05.edf": [
+      "1B44qAW9A3SID7UrNgDGLMGsimYk-0NN6",
+      2555616
+    ],
+    "S015R06.edf": [
+      "1lds1lu3V6Y0kpWYZDwgcR6tUilB9pyE2",
+      2555616
+    ],
+    "S015R07.edf": [
+      "1F5yRvZrUUqidHbdXCwUNa_y2jqWq79zY",
+      2555616
+    ],
+    "S015R08.edf": [
+      "1klaBk371q6phIwRDMQMF438tNUZotX2a",
+      2555616
+    ],
+    "S015R09.edf": [
+      "17jVflL3XtYyvR62sGBKZ8jD7w5z_NoMA",
+      2555616
+    ],
+    "S015R11.edf": [
+      "16Kyt_m11n09TnK5-GR-XRlSQLIzyWyHH",
+      2555616
+    ],
+    "S015R10.edf": [
+      "1egKrGFT-rjsMySMtE6YFu0A89gZz8SNs",
+      2555616
+    ],
+    "S015R13.edf": [
+      "1N_jhifNikkSoUdT3E8Dh-BbYF7wu63bP",
+      2555616
+    ],
+    "S015R12.edf": [
+      "1n6L8-yVQpiari6-0V869ByCvIuGfEWX9",
+      2555616
+    ],
+    "S015R14.edf": [
+      "1JqGYaX-vckb_0BrXjIILllaRlSz0k9zR",
+      2555616
+    ],
+    "S017R02.edf": [
+      "1pzEqLNfkZc0O00aEWzoE_e4ql6P3BMFJ",
+      1275936
+    ],
+    "S017R01.edf": [
+      "1Y_B1x84X_5HAqiEHa7VWO14hmg6FgBRn",
+      1275936
+    ],
+    "S017R03.edf": [
+      "1D0PwpTzsmT6rFpayPR2WnFzaAloNxPh7",
+      2555616
+    ],
+    "S017R05.edf": [
+      "1mhI3h8p73i85WKkOCRIb-QNlBd-540Ck",
+      2555616
+    ],
+    "S017R04.edf": [
+      "1vuVdDdnBXUbAIAt6nfCC1LvIrKkm325p",
+      2555616
+    ],
+    "S017R06.edf": [
+      "1ss8EaYlc5GTEK6btqrtDFfCLlnNFOx9Q",
+      2555616
+    ],
+    "S017R07.edf": [
+      "1ij1ePo10iSA0SZSzaDXFCxz5z6K3Bi8f",
+      2555616
+    ],
+    "S017R08.edf": [
+      "1yTr32SeAVKs-ZSuqBMnpiD5BLMdt2iyP",
+      2555616
+    ],
+    "S017R09.edf": [
+      "1uoscHi_dnhjI5T_bakIJ_joGnWtR1kb_",
+      2555616
+    ],
+    "S017R10.edf": [
+      "1m__oVMnPeCnF5EDtMj-SDbL63ALVrAWd",
+      2555616
+    ],
+    "S017R11.edf": [
+      "1HXzUGWN0m_omm3-NQn9MzugICOOVOVrq",
+      2555616
+    ],
+    "S017R12.edf": [
+      "1cer0h4WBGDpHR0ZZ4Fh3ulX-kc8vGUzz",
+      2555616
+    ],
+    "S017R14.edf": [
+      "1sNTAGagNx_LeYtJJLqOEwgd1jYndvlBD",
+      2555616
+    ],
+    "S017R13.edf": [
+      "1v5j0GY9JiWgeYcNGimFaCwns4Q5BsdQm",
+      2555616
+    ],
+    "S018R01.edf": [
+      "1Po-5lAIm_fP8EloM8WukohNIFADxSVxl",
+      1275936
+    ],
+    "S018R02.edf": [
+      "1c3EPgQRG5KZdk_gp37U0bm3l_lFd8erA",
+      1275936
+    ],
+    "S018R03.edf": [
+      "18wNnBhKhqQDsj_ZDXMHxeOTEkEjDR8_Z",
+      2555616
+    ],
+    "S018R05.edf": [
+      "1QVmP3SUG07Zg1AeP8Zw3DB8RZcZX2Hv9",
+      2555616
+    ],
+    "S018R04.edf": [
+      "1U752NVmoXHOQwgBhgce29okhTYXpUdnk",
+      2555616
+    ],
+    "S018R06.edf": [
+      "1jNplentPNNUPpSdqz_Ty9lRi0FBDZ-d0",
+      2555616
+    ],
+    "S018R07.edf": [
+      "1aw_yiRqruL5ZBCArDOiFdDuC7Sb8qp-H",
+      2555616
+    ],
+    "S018R08.edf": [
+      "1wLlqpTqyvHFSIvylAW2WEOH61gb8CbKx",
+      2555616
+    ],
+    "S018R10.edf": [
+      "1FCKgHjkIhTenxP-1sTGriA4qlDfhSCYa",
+      2555616
+    ],
+    "S018R09.edf": [
+      "1JD6191d9YMT_5ueQNLt4C9PZrvWZ9vWU",
+      2555616
+    ],
+    "S018R11.edf": [
+      "1ItJw1_EfINF_OgzrTPVSPgsJejUC9wpA",
+      2555616
+    ],
+    "S018R12.edf": [
+      "1Fkv--yL6NsonS7W6C-jBqNf8Su1j0zn7",
+      2555616
+    ],
+    "S018R13.edf": [
+      "1kWEPI3ZanX_ieIWiZ_5hmrkRzP2qObDM",
+      2555616
+    ],
+    "S018R14.edf": [
+      "1_ZFrisF5n7j3KJMjpHskDEDT46WKNWQc",
+      2555616
+    ],
+    "S019R02.edf": [
+      "1UnFCE_m0qNNniH289pPPm_91S9BmgscA",
+      1275936
+    ],
+    "S019R01.edf": [
+      "1KmsiLt-tq7gRgcrxsy9tD9QACUeAyJyN",
+      1275936
+    ],
+    "S019R03.edf": [
+      "1fY4abgDGH4ylLQJ3qTvJVw4i4SA0Kmpy",
+      2555616
+    ],
+    "S019R04.edf": [
+      "1EVaxvR5a2MlT_Cr41ASD0v0bL0hU_zcQ",
+      2555616
+    ],
+    "S019R05.edf": [
+      "1ESgYJLGKJPpnvKRfIX8o7iENLDYBPwfU",
+      2555616
+    ],
+    "S019R06.edf": [
+      "1lPyPnP8Ga3ydAhVkheIpBHxOHM0g5uas",
+      2555616
+    ],
+    "S019R07.edf": [
+      "12e5rP1p8Obfz-R-MMw0LnMpXkQlkQ0J3",
+      2555616
+    ],
+    "S019R08.edf": [
+      "11eeWSTJOSkXQ1IRR2TURizyD9yKhBXQM",
+      2555616
+    ],
+    "S019R09.edf": [
+      "1Weh1PU3jJ-lKhlQhYlSifDwZS4xgAF1x",
+      2555616
+    ],
+    "S019R10.edf": [
+      "1GHLzicxkHxwl6n339HPeEZJ-2VBhXCBh",
+      2555616
+    ],
+    "S019R11.edf": [
+      "1iTxq19y9_LnblbUDhV7gx9Zc9undHdYV",
+      2555616
+    ],
+    "S019R12.edf": [
+      "18gJeWL4IBL3CnyXiING-IdJKOKGPcbXW",
+      2555616
+    ],
+    "S019R13.edf": [
+      "1skJC1mp3YON86hltZJRdCgXV61MA0Lgo",
+      2555616
+    ],
+    "S019R14.edf": [
+      "1MOwA0fyxuPGZhypWQqTfaRpNil5FbXUM",
+      2555616
+    ],
+    "S021R01.edf": [
+      "1G6OLnQbtdfZ9F5UxQc-XM4dCfB9UfR8m",
+      1275936
+    ],
+    "S021R02.edf": [
+      "1YpM0a_xpkd-CWATjB1SrcG0A4CNwpgQi",
+      1275936
+    ],
+    "S021R03.edf": [
+      "10-RtUAMKbu_ifdw2zeSoOZgxxI0IVTDv",
+      2596896
+    ],
+    "S021R04.edf": [
+      "1onkUJ2JJ9PA3a5lHfr-zlCpuRCIGYDgS",
+      2596896
+    ],
+    "S021R05.edf": [
+      "1BigxCuQAAkaLscQmFIyEw3TifDt2cxfy",
+      2596896
+    ],
+    "S021R06.edf": [
+      "1wMPey4ryZur73yBt3Za4krlCmA03ex6N",
+      2596896
+    ],
+    "S021R07.edf": [
+      "1Xb44KxXkIQi47yn8XQlQPiCmDTuJIAeu",
+      2596896
+    ],
+    "S021R08.edf": [
+      "1sE6bA0TFCQac43P1JJAG1d-9e7mxtZge",
+      2596896
+    ],
+    "S021R10.edf": [
+      "1_sBJkelypZ3LubLtE4vDuvDK8dl8P6OK",
+      2596896
+    ],
+    "S021R09.edf": [
+      "178uXKNjNq4DHCzTmPZCcXMXkVcIyCl1u",
+      2596896
+    ],
+    "S021R11.edf": [
+      "1q9NtAUYTvf-fjj1FRuzd9y9Pq_WSOZoy",
+      2596896
+    ],
+    "S021R12.edf": [
+      "1RU12IS7hyhP6E3GqhXalMH9YE7b6uqKn",
+      2596896
+    ],
+    "S021R13.edf": [
+      "1_i2S843WtDq1JaZV8AFlKr_Gwy3A6po0",
+      2596896
+    ],
+    "S021R14.edf": [
+      "1bA7b6QusYiMZf5hyipXc9lla7OOq1D8O",
+      2596896
+    ],
+    "S020R01.edf": [
+      "1jbHH5go5u1OjpmvUtEJ265PilZbKNmjw",
+      1275936
+    ],
+    "S020R02.edf": [
+      "11dX3hkJnipinXegIsvz4MQ3w7mOux-nK",
+      1275936
+    ],
+    "S020R03.edf": [
+      "1evb_I_DhGV_JFJpJXukyYDCoDXGIfNUq",
+      2555616
+    ],
+    "S020R04.edf": [
+      "1MK4P56CkE3fvZN7-aTW5-FqBveevYz0r",
+      2555616
+    ],
+    "S020R05.edf": [
+      "1IuyxBZYOOPw4HxVtmUkISwjzb255F4Wq",
+      2555616
+    ],
+    "S020R06.edf": [
+      "1NkhiA1y45aVExB04Au2jM3rb2SYg7Dwq",
+      2555616
+    ],
+    "S020R07.edf": [
+      "1qBmCSQgH0xMjp-L9YSHHUfI8o3gylosd",
+      2555616
+    ],
+    "S020R08.edf": [
+      "1WclYxmTC5HCPKQD8mPNBZAHXtU5RGwkG",
+      2555616
+    ],
+    "S020R09.edf": [
+      "1q8W2KDmj7Ydxi2MrJvrpyRzqxsrpMWQR",
+      2555616
+    ],
+    "S020R10.edf": [
+      "1UFyGuvXeo8l4eZ5uagTyVuyI8nhV65R9",
+      2555616
+    ],
+    "S020R11.edf": [
+      "13luOjkGkVtnydoiQkyoEdsXLYRS7qRjd",
+      2555616
+    ],
+    "S020R12.edf": [
+      "1B79lm2z-Ra9yJWz18cv96yxycUUScGYd",
+      2555616
+    ],
+    "S020R13.edf": [
+      "1sejYbm8nS-Qd_CzzFQXTkkvKZF5MjMIV",
+      2555616
+    ],
+    "S020R14.edf": [
+      "1_tyEMh1nJDrah0Ku-NTpI5ZDsGqVsJ9r",
+      2555616
+    ],
+    "S023R01.edf": [
+      "134WQR7tLmap_c_P6dILSlIlW6S4rtloJ",
+      1275936
+    ],
+    "S023R02.edf": [
+      "18LOQ9Hi7VJ8ho2OsZdwudXZIOewnVoUV",
+      1275936
+    ],
+    "S023R03.edf": [
+      "16CGxyx9QuKgesbVTxtZ3k1E3Lj7wunER",
+      2555616
+    ],
+    "S023R04.edf": [
+      "1Cmof5hmvvx3C2CPZiCWezxai1VILCvXH",
+      2555616
+    ],
+    "S023R05.edf": [
+      "1iesekuUXgerBGwLV2BEKmM7Ew41xzIzn",
+      2555616
+    ],
+    "S023R06.edf": [
+      "1MUGosEwdaGLNePOrdo2clfVjgxCUiM_s",
+      2555616
+    ],
+    "S023R07.edf": [
+      "1JUw5JmviwfZ0yVmTkI0-dYVFGne7Vlh8",
+      2555616
+    ],
+    "S023R09.edf": [
+      "1Uku_1_pKdo6Z5imBZuT75aaiyzSd3FMb",
+      2555616
+    ],
+    "S023R08.edf": [
+      "1HmGqNoCanhyUEvy4xZvqXQ82s5G3G_Xj",
+      2555616
+    ],
+    "S023R10.edf": [
+      "1dhpUgLUHJ-X8hr-n9CjDWcacwa4oxqe4",
+      2555616
+    ],
+    "S023R11.edf": [
+      "1W69rq_gEUt03-ymlZB9B0GfFsdalhmD-",
+      2555616
+    ],
+    "S023R12.edf": [
+      "1kbtVCm2K2ZrTSs34mKuzWKsjBbu20ZyD",
+      2555616
+    ],
+    "S023R13.edf": [
+      "1zvo2X9JkKaUJow6yhv-oFzUxtIJYqNxO",
+      2555616
+    ],
+    "S023R14.edf": [
+      "1uq9mcoKoQHjLL2s2KuYSDPhcMRvuNUK1",
+      2555616
+    ],
+    "S022R01.edf": [
+      "1UrGVVZE0Kgn9FjxvwiaryQPAKfg0OfK9",
+      1275936
+    ],
+    "S022R02.edf": [
+      "1RH8sfmyTVVayPOoaILKEoowc5CqYZJiM",
+      1275936
+    ],
+    "S022R03.edf": [
+      "1hJwZDP93lmtdhmUW43lH1ELg0KKcG5l9",
+      2596896
+    ],
+    "S022R04.edf": [
+      "1Wq5i5EKT5lcPoyzwawOzNMYsy7nlKaA5",
+      2596896
+    ],
+    "S022R05.edf": [
+      "1tyT4S1b6ThRGdp9s6s2w5BQ-mDWNnwI-",
+      2596896
+    ],
+    "S022R07.edf": [
+      "1zvyblGIRxC6hJ8RFiBs_EyeJ1t0gOeoY",
+      2596896
+    ],
+    "S022R06.edf": [
+      "1_kRGNshI2Zqnrvi-w3jRMeLn26_IKKv2",
+      2596896
+    ],
+    "S022R08.edf": [
+      "1pVOrOA7qegu69bTC35PCO9H9QJIv348Q",
+      2596896
+    ],
+    "S022R09.edf": [
+      "1AokolembpjBxXRyqbc636TN3uQcY9Ttt",
+      2596896
+    ],
+    "S022R11.edf": [
+      "1Op_AD8MM3yn-iCokAdsu1VuIoSWvuVnF",
+      2596896
+    ],
+    "S022R10.edf": [
+      "1pBYw3Pq1TJub2IMbzcLJ1y54EUi7MBgO",
+      2596896
+    ],
+    "S022R12.edf": [
+      "15EzLPnE3vjvzwYRViyRybw_Xr60TpGuC",
+      2596896
+    ],
+    "S022R13.edf": [
+      "1l2KLJZydfSjZiPBBF3e0Ohitc_P5MUvI",
+      2596896
+    ],
+    "S022R14.edf": [
+      "103lIZfhJB2Pj2L4OBcQFMPP7F02eHTKH",
+      2596896
+    ],
+    "S026R01.edf": [
+      "1HN9-qaKs7PqEdaPAKCjel05axIKcYVnc",
+      1275936
+    ],
+    "S026R02.edf": [
+      "1-dGsf4lgSxE9nA-Cd60-HrtzmUy06_ij",
+      1275936
+    ],
+    "S026R03.edf": [
+      "1QuIlsDcRN950eB2NDAqJID_ez2D-BI4r",
+      2555616
+    ],
+    "S026R05.edf": [
+      "14QW09jp27xsfnTZRlC2jseHQ7yF8BI2Z",
+      2555616
+    ],
+    "S026R04.edf": [
+      "1uxHf3BxdQ2m959b7ITKtXu-IfthOi-Ef",
+      2555616
+    ],
+    "S026R06.edf": [
+      "1jaZrr0j3blq1M_6Oo8OH5H8XvsDquGDA",
+      2555616
+    ],
+    "S026R07.edf": [
+      "1URRV6XTEOwYas881EMZ7b9Ioje76ntbS",
+      2555616
+    ],
+    "S026R08.edf": [
+      "1PBmnlTuuNh_i0GBlRM9jYa-8V0CqxTCT",
+      2555616
+    ],
+    "S026R09.edf": [
+      "17aBWm-pRKAr9KepgBWz2VFNPAbWRmB2G",
+      2555616
+    ],
+    "S026R10.edf": [
+      "1PAqhcKgTOL4qfn_ipckq12Ygupev9eCf",
+      2555616
+    ],
+    "S026R11.edf": [
+      "1S-Le5E1n6PVJT_VaauBxR3MC3x8a_Xg8",
+      2555616
+    ],
+    "S026R12.edf": [
+      "1fivCS4UfpAtxUPPAT7SngPRoxwglfbdz",
+      2555616
+    ],
+    "S026R13.edf": [
+      "18Bco-BYePDm5skROcBDKCsBYOJL24hrB",
+      2555616
+    ],
+    "S026R14.edf": [
+      "1VHrRI1OsQoAAGz6oHhGXDuLaZtapThr8",
+      2555616
+    ],
+    "S024R01.edf": [
+      "1aIQtiajQRmzU2l_7LRrGM0LRh3voIQY_",
+      1275936
+    ],
+    "S024R02.edf": [
+      "1__FkI5fprYeuIjvAb8hsycbulYRVaW6j",
+      1275936
+    ],
+    "S024R04.edf": [
+      "168vCLNaBId9ITy_NB8x4DRHJOno6CsWL",
+      2555616
+    ],
+    "S024R03.edf": [
+      "1P2vU4qRQztl1feqloVIggRId0qODZ6p7",
+      2555616
+    ],
+    "S024R05.edf": [
+      "1lUaGGDIb45cVcd3oBLvzVKyMhpGULfyt",
+      2555616
+    ],
+    "S024R07.edf": [
+      "10LdV6qKegkGTQ7KOOdxMJELtCu4IV0F7",
+      2555616
+    ],
+    "S024R06.edf": [
+      "1C-EmmSPNjwm0ZQRqYrw75uofTGHu9Sc4",
+      2555616
+    ],
+    "S024R08.edf": [
+      "1Y1lo2WczTGOY7lmWM2GbG8WcPlSHbewQ",
+      2555616
+    ],
+    "S024R09.edf": [
+      "19pWDTbvxJzuU-GtvNbirNOzMPgQSWuVd",
+      2555616
+    ],
+    "S024R11.edf": [
+      "1k1qMRUc7RwQ9PZ-4WV9cM02o5k2WdURF",
+      2555616
+    ],
+    "S024R10.edf": [
+      "1dSXB8OIVoDM6psPQD4sMKuZ46K3HUNCS",
+      2555616
+    ],
+    "S024R12.edf": [
+      "1ZJDsFt5201cRmyiMcdcFj82I4SoTEPX0",
+      2555616
+    ],
+    "S024R13.edf": [
+      "1hpi7fG98XpBHdcTYDDytNQZJXw4wD7Be",
+      2555616
+    ],
+    "S024R14.edf": [
+      "166CDbMw0xvBxiw6YVazviJecuZw3MMkq",
+      2555616
+    ],
+    "S025R01.edf": [
+      "1STXZuZ2O0RVIJdC-xmTGPGQiSFwAD76Y",
+      1275936
+    ],
+    "S025R03.edf": [
+      "1cxL5DL_DwMVh_oPT6CarJj6c1BWhTyu-",
+      2555616
+    ],
+    "S025R02.edf": [
+      "1Nfuc6Z-syxue2235Fza3nYRug753sJNv",
+      1275936
+    ],
+    "S025R04.edf": [
+      "1jrb_1Q2fUPI6KF-4jFvd-YP-XFXovARg",
+      2555616
+    ],
+    "S025R05.edf": [
+      "1s1iT3-NpAl-TUdu_si859FTD72t7Z40q",
+      2555616
+    ],
+    "S025R06.edf": [
+      "1Es96tFgQE6konuVthqGpbfwxsfkgE6TI",
+      2555616
+    ],
+    "S025R07.edf": [
+      "1uZw4YU-xCtYq3exDEtXbXJJcQ-6g8-CK",
+      2555616
+    ],
+    "S025R08.edf": [
+      "14gn095X6eo8I6Js17t1yUF5_E1R4pd6r",
+      2555616
+    ],
+    "S025R09.edf": [
+      "1OPryi0o3Sw4aOYvMSSw3I12doU65aEhy",
+      2555616
+    ],
+    "S025R10.edf": [
+      "1kZO6hqVEngyutC-gsJUUFi4g3zhFdZCH",
+      2555616
+    ],
+    "S025R11.edf": [
+      "1aCa20Ml5nwVgfxXTri3jqeq2W6mQCd_q",
+      2555616
+    ],
+    "S025R12.edf": [
+      "1w0Sk0XJXn93Bh5E9U4Ik7IL8fxiAqH-N",
+      2555616
+    ],
+    "S025R14.edf": [
+      "1o3rEIHxkPUN_9xJsbgnzqyWWE-IH07J1",
+      2555616
+    ],
+    "S025R13.edf": [
+      "1TIbBwrZ8HYAq9ILYzwWv5Sx7ImjKwh7N",
+      2555616
+    ],
+    "S027R01.edf": [
+      "14PO-dvCQJwivJ9VL0bjTUUIkVtcOKrFw",
+      1275936
+    ],
+    "S027R02.edf": [
+      "1X_3YEgSJZwAO3hOnsfKeXQGC3GAeC3wd",
+      1275936
+    ],
+    "S027R03.edf": [
+      "1wxCiMLzL0PelcqegG1hglDd_7iN8jCBq",
+      2555616
+    ],
+    "S027R04.edf": [
+      "1esuFZrGI-UlmibWAWqCGjJFHkWSZ80M-",
+      2555616
+    ],
+    "S027R05.edf": [
+      "1tmmF7GzbATMyEeUp96RG9_jcA0oaigWf",
+      2555616
+    ],
+    "S027R06.edf": [
+      "1KkY_KbeN8FI_5dWkMzJeaIafm7u7KaBa",
+      2555616
+    ],
+    "S027R07.edf": [
+      "1sq9XqTqNpte6zQi-Y7j1-1XSKmkrkc_9",
+      2555616
+    ],
+    "S027R08.edf": [
+      "1pgbG7f6Pb53s5EicqxvxZLJbCSMDwp8D",
+      2555616
+    ],
+    "S027R09.edf": [
+      "1AYCg_QZtmYuixmXEkvkbd0R7WWNVg_8m",
+      2555616
+    ],
+    "S027R10.edf": [
+      "1c4GPDQEagjTVqaMAB7yHy0cqgmTOK9wW",
+      2555616
+    ],
+    "S027R11.edf": [
+      "1A2qRzbRrYZAPDDLT4FBE2fFSlWrG1hAV",
+      2555616
+    ],
+    "S027R12.edf": [
+      "1OKS9qoD5UdScjMO3IkHLFaJ5awE-U4-y",
+      2555616
+    ],
+    "S027R13.edf": [
+      "1WJKDkT5b2i3uR98bGxr3lizlAolKsmAm",
+      2555616
+    ],
+    "S027R14.edf": [
+      "1fCNZgMiEC5bnWoUdagfJlv74Tpb8mymp",
+      2555616
+    ],
+    "S028R01.edf": [
+      "127Mgc0UpC8iRbXfRIIfb47v7as2tZLVY",
+      1275936
+    ],
+    "S028R02.edf": [
+      "1pPhKdX4qh2vu870QoMRLtKvN8buZBN64",
+      1275936
+    ],
+    "S028R03.edf": [
+      "1P1pAjamUcOEkW0fKJyBlDlFXta1Msml4",
+      2555616
+    ],
+    "S028R04.edf": [
+      "1IP-w43Za0suQnoWgO_FuymUU6SFbE2Ez",
+      2555616
+    ],
+    "S028R05.edf": [
+      "1Qocrum56C6_9uHtqz79i6gdZIPFp8Ev0",
+      2555616
+    ],
+    "S028R06.edf": [
+      "1t62C3zxBlgYVSRWfTwaQsxMB0JjlmHUs",
+      2555616
+    ],
+    "S028R07.edf": [
+      "1jM8bZE88lisHPPQJOaoDnjODKAMbtWlW",
+      2555616
+    ],
+    "S028R08.edf": [
+      "1TZ35Yi0TG5gaJk9rXPpP3ZkDTiAfOAAx",
+      2555616
+    ],
+    "S028R09.edf": [
+      "1t_1AozuJ1CjLJu5-bI3J4nHeLtpUAxvH",
+      2555616
+    ],
+    "S028R11.edf": [
+      "1FUBWIqYdg9ndI-Hc2VUmTftM9aCz5KGk",
+      2555616
+    ],
+    "S028R10.edf": [
+      "1g1cH9GMu6AOm-WQXuEK3akfJLUaNuew8",
+      2555616
+    ],
+    "S028R12.edf": [
+      "1gv8oLpDuRGnslNf7zkR_2WDFQFZn0XY0",
+      2555616
+    ],
+    "S028R14.edf": [
+      "1YVdCxxu94JLC1LVZBj9_DIROIvhsesOR",
+      2555616
+    ],
+    "S028R13.edf": [
+      "1jedg9pK2OyF7iCqYdagFw2ykFq0XULG6",
+      2555616
+    ],
+    "S029R01.edf": [
+      "1nSicQCyZJ8S_2uBGYZJbzteU0QR_tmSO",
+      1275936
+    ],
+    "S029R02.edf": [
+      "1kcfN2yA4Y3MAesO2NYf6V_5bplp3iqsa",
+      1275936
+    ],
+    "S029R03.edf": [
+      "10LtyyWx_VfS4KdqwbQvQLn_ec1x3QYUI",
+      2576256
+    ],
+    "S029R04.edf": [
+      "1_j-JDpasAaadBl_WcCv3KNXhHXa-4VOo",
+      2576256
+    ],
+    "S029R05.edf": [
+      "14P7a_KvUty429eHTSMGrhP50Y0jbpRLs",
+      2576256
+    ],
+    "S029R06.edf": [
+      "1lUMRvr4TbTefRccCM40KJfqXroYfcsi6",
+      2576256
+    ],
+    "S029R07.edf": [
+      "1A7ZEzGLb7x7mRRJuaTA_rCg6OCZRTIi2",
+      2576256
+    ],
+    "S029R09.edf": [
+      "1NpeINTCpSHyvqtg3zE2NT-tjyicYhBQK",
+      2576256
+    ],
+    "S029R08.edf": [
+      "1Ue0iM1e54lAsjQ_BReuinF8iQZdHV2CR",
+      2576256
+    ],
+    "S029R10.edf": [
+      "1LkYGOHnp9fWeekyvpjKAcpVzhU5o3wFD",
+      2576256
+    ],
+    "S029R11.edf": [
+      "1L9HlZY6sUwsb0wBGMejVkn5SAUAljieL",
+      2576256
+    ],
+    "S029R12.edf": [
+      "1Nnh3-PB7K6Hc5eGbrCboVo-9g_5edoJy",
+      2576256
+    ],
+    "S029R13.edf": [
+      "1hfUVpTz2CNqN8TtPK9vmV-kVPYKXPz1E",
+      2576256
+    ],
+    "S029R14.edf": [
+      "1R363nn4x28E-uaFtyt8qdKbLu-bgTYEw",
+      2576256
+    ],
+    "S030R01.edf": [
+      "1l2CvrozGtRwHJGNDaBW4iSEgkfF-D700",
+      1275936
+    ],
+    "S030R02.edf": [
+      "1gfHRJxoPUxBxLwYRzmw_3eFEKVrxQWEI",
+      1275936
+    ],
+    "S030R03.edf": [
+      "1zQkZTlXJ5TQI7Gb9ZDNwsJYY1crkCWBa",
+      2576256
+    ],
+    "S030R04.edf": [
+      "1B8JmQU8lqDEUrXO5_6DlYAYRLmb4ltT5",
+      2576256
+    ],
+    "S030R05.edf": [
+      "1FNP9g-AtbEr9DGO-pqOapu0KCtlR4R-y",
+      2576256
+    ],
+    "S030R06.edf": [
+      "1QSF6pJToeROmsAb-EclltzdyvADnDSy1",
+      2576256
+    ],
+    "S030R08.edf": [
+      "1MtWIMSscRXWLTChHoMvhINRPtByPG1Z_",
+      2576256
+    ],
+    "S030R07.edf": [
+      "1OGddRZ30Vb0g2JPZ2m23mBL8_ibj4vi0",
+      2576256
+    ],
+    "S030R09.edf": [
+      "18gurFslKq_3oHyEN9oqfqZgcXz8nue9b",
+      2576256
+    ],
+    "S030R10.edf": [
+      "1dNDfKqDpUfyHdr30DUDnrTFfEZqD0VsO",
+      2576256
+    ],
+    "S030R11.edf": [
+      "1ud7DU0ZRCwHzVXcJpmVDMtD7l6rpkNii",
+      2576256
+    ],
+    "S030R12.edf": [
+      "1QWI8daNA5F9Gxol4ubQ2-zcjXdsO6AQd",
+      2576256
+    ],
+    "S030R13.edf": [
+      "1LepHSLEOHSHCyCMkw25a9QWM4fb2Ukwq",
+      2576256
+    ],
+    "S030R14.edf": [
+      "1yRjh3jRIn7GLa90ZwDtizT9GKvjCdcRM",
+      2576256
+    ],
+    "S031R01.edf": [
+      "1YXtgSt9_u7_p14ClR3c_NIeMj4i6msOj",
+      1275936
+    ],
+    "S031R03.edf": [
+      "1WEr39pNL2fjxj640qdP17Leaw2bYEbhN",
+      2555616
+    ],
+    "S031R02.edf": [
+      "1KEiNVIvRtB_DQiT3AP87U1-GbSf5qS9j",
+      1275936
+    ],
+    "S031R04.edf": [
+      "132YyWoETDbqVEfi-TMpO2h8MU-Kv0b1d",
+      2555616
+    ],
+    "S031R05.edf": [
+      "1pRPDU2UCdgWcgGiT2bSt3bcbtT_tac5U",
+      2555616
+    ],
+    "S031R06.edf": [
+      "1saBcMw652nGq5k0vPM3kb5WeiH8ByhyU",
+      2555616
+    ],
+    "S031R07.edf": [
+      "1MQCOt7xtBRTrPWB7214FdwB-_Jt45kxc",
+      2555616
+    ],
+    "S031R08.edf": [
+      "1qyxYfobFVeoL8zUd4xeg_jBmnlILkEFL",
+      2555616
+    ],
+    "S031R10.edf": [
+      "1PH_cQfx4ZJGScfREuB83wTPG8IaEMzO8",
+      2555616
+    ],
+    "S031R09.edf": [
+      "1Yh-ezbQMKk8moYh70nvK-S5tqPacmoA8",
+      2555616
+    ],
+    "S031R11.edf": [
+      "1FpMUj4YMzs1Lo2I6E-FwGjiQgYCeDIGn",
+      2555616
+    ],
+    "S031R12.edf": [
+      "1KTfsBjjnwZO8AyDr0pxZiGa_Tt6AvfXS",
+      2555616
+    ],
+    "S031R14.edf": [
+      "1loe5gfaX7esfAMD8dlho8_vmz26hu7LO",
+      2555616
+    ],
+    "S031R13.edf": [
+      "1wOubNHHfbDfkz0R_310LXNj6Boii0KvE",
+      2555616
+    ],
+    "S034R01.edf": [
+      "1Z_dGHozEMkxGG7BtGwJn-ZHHW43Lsfwd",
+      1275936
+    ],
+    "S034R02.edf": [
+      "1vX-BqixBWgqr60wDYzTlWemgrJgpfrAR",
+      1275936
+    ],
+    "S034R03.edf": [
+      "1Ktzs_FO0eWkR79BOUo6jAU9VkMsAVHqQ",
+      2555616
+    ],
+    "S034R04.edf": [
+      "1etXDtuWYcA0pBAKDeEWauq63iYMoh6YA",
+      2576256
+    ],
+    "S034R05.edf": [
+      "1Bb5AxYaeg126DQlkaXiel85qf3zeKCWP",
+      2555616
+    ],
+    "S034R06.edf": [
+      "1nBWDUdAxoWt45DpPehXAAPsea31oW_Hv",
+      2555616
+    ],
+    "S034R07.edf": [
+      "1AfHUMOOYqTFBJuqKdma81FUh--4gU9NC",
+      2555616
+    ],
+    "S034R08.edf": [
+      "1N50I7IVNXTZiyw60j5MGHfpNqekq9KPt",
+      2555616
+    ],
+    "S034R09.edf": [
+      "1Zsy9D_susXonMjk3A-JPiUiUJIthzMXt",
+      2555616
+    ],
+    "S034R10.edf": [
+      "1mxTILsnlE5MOL1d1kd3kh-clK87HfuOv",
+      2555616
+    ],
+    "S034R11.edf": [
+      "1TZHDcLOokXR9dejDXQcKWxPhdp9d869p",
+      2555616
+    ],
+    "S034R12.edf": [
+      "1bJO6nD9FW3mR5doZdS-TKMBte2uZjcDS",
+      2555616
+    ],
+    "S034R13.edf": [
+      "1CzJSrzUZ06BLo7zjdRuKJQXLQRFyrnfD",
+      2555616
+    ],
+    "S034R14.edf": [
+      "1m0a1xCVpbVMokiqjp6q8imGQ0-KWFJJd",
+      2555616
+    ],
+    "S032R01.edf": [
+      "16iCCGQEoLtLNhmZunKFaZ6WSH98HlelS",
+      1275936
+    ],
+    "S032R02.edf": [
+      "1sf4CXJTvhP69tM3meQrDnkMBGI8x_j81",
+      1275936
+    ],
+    "S032R03.edf": [
+      "15xssiEFk_Psw4UjR88fMMn_e9fNVDvzc",
+      2596896
+    ],
+    "S032R05.edf": [
+      "1YwbBHA80pyBh6zVCYvaWc0GjRsVnJXiL",
+      2596896
+    ],
+    "S032R04.edf": [
+      "1nNwnc161ZPIzVy7lShmz9PWIRK9GgVpe",
+      2596896
+    ],
+    "S032R06.edf": [
+      "11P0IIW5mwipwvZGnKkT3xeNDuuBtp18e",
+      2596896
+    ],
+    "S032R08.edf": [
+      "11rNQn16TDs_xOuLRqu92kQrkK-kb0-Tg",
+      2596896
+    ],
+    "S032R07.edf": [
+      "1tNjjMc2Sb8cqX1JL5kcOCfleBPo8QkGi",
+      2596896
+    ],
+    "S032R09.edf": [
+      "1819VnTUmHjzLiwBCf8VupdbMFZK0lTj1",
+      2596896
+    ],
+    "S032R10.edf": [
+      "1-WSJ61mvEb_Nii06zb-tXTZfU6S-OCh0",
+      2596896
+    ],
+    "S032R11.edf": [
+      "1pOJ7SFPEuzjFlVtjEVKsUChVDe3MKwZ5",
+      2596896
+    ],
+    "S032R12.edf": [
+      "1zPXjaLcDRRnRFVzAUYfc4etNynFoG4Ni",
+      2596896
+    ],
+    "S032R13.edf": [
+      "17gDFivNW2Z444y_OpVfVav90PZxjW6k_",
+      2596896
+    ],
+    "S032R14.edf": [
+      "1KAbd4DzkBqFKwIe_a9Bo-yuPG37WXWOu",
+      2596896
+    ],
+    "S033R01.edf": [
+      "1QQzS5ZMQgQOHydt6-NkfKk4yqIrXC4qR",
+      1275936
+    ],
+    "S033R02.edf": [
+      "1h1DRCu_TwhHHlkwkv_--83nOBf0ogFXI",
+      1275936
+    ],
+    "S033R03.edf": [
+      "1O3LhnOi6UIOcM97aKI8pOe-qSYTST5cR",
+      2555616
+    ],
+    "S033R04.edf": [
+      "12dM0nErfK_5lymdcMZo8eh_FSzJapl-D",
+      2555616
+    ],
+    "S033R05.edf": [
+      "1ldJjPA2fQKylx-1SoSvibnhesou6neN5",
+      2555616
+    ],
+    "S033R06.edf": [
+      "18zTw8wR05JN9bSZiHzctpksS7Ch782eG",
+      2555616
+    ],
+    "S033R07.edf": [
+      "1QJQuW2goMaZbhs2GA5FTt_BEd2WJdtRX",
+      2555616
+    ],
+    "S033R08.edf": [
+      "1ukK8Xo56Ys94m9be3aASrDJ1WvMbEMzH",
+      2555616
+    ],
+    "S033R09.edf": [
+      "1uWz-GPjOxZJJhTTmPc5M4kjKBtKQf-2C",
+      2555616
+    ],
+    "S033R10.edf": [
+      "1lMzzn_RNGwbeEuMyX2U-r7MW8SWwG61O",
+      2555616
+    ],
+    "S033R11.edf": [
+      "1tR_7x8AoV1SyMnlfdAzSgilnr0MavS9o",
+      2555616
+    ],
+    "S033R12.edf": [
+      "1j05JyCe7LDEE6YnuZ7eu2g3FBLyfMrSH",
+      2555616
+    ],
+    "S033R13.edf": [
+      "15DhsGZDcdeX8eLRwfi5ojcZdbQF0zrvc",
+      2555616
+    ],
+    "S033R14.edf": [
+      "11DXCuRvTxc7VVw1KRF3E7COJXKgDWFe-",
+      2555616
+    ],
+    "S035R02.edf": [
+      "1fcoOqJ2zvlmcHvA5xp_-PMCHTl56POfc",
+      1275936
+    ],
+    "S035R01.edf": [
+      "1ZnTk5YwvpuRAwCuezamOlh-9j5u6kvGa",
+      1275936
+    ],
+    "S035R03.edf": [
+      "1mg-zvHPVThJqpOoHcWjXdFdlLF6PJwV6",
+      2596896
+    ],
+    "S035R04.edf": [
+      "161zAiQI4jxkI7X0ZAWgxWJDzSxmmRUsS",
+      2596896
+    ],
+    "S035R05.edf": [
+      "14sAc59BNn2quxLV3TpPQfx0n-2b2ZHZD",
+      2596896
+    ],
+    "S035R06.edf": [
+      "1fFXVGNNE0MMnXAsCpCKW_nhMBqhzcXtv",
+      2596896
+    ],
+    "S035R07.edf": [
+      "1xnPpNRYF3uT9xE1kkmzTukBppsdqbuuk",
+      2596896
+    ],
+    "S035R08.edf": [
+      "1juaYgRIfkcGvUOaRKoZCttnZguL2A5Gn",
+      2596896
+    ],
+    "S035R09.edf": [
+      "18fCZcWiNvwCGk98OboVTaHLAZWRYLMGz",
+      2596896
+    ],
+    "S035R10.edf": [
+      "1gOI4pka42QkoGT4lpljfW0-13JHlIbaL",
+      2596896
+    ],
+    "S035R11.edf": [
+      "16U2ncgUsM9-iQPBaG0NTU_oy0Lb0TWca",
+      2596896
+    ],
+    "S035R13.edf": [
+      "12_34_2kvkFYYfZU7foLuw_OO_NJUmi5x",
+      2596896
+    ],
+    "S035R12.edf": [
+      "1OHVcbenoujXZypOgemNKhLbgDmr00Wc_",
+      2596896
+    ],
+    "S035R14.edf": [
+      "19Yr49bbPTGoP9l1Oj2SgWyp_Ldk2ay1P",
+      2596896
+    ],
+    "S036R01.edf": [
+      "1C2kqUDwEN40TyWaZseChIEJWW4tcQYqr",
+      1275936
+    ],
+    "S036R02.edf": [
+      "1X_hnW0j9j-zR9jnYVdSuVlrJHdhuO1Ww",
+      1275936
+    ],
+    "S036R04.edf": [
+      "1dFSJZbm9dru2VlSDF86DCFo7If57CHKp",
+      2555616
+    ],
+    "S036R03.edf": [
+      "1RW4-BKCBcGL7LVoqXICZHwNVkiFvxvEH",
+      2555616
+    ],
+    "S036R05.edf": [
+      "1IV3No7bmrc8WQQKVau6OUJsJpPamD9ig",
+      2555616
+    ],
+    "S036R06.edf": [
+      "1O6jWq7uD5-9hiDbjCRyX54tWMiq9yoaU",
+      2555616
+    ],
+    "S036R08.edf": [
+      "1T7gZ8kPzyZeEXRbbUPq7bvgf29jGBElq",
+      2555616
+    ],
+    "S036R07.edf": [
+      "1yc7Bj_zajFmoukjEXJIJw-E5OGTh9Rpk",
+      2555616
+    ],
+    "S036R09.edf": [
+      "16ZitZwkYBMzThiC1AkqhG0qXNl-7l3z2",
+      2555616
+    ],
+    "S036R10.edf": [
+      "1_mJ2hbQ_w1_W1EPERq6Why-f-vnXQ9AO",
+      2555616
+    ],
+    "S036R11.edf": [
+      "1uxrSF8Um9Vv_l8RTY-PmmeLzDYNW_aax",
+      2555616
+    ],
+    "S036R12.edf": [
+      "1PxFUb-bcyyyw3t7Ij4YKFT57a-lZxUm-",
+      2555616
+    ],
+    "S036R13.edf": [
+      "1bfznDl_p552YMTw-UJQPAhamYM8vSuwC",
+      2555616
+    ],
+    "S036R14.edf": [
+      "1cj_2qIxJGVHXfnxjngGLcHikLqsNfZF8",
+      2555616
+    ],
+    "S037R01.edf": [
+      "1QV6OtNlNnzg8N0lJ5t6CLok5l_B-75tP",
+      1275936
+    ],
+    "S037R03.edf": [
+      "1VQq9Ridy1VA1g0axlDsUfAXPQlsAwZx-",
+      2555616
+    ],
+    "S037R02.edf": [
+      "1f-MgS08uv5Hc9TEXDPUkv-uBIaiqNehB",
+      1275936
+    ],
+    "S037R04.edf": [
+      "1oE1lvzQHRs72HBLEmXi6o8EXPhzjc00z",
+      2576256
+    ],
+    "S037R05.edf": [
+      "1KlXmQgYIMh8DkviBkCeZKcb7_7rwEDE-",
+      2555616
+    ],
+    "S037R07.edf": [
+      "1ciUima_wjbtviTVIqMfG5ov-rtSC7M3G",
+      2555616
+    ],
+    "S037R06.edf": [
+      "1AOm8HcxKfzfrk-FPugZgfctsx6gbGR2e",
+      2555616
+    ],
+    "S037R08.edf": [
+      "1fW4SSZF3Q06DU8Imhc1AeNrfv3SAsdl6",
+      2555616
+    ],
+    "S037R10.edf": [
+      "12L5Mv3dosxnNkS4H_mMkOn77uV5gJaJn",
+      2555616
+    ],
+    "S037R09.edf": [
+      "1XK1oIASvR2R_CE23LVZbuK_MsX28Q4Qd",
+      2555616
+    ],
+    "S037R11.edf": [
+      "1k8etF4w7N_fKBMUm9uxQKRP2sNL7gG8X",
+      2555616
+    ],
+    "S037R12.edf": [
+      "1Z-jFiTgQDmD8Qwtv_2E07dMyvpvMCLla",
+      2555616
+    ],
+    "S037R13.edf": [
+      "1C2FNubcLfDX61V7zY7VPKggt2ZA_vLRG",
+      2555616
+    ],
+    "S037R14.edf": [
+      "1PgOJv_K1TydyCFk8B5bDC-mKPDdqTD61",
+      2555616
+    ],
+    "S038R01.edf": [
+      "1S1SuZobkdlP031bY2otSWAtH4cwcxK5Y",
+      1275936
+    ],
+    "S038R02.edf": [
+      "1nsbrr2iWlY3pQYiVHR_r4sp9bldPtN2z",
+      1275936
+    ],
+    "S038R03.edf": [
+      "1-olnriiw7IkNpu058lUo26pRPWKCVelp",
+      2555616
+    ],
+    "S038R04.edf": [
+      "1qMV1YzSXwSOrCeEJpPZ2XHQJaMQnLafn",
+      2555616
+    ],
+    "S038R05.edf": [
+      "1Np7HhZIC_vMolNkwgmPNEMoBZ2Bj79DY",
+      2555616
+    ],
+    "S038R06.edf": [
+      "1ThKDGPe5OzX5qItX5bLwHOLfD9zudswz",
+      2555616
+    ],
+    "S038R07.edf": [
+      "1Gsrd1l8R9hAp2VvTaAIgGpXIafeou5iu",
+      2555616
+    ],
+    "S038R09.edf": [
+      "18CynbwPSJgqizQ68nnvm0AErBjv0FQsj",
+      2555616
+    ],
+    "S038R08.edf": [
+      "1nsctwa-UGgVsUekMc2hwT2fDQ-dwvKty",
+      2555616
+    ],
+    "S038R10.edf": [
+      "1G-Z4pfB0G7-yVaCpIv0Vd6xJIJkGGx9P",
+      2555616
+    ],
+    "S038R11.edf": [
+      "1McTmT395Lsz0oSz_q8M6yyAZ_2nqOxHL",
+      2555616
+    ],
+    "S038R12.edf": [
+      "14mCHwBo7OxJdcSNqvFILXh9kjF0W4Y99",
+      2555616
+    ],
+    "S038R13.edf": [
+      "11M9HSQa6wNhSsRDNgC1dKkiTNHDg3hBq",
+      2555616
+    ],
+    "S038R14.edf": [
+      "1hQRxTr_4ViDpFUQa-N6Ev-83vBU8MqWH",
+      2555616
+    ],
+    "S040R01.edf": [
+      "18vaKvDMVDLLv0ugeMim-9RDnyAFU5W_w",
+      1275936
+    ],
+    "S040R03.edf": [
+      "1-_vy-oEeGk8VdloVUIixx2r-UBGlPmIs",
+      2555616
+    ],
+    "S040R02.edf": [
+      "17r35CBXRbc29tw_N_OkIh93VDUHTkWsd",
+      1275936
+    ],
+    "S040R04.edf": [
+      "1EmptS0Es0TB6HGIWwYJnICfIhiomhwJL",
+      2555616
+    ],
+    "S040R06.edf": [
+      "1swkP6T7mbcEJdWI6QSG4u8OOarX3-rCm",
+      2555616
+    ],
+    "S040R05.edf": [
+      "1-jjOiQ93styFPYXq8pQgjCTFiyeu-CLA",
+      2555616
+    ],
+    "S040R07.edf": [
+      "1VFMpBxptr_GQcg7WtJpcnyBuOr8wv4Mp",
+      2555616
+    ],
+    "S040R08.edf": [
+      "1k_cXEvIQAYRnJZ-a75p10N4TSBfMglQp",
+      2555616
+    ],
+    "S040R10.edf": [
+      "1Ba1m0Qi-9DSdjuZStagb1PtNj6x8prs5",
+      2555616
+    ],
+    "S040R09.edf": [
+      "1uRzygBNZMBVEqv4QQFE2JwxjNQzvTC0z",
+      2555616
+    ],
+    "S040R11.edf": [
+      "1t1-0n0SaXy6C5D5obZG5Jw_TxQTk4KVS",
+      2555616
+    ],
+    "S040R12.edf": [
+      "11itAbVoSznxTZOcsTJfMGCZJYnKLZd4V",
+      2555616
+    ],
+    "S040R14.edf": [
+      "1WNo8RPfgt_fn4807vjbgCKe6on6f4X8X",
+      2555616
+    ],
+    "S040R13.edf": [
+      "1K2IESIC0MQpjxEXgOnvNaVZI0s3FJwx3",
+      2555616
+    ],
+    "S039R01.edf": [
+      "1uVz-m7TfbBdUNEfsxPVLxw2bcAny2lXz",
+      1275936
+    ],
+    "S039R03.edf": [
+      "109Yg-I33mmQc-hsyE2HNk9YOP9dBV8pU",
+      2555616
+    ],
+    "S039R02.edf": [
+      "1YMC1wWxnIC4K0G84ifnIhLUE3cVgTkaj",
+      1275936
+    ],
+    "S039R04.edf": [
+      "1qcqxa4nKIzOlitvk-tas08UotVJoSc7S",
+      2555616
+    ],
+    "S039R05.edf": [
+      "1pHBR8ODQsmvhgOj-GVFpySZBvc70_xGm",
+      2555616
+    ],
+    "S039R07.edf": [
+      "1V2Fx8tvHxI0E7TRwsrRlM7iUKMBPVAtI",
+      2555616
+    ],
+    "S039R06.edf": [
+      "13oiqt3JB0TdCxhhi7rvURXTy66q7FYOW",
+      2555616
+    ],
+    "S039R08.edf": [
+      "1qtK2mTYF2KFcebv1y_TTHBqUtQcKrO36",
+      2555616
+    ],
+    "S039R09.edf": [
+      "1-JNZPl5hd3pf4GxMaz9a4NNLeCNGtv5O",
+      2555616
+    ],
+    "S039R11.edf": [
+      "1OKIKzd4uvYbMKbLaAodKjN7nVvxzuQiw",
+      2555616
+    ],
+    "S039R10.edf": [
+      "12CbpSzroBD-ZeEC8FAIZv9szv79_q_if",
+      2555616
+    ],
+    "S039R12.edf": [
+      "1mDwWHZCACjux_yTj2OtTsNCtqLFhr_iu",
+      2555616
+    ],
+    "S039R13.edf": [
+      "1Ex2Xyu40S4Y347eXCh3_C8_sq46Zih_E",
+      2555616
+    ],
+    "S039R14.edf": [
+      "1y6C_EsaF_r7PnSMMLjGC5_HlfeNgPGA7",
+      2555616
+    ],
+    "S041R01.edf": [
+      "1twrHM86-2Dq1S-FIGPlDnD1f7eNNVNkq",
+      1275936
+    ],
+    "S041R02.edf": [
+      "1n3uH1ceiBP_4sTwJysZsLsuLEAsUulZy",
+      1275936
+    ],
+    "S041R03.edf": [
+      "1WDHK1sGdDSmKsY9bMMfq8uxxgx4ttoK4",
+      2555616
+    ],
+    "S041R04.edf": [
+      "1m3Vg5bxkfMwEYnymzYC23e6rg6RbyyxR",
+      2576256
+    ],
+    "S041R06.edf": [
+      "1jE_oDS5fp7XPUfUjZ_kOftwBah6QzBKc",
+      2555616
+    ],
+    "S041R05.edf": [
+      "1Dnfw6GOx6ILRYet3OQxZ-yAmi0imADID",
+      2555616
+    ],
+    "S041R07.edf": [
+      "1MFDk29xT8wEYOmpEjjf2cSOHgkTHx6Wh",
+      2555616
+    ],
+    "S041R09.edf": [
+      "1HOGjj5GkfBpRaUiunAZSfIBM-clPn7HV",
+      2555616
+    ],
+    "S041R08.edf": [
+      "1jwvTK0TR7nYrWGyH0Z6qfU223_hu-72v",
+      2555616
+    ],
+    "S041R10.edf": [
+      "1Tk2ajq4kVyC-HLVbsTIgmY3bcZtWjqnM",
+      2576256
+    ],
+    "S041R11.edf": [
+      "1TzWVe7vb98alue5Ws7P6aLG8CwL0aN3t",
+      2555616
+    ],
+    "S041R12.edf": [
+      "1Ypu6zhqt4iSeIX-7mKvN1Egpgm5hpT6s",
+      2576256
+    ],
+    "S041R13.edf": [
+      "1_-QNI7g6TRnTJPyT-a2ar76cluoQ415U",
+      2555616
+    ],
+    "S041R14.edf": [
+      "1UJNfz8pEPAXFAvsO38iwvh_OTJaMK6dE",
+      2576256
+    ],
+    "S042R01.edf": [
+      "1itueYnAmU7RQp7IEDsxXwxRK7-qBA6QU",
+      1275936
+    ],
+    "S042R03.edf": [
+      "1FTzfLwTGE4R_HZ5isTa3mQ1eJEUl9C3G",
+      2555616
+    ],
+    "S042R02.edf": [
+      "1quAHoLIu0ac97gGEW4_SjLwuUhOugsyS",
+      1275936
+    ],
+    "S042R04.edf": [
+      "1inXj3tD54TTPGhLsqjkfPJ0ttbJZowe3",
+      2555616
+    ],
+    "S042R05.edf": [
+      "1wVzqeZJ75-x0d7LsHg5Ts3TIFA1D-uGH",
+      2555616
+    ],
+    "S042R06.edf": [
+      "1iXOU-BoZj-7D0KvC5I7EOHkvux8X9Ezu",
+      2555616
+    ],
+    "S042R07.edf": [
+      "1LerRjm3Y8eb92q3tS6ZN97TqwZmxJYmL",
+      2555616
+    ],
+    "S042R08.edf": [
+      "1F1D3lK_pd9HufDQLHMTz3FgC9YXfggN5",
+      2555616
+    ],
+    "S042R09.edf": [
+      "1deuLb-h2ihzcAy7grBqB0nzAg9t_JG8F",
+      2555616
+    ],
+    "S042R10.edf": [
+      "1Ey8ZPYUeXg9vPNmQwlbHnrSPdrSqC6Gy",
+      2555616
+    ],
+    "S042R11.edf": [
+      "1ZLo8LKN_Gk2P7b20kyxqUSl-t8igZK29",
+      2555616
+    ],
+    "S042R12.edf": [
+      "1mjJCI7bhGHDNDO8ZhmHlroVeSblsqE3e",
+      2555616
+    ],
+    "S042R13.edf": [
+      "1HtRW_CmpVYSRCyhoSeCGlZRnUszSRHDm",
+      2555616
+    ],
+    "S042R14.edf": [
+      "1UyLIr7t-AbunkZP913ovdCEpTRXBFzrT",
+      2555616
+    ],
+    "S045R02.edf": [
+      "1sH2wwTf5SapZ0QL02hlnPT55drl6-ykl",
+      1275936
+    ],
+    "S045R01.edf": [
+      "1dNIruAj0QhG5cdxWNiLXdqMaCD_UgK9s",
+      1275936
+    ],
+    "S045R03.edf": [
+      "1jERo9eVH-e50afMiOjd4i8-E8RLbrAOv",
+      2555616
+    ],
+    "S045R04.edf": [
+      "1AYSwLBdUfMHMd6Wn4Xr1Df4t2YRE-6W0",
+      2555616
+    ],
+    "S045R06.edf": [
+      "1jyofQB0xEqvu58W-3tjBwMS_6GZWdTpd",
+      2555616
+    ],
+    "S045R05.edf": [
+      "1u-_6IVineSMx1xhqXX9DBEQEu9YQ4zYM",
+      2555616
+    ],
+    "S045R07.edf": [
+      "19IfEz_SrR1IxDlPEMSNTy_IXAAA7onmW",
+      2555616
+    ],
+    "S045R08.edf": [
+      "1WxgBWFS1FOgf1QCY-SLfSFCK_asWlYtZ",
+      2555616
+    ],
+    "S045R10.edf": [
+      "1F3eTPYyMDCHMCikl9gVSvarTREQsWSv7",
+      2555616
+    ],
+    "S045R09.edf": [
+      "1ggcDe_ZyuXwFL1KngmCmg8z7etjin_aC",
+      2555616
+    ],
+    "S045R11.edf": [
+      "1s-uAQxWuCsFbBIYqYe5t5L4EXLlBiAqi",
+      2555616
+    ],
+    "S045R12.edf": [
+      "1yNAlgIpSdF3bmOyK84lb5c8x3MXOGYK-",
+      2555616
+    ],
+    "S045R13.edf": [
+      "12VTwMIMqrRX18I5fzloS6uocPFZt1E4u",
+      2555616
+    ],
+    "S045R14.edf": [
+      "1trvDwvQwS_SqHNs0CkXc2yrfs-t92zU-",
+      2555616
+    ],
+    "S044R01.edf": [
+      "13vIq6Xhu3Ns72psqxE5qnQ-FB_NvSp24",
+      1275936
+    ],
+    "S044R03.edf": [
+      "1eAWu-MtMt7rn3ffL6W53DkgtiO5emt8s",
+      2555616
+    ],
+    "S044R02.edf": [
+      "148BWNq7SoXDd4IwgiNqSjkejlQyBuj1d",
+      1275936
+    ],
+    "S044R04.edf": [
+      "1WqCTOPuLs1-0hMFLXVqrCjv-a_5LTUoZ",
+      2555616
+    ],
+    "S044R05.edf": [
+      "1BGwasGsm4VljZ_Jjv2B5ilIR_rNsAJmG",
+      2555616
+    ],
+    "S044R06.edf": [
+      "1tkMnGll3o1lOkbe1KjLNaWtjZw9gVF8K",
+      2555616
+    ],
+    "S044R07.edf": [
+      "1EZyNI6KRnsZciUm5hcjEK9Qm17crYLQf",
+      2555616
+    ],
+    "S044R09.edf": [
+      "1P-jHTpZhI3KT1emdvL2ghJh1PGJirunt",
+      2555616
+    ],
+    "S044R08.edf": [
+      "1VJol4GsJOu1d10DTVEG9CL68p-TkPjtq",
+      2555616
+    ],
+    "S044R10.edf": [
+      "1RTEvmtcuRrgkJ-gFRGRZsPHB-eoml9vs",
+      2555616
+    ],
+    "S044R11.edf": [
+      "1idOQWsFGi5S3hesE7VYhA63p3UaPbP0k",
+      2555616
+    ],
+    "S044R12.edf": [
+      "1aI1puonCfcqcTTnc-6-6VW5C4lZhEZm8",
+      2555616
+    ],
+    "S044R13.edf": [
+      "1_DRGBWXOCAZWHqJFcLVDgwesQ6RyG0dx",
+      2555616
+    ],
+    "S044R14.edf": [
+      "1jZc8JYFKXb3xM5synNjGK1WqmdEHjMei",
+      2555616
+    ],
+    "S043R01.edf": [
+      "1F7hz9qkpIBqAcNzDHjt5qcEYNT0hzi1v",
+      1275936
+    ],
+    "S043R02.edf": [
+      "1UqD1PJbnsFMRvZSxdf17hyDZT-j1oUf6",
+      1275936
+    ],
+    "S043R03.edf": [
+      "11c_NB02X3mwRFiqgji7xRN6y8qWLJCGA",
+      2555616
+    ],
+    "S043R04.edf": [
+      "1i6isZbC_7-xVylGw9lVKPY8HdC6Jtjqo",
+      2555616
+    ],
+    "S043R06.edf": [
+      "1a4daZZgNeHMgbPGsffQgE2pXQVBxvEVj",
+      2555616
+    ],
+    "S043R05.edf": [
+      "11aVH1hrjvBd-2eJyKeAdT_loSsvP7eNi",
+      2555616
+    ],
+    "S043R07.edf": [
+      "1LNYuV1eJbbQHMuvEBQa54755zqstneeo",
+      2555616
+    ],
+    "S043R08.edf": [
+      "19okH-jFjafeUglOIt3U1-eem0H7dlRmH",
+      2555616
+    ],
+    "S043R09.edf": [
+      "1ZwyzQ5jfBCXYOJ6LvMoK4RLyDeFWL9de",
+      2555616
+    ],
+    "S043R10.edf": [
+      "1gpoxQLyP8ebzLwseExFD_Boeop86y2Ua",
+      2555616
+    ],
+    "S043R12.edf": [
+      "1_U-y5uOlXxYsYnSIXbh2AMr1CjQSkOxn",
+      2555616
+    ],
+    "S043R11.edf": [
+      "1q-qoOlBxzAHKAvBYhBTrnGaNe-PCx3K1",
+      2555616
+    ],
+    "S043R13.edf": [
+      "1F8aAGHf54Kgbjm2M7Qqiyu1uabbaNY1H",
+      2555616
+    ],
+    "S043R14.edf": [
+      "1KeVUtfzIJ6Q5Kw_NK9cage-kbnnL3Qqm",
+      2555616
+    ],
+    "S046R01.edf": [
+      "1TtzHQXDFFVGwOUxv95re1caMGDimbrQy",
+      1275936
+    ],
+    "S046R02.edf": [
+      "1JDbJZJuNCS2eM65E7h3Mi3XO_2bh1ox9",
+      1275936
+    ],
+    "S046R03.edf": [
+      "1NkCMJbuLA4ivLTKXPW_oFEFkCz-HBavS",
+      2596896
+    ],
+    "S046R04.edf": [
+      "1FxeBRndkOPlxyeyCd3dNy5F-v-SyZOpx",
+      2596896
+    ],
+    "S046R05.edf": [
+      "1JQV5Tg6qwmeWTyGoJvIOOxI3Md__yHsd",
+      2596896
+    ],
+    "S046R07.edf": [
+      "1XVhecM5c8CSXCKEDhAog4e4TRREMWuX1",
+      2596896
+    ],
+    "S046R06.edf": [
+      "1cHCVhx_4DYxfDt_bG1ujXBRsVVDIZ5HL",
+      2596896
+    ],
+    "S046R08.edf": [
+      "1q5fWvR9PmJn8YZ74R9eMl53RA5RGFnaO",
+      2596896
+    ],
+    "S046R10.edf": [
+      "1Mxm1we5oSFFWHOLiOjCfMTTvI0gRYtye",
+      2596896
+    ],
+    "S046R09.edf": [
+      "1mUKBVFE7W-6dbshKjDHx8v6sF1IIPOr0",
+      2596896
+    ],
+    "S046R11.edf": [
+      "15PQY3ZBVLiUzYuWIR5GgTtFEFTV5TfRM",
+      2596896
+    ],
+    "S046R12.edf": [
+      "15yRXMkEs3-vqKIJUyvbtyDpGZS_9KaKA",
+      2596896
+    ],
+    "S046R13.edf": [
+      "1keQxF0dPdalwzMwi9ipJnfoJQA3sdgkr",
+      2596896
+    ],
+    "S046R14.edf": [
+      "1U0Y-jXEJjI9z9hpsFckNgNwG75yJfaMM",
+      2596896
+    ],
+    "S047R01.edf": [
+      "1T_iE10tTpLtG_hwH3B-HZv5JbCY5s51a",
+      1275936
+    ],
+    "S047R02.edf": [
+      "1J528cll3t7kxhoZi8v3xqsKVXADXFGwc",
+      1275936
+    ],
+    "S047R03.edf": [
+      "1QVF41oU7ncw9n1No9BPwFNLE9TjYhAAr",
+      2555616
+    ],
+    "S047R04.edf": [
+      "1CVK3cngn1dmH_GnGx4SBUf4K_D93DlWm",
+      2555616
+    ],
+    "S047R05.edf": [
+      "1Om6kGvHuqae6axuaCQ1LcJ70kTXFnl_u",
+      2555616
+    ],
+    "S047R06.edf": [
+      "16KJzdJvyRMmZcXRhn30Qn-XBExUoMlsv",
+      2555616
+    ],
+    "S047R07.edf": [
+      "1iUeDmnLcFaIiNQ9KkpCM31Qb_i-V0GM4",
+      2555616
+    ],
+    "S047R09.edf": [
+      "1_4QnFO3iP0HNUhGCQCVl4RlqzJCQWNxJ",
+      2555616
+    ],
+    "S047R08.edf": [
+      "1z4mFZ1v0bip7fb3EBWG0mY9Ecv4OId6k",
+      2555616
+    ],
+    "S047R10.edf": [
+      "1pNi1PNT-PQ1Z3QDMEe0PpE-3Fdp33CSn",
+      2555616
+    ],
+    "S047R12.edf": [
+      "1TCklvnlO4JAt5-nS95c7ez9apwgtqF1U",
+      2555616
+    ],
+    "S047R11.edf": [
+      "10r1_vSOt_sVtZNsVudoCI3B3jPW_M8QM",
+      2555616
+    ],
+    "S047R13.edf": [
+      "1CzVF80O6Poz9EjQA5CWAXD0wOh0UgU3q",
+      2555616
+    ],
+    "S047R14.edf": [
+      "1wgBTUuhue4tlmWli_Gol8zLUc2Ogl9BD",
+      2555616
+    ],
+    "S048R01.edf": [
+      "1JovZjCMlCoChP2H8EFdLm62rlHWetqnk",
+      1275936
+    ],
+    "S048R03.edf": [
+      "1p2SHbUKeu2z4L7vK414IeulCC2m20fG4",
+      2555616
+    ],
+    "S048R02.edf": [
+      "1isoaNB9SbOZih6Hhz_TMVtTPo6c_kpBk",
+      1275936
+    ],
+    "S048R04.edf": [
+      "1W8FtGcMmenIFwkxfdd-ruLfh0nbCVqK6",
+      2555616
+    ],
+    "S048R05.edf": [
+      "11JRXLdvPkl1o32bJs1_TEVnDSYubV0Q1",
+      2555616
+    ],
+    "S048R06.edf": [
+      "1wA7okDtIz32uxfI1MKFfUGbYOYBOoY8z",
+      2555616
+    ],
+    "S048R07.edf": [
+      "1Uc2goneO8pxCh5MXqAKYsHovtEjhx84W",
+      2555616
+    ],
+    "S048R08.edf": [
+      "1xtWSSiYSHkZo71aVaxx5mzC3I9izJPsY",
+      2555616
+    ],
+    "S048R09.edf": [
+      "1TwIGrFw2WvJqzYQ27svlU4G2HMhqL3Mr",
+      2555616
+    ],
+    "S048R10.edf": [
+      "1hBBANlHLUhiYChpA4j10dKm_LsX0zeGf",
+      2555616
+    ],
+    "S048R11.edf": [
+      "1eY08FY5qXfdwYGBBGqn1n_VhejaghNnW",
+      2555616
+    ],
+    "S048R12.edf": [
+      "1Z9BSTtCqX-zpC3MXZE_PS_IdB-TKXeGs",
+      2555616
+    ],
+    "S048R14.edf": [
+      "1hxQSVS95-ATHtDCQLbev1IbQJ-q4Whnt",
+      2555616
+    ],
+    "S048R13.edf": [
+      "1oI6rJnIDyvCV3O29x_l20oVBvYQJ7sGS",
+      2555616
+    ],
+    "S049R02.edf": [
+      "1umqh6tK97rHxVh_GEVo0HcXW2AVh2rp7",
+      1275936
+    ],
+    "S049R01.edf": [
+      "1CF04XJhhxPve6dMLuw2v1HKTFkdv_Q1B",
+      1275936
+    ],
+    "S049R03.edf": [
+      "1AP6d2AR4GbQqlQjXUYP97FPUe680wgP6",
+      2555616
+    ],
+    "S049R04.edf": [
+      "1yS1Rc7nqtnUXPIn1xVeMlr4fOax5nnyP",
+      2555616
+    ],
+    "S049R05.edf": [
+      "1ZVxqCdJjXDqIDLftcWl1ciSlMLeK94RE",
+      2555616
+    ],
+    "S049R06.edf": [
+      "1d5xv5vivH1OtNmQCCXajHp3HlLP5eg73",
+      2555616
+    ],
+    "S049R07.edf": [
+      "1bzcNHsQAKyONd3Mv8iXdBwStsa_85gGQ",
+      2555616
+    ],
+    "S049R09.edf": [
+      "1fLFC_aev5FnA8QvF7_nJ--FN9AxIijlV",
+      2555616
+    ],
+    "S049R08.edf": [
+      "13vDVm58DEyniOzSvKKQt4tPOWh8kf6yE",
+      2555616
+    ],
+    "S049R10.edf": [
+      "1vKYsHiZ5jDU1hp9jtprGNi39_YR8Udnx",
+      2555616
+    ],
+    "S049R11.edf": [
+      "1Hu4b_s8aEgccWoTIWzKuYU6sHd8YZ0Yp",
+      2555616
+    ],
+    "S049R13.edf": [
+      "1w2GPwTmpUfnE4e595J5m9B7LBdc2VHas",
+      2555616
+    ],
+    "S049R12.edf": [
+      "1NRpSfjg23flLQNSC2po-Pctc30fJNYy0",
+      2555616
+    ],
+    "S049R14.edf": [
+      "1MpUzz1I6oJgFCUE8mQQAXUHYGGtmoLRj",
+      2555616
+    ],
+    "S050R01.edf": [
+      "12wXiEmD-hVp8lS9ASHaPa6VdOP6O1ReG",
+      1275936
+    ],
+    "S050R02.edf": [
+      "1CnkGuP4WcDVuDahvA9Vv8x7xjemZT4cy",
+      1275936
+    ],
+    "S050R03.edf": [
+      "1plG_5aJ-rl1MOrCy_814sF7YrD8MIYbC",
+      2555616
+    ],
+    "S050R04.edf": [
+      "1emfHXn9HB420eNorpDdHnjcNn1bWV1CY",
+      2555616
+    ],
+    "S050R05.edf": [
+      "1TIDFv--FU9jBNcOkSLKwh_OeXO6QZ9P9",
+      2555616
+    ],
+    "S050R06.edf": [
+      "1UKh85cIQ7wV9oD7SnqY44o_LYZenPyXN",
+      2555616
+    ],
+    "S050R07.edf": [
+      "1VjNznt_lVWblEXjE48-PqZ0SWsd7aLaF",
+      2555616
+    ],
+    "S050R08.edf": [
+      "1qS_uaN5KVHU--UfkCcbUIdhjk0WBKCML",
+      2555616
+    ],
+    "S050R09.edf": [
+      "1IBXSHkE0XeY4ywLCvDgjgwsqX9N3iEML",
+      2555616
+    ],
+    "S050R10.edf": [
+      "1018kVUksqx9CVAAt8fUUVKLJ6Fs1HuBC",
+      2555616
+    ],
+    "S050R11.edf": [
+      "1Rr6TI_QLeUq6iF5wmJ935qCZQIbtcsj1",
+      2555616
+    ],
+    "S050R12.edf": [
+      "12MBUOo_66sMUyJIioKrbPEVRwwF3jqUz",
+      2555616
+    ],
+    "S050R13.edf": [
+      "1-CRcxY72EkbTdozvNUfcA0qx7JKqBSlG",
+      2555616
+    ],
+    "S050R14.edf": [
+      "1eyR7c976XjLjRNknJP1tWBFER2T6GpNN",
+      2555616
+    ],
+    "S051R02.edf": [
+      "1s8X07OprLyaB6SehlSBp4cTAda5gkmuT",
+      1275936
+    ],
+    "S051R01.edf": [
+      "1ZcdS0yR_ZgkHtaq8tUYJHpTKGE_MV6Ij",
+      1255296
+    ],
+    "S051R03.edf": [
+      "1tp7XgSrg2LLb4ywC9lPWrxyXTYvrKjxf",
+      2555616
+    ],
+    "S051R04.edf": [
+      "1AJqiehftuPrSB8miHjiogm6XBTQ3wJQq",
+      2576256
+    ],
+    "S051R06.edf": [
+      "1vjAZVgwpsiR95GDaDJaGrdZOtG4YOmGT",
+      2576256
+    ],
+    "S051R05.edf": [
+      "1UUX4RFN5kZ_24nybt26MeDRgnqodKvfA",
+      2555616
+    ],
+    "S051R07.edf": [
+      "1O-4xFEwLdBl9G-muR40MtZkSwbclNME4",
+      2555616
+    ],
+    "S051R08.edf": [
+      "1sJYompz1YxT6_nb5vV2a6cbpBzzzmVlw",
+      2576256
+    ],
+    "S051R10.edf": [
+      "1s1uyi9vziWA0MNR6GSi8ORmRv7nuK74-",
+      2576256
+    ],
+    "S051R09.edf": [
+      "1YEI-Hl5kxlkc6PMQyUaMaeXdOMIIvcIe",
+      2555616
+    ],
+    "S051R11.edf": [
+      "1SRrTMzOeKtZzi4dfC9MiwhzOPj68bUqz",
+      2555616
+    ],
+    "S051R13.edf": [
+      "1vcW2nTTAzD-d0gZIomGHSfnBLOe3T6cQ",
+      2555616
+    ],
+    "S051R12.edf": [
+      "1F91ri48oLlXRxxB7-S1KkkO7C8Eww9xC",
+      2576256
+    ],
+    "S051R14.edf": [
+      "1moCm1XSIQQyMGI2geCKxLkxSQql9GvO_",
+      2576256
+    ],
+    "S052R01.edf": [
+      "1kX22rI9l216V4kbkLzIpKxXFNfe6kvca",
+      1275936
+    ],
+    "S052R02.edf": [
+      "1m40KaIDIjpdSejarlBkZ5rWighr1wx0j",
+      1275936
+    ],
+    "S052R03.edf": [
+      "16k0m3p-0Q2jjSmb4k68_3JOJQcPjYZVr",
+      2555616
+    ],
+    "S052R04.edf": [
+      "1yF-ZaFgvVmLBACt8ZmeTzGq87PLFFvvU",
+      2555616
+    ],
+    "S052R05.edf": [
+      "1gqPE_-9u5krxJxcBfa6IoxyNo7ZOZ1FB",
+      2555616
+    ],
+    "S052R07.edf": [
+      "1_fkWQqR8Xq43AdopUy4gU4Yfer7LNPNn",
+      2555616
+    ],
+    "S052R06.edf": [
+      "1w0hM_7JM9SoHZeQFnWPbJW9zhtJ5Nwi5",
+      2555616
+    ],
+    "S052R08.edf": [
+      "17UCqEBd2jtM47vQLlV-GnnPeK0a7LgcW",
+      2555616
+    ],
+    "S052R09.edf": [
+      "1GkdOd_IEDl0x8llGFnzkWRS-ag32EtCt",
+      2555616
+    ],
+    "S052R10.edf": [
+      "12ZomavnQUwwDstKHAxGVZT4dc2Kz9HCD",
+      2555616
+    ],
+    "S052R11.edf": [
+      "1RW3_SPAxfSY-8nzUcMrdh-5DnrayAPwB",
+      2555616
+    ],
+    "S052R12.edf": [
+      "1odCWizb_jzddzpndW0X-HjtZhgexprzW",
+      2555616
+    ],
+    "S052R13.edf": [
+      "1KAn4E9Xp8NS2IBLk4k5HzRFUan2PzCwu",
+      2555616
+    ],
+    "S052R14.edf": [
+      "1PffNvVdqyRDkpaEIkdrin1yg2Qndk8_R",
+      2555616
+    ],
+    "S053R01.edf": [
+      "18413SmFHGr_eRNckuOEnOJPNyfRTbtoF",
+      1275936
+    ],
+    "S053R03.edf": [
+      "14i5_rHZwmIQ_nqVskHNgA9AIxyo2FmV3",
+      2555616
+    ],
+    "S053R02.edf": [
+      "1J09NCUG3TolLHyxgWJVo26Sa_1aQaiAO",
+      1275936
+    ],
+    "S053R04.edf": [
+      "1JgZ_f5h6QMHq1CCatdEbpIkO6qCp-9sl",
+      2555616
+    ],
+    "S053R06.edf": [
+      "1f32pJZqtFhF-H6RU0_MS_2SmpZv-EiK5",
+      2555616
+    ],
+    "S053R05.edf": [
+      "1awc0zFk5cavoGb39MzyX3bajp08fJs1z",
+      2555616
+    ],
+    "S053R07.edf": [
+      "1a0ga7WnIm0aGpMdWVFRvPg7GakJ_Gmna",
+      2555616
+    ],
+    "S053R08.edf": [
+      "1mK-jE90l6oy_zQYxeVEoh5EV9SyPGIub",
+      2555616
+    ],
+    "S053R09.edf": [
+      "1L878Y2xr0mJAysSKz9HUpY3uWhyM2LgK",
+      2555616
+    ],
+    "S053R10.edf": [
+      "1kfMyXNSezq3kvn6GMaI21QOlobWxUK6l",
+      2555616
+    ],
+    "S053R12.edf": [
+      "1MqbXjA9TuLui4W6KxJjTjS9E4TDhBVPq",
+      2555616
+    ],
+    "S053R11.edf": [
+      "1vAcCMu3lzb1jj343cdPmnTimnDkuqI86",
+      2555616
+    ],
+    "S053R13.edf": [
+      "1Tpk_DtPAH7Ezhxn-0A0uLt5FO9zbhCba",
+      2555616
+    ],
+    "S053R14.edf": [
+      "1H5T_1evQSZw9U-KIrLS-hdZlBS8S2dWa",
+      2555616
+    ],
+    "S055R02.edf": [
+      "1sy3NINm_Vx6n9Br9y088D0dlZskpaMUu",
+      1275936
+    ],
+    "S055R01.edf": [
+      "1MdDro1LavpiwcI0gH4gJ8PNucW4tykpy",
+      1275936
+    ],
+    "S055R03.edf": [
+      "1-OJJiKUOoeGBvL-cxB8XZrUATSg36jtv",
+      2555616
+    ],
+    "S055R04.edf": [
+      "1Zd2vULZUGlATaBjcuL2BcH13uX34LdwO",
+      2555616
+    ],
+    "S055R05.edf": [
+      "12TZhMEMS7f7ctnwkrm_HPOaG0E0-kGvN",
+      2555616
+    ],
+    "S055R06.edf": [
+      "1euTlg-uGMGKZ8DGV0tssXthZAtsD6_WB",
+      2555616
+    ],
+    "S055R07.edf": [
+      "1MR9yJG0Asb4dN4sAmLkJf5ll5lNxhNik",
+      2555616
+    ],
+    "S055R09.edf": [
+      "1e42ZOuMYqDyaBRZ0IHQscGnCbjgJAWIr",
+      2555616
+    ],
+    "S055R08.edf": [
+      "1Ijzm1eJkHJenFNlmLl71-OVb1fKt7y7Z",
+      2555616
+    ],
+    "S055R10.edf": [
+      "1G9yCyI10hB_-vnAIFjSrydXUxhKZ2plN",
+      2555616
+    ],
+    "S055R11.edf": [
+      "1sCPhxadHH5EMXa4EZuet_tqEpugZ6Nv-",
+      2555616
+    ],
+    "S055R12.edf": [
+      "1qOLK3aD6Brva9nnPsVIuODYI4a9r6LZ7",
+      2555616
+    ],
+    "S055R13.edf": [
+      "1MDEXZSmfGnFbkDKjsnMw--pxAI7wFNLT",
+      2555616
+    ],
+    "S055R14.edf": [
+      "1tSd1pINVgSVrjhqmPdcse_UNnxfeJ0nt",
+      2555616
+    ],
+    "S054R02.edf": [
+      "1h7iu2QpSc2fNnbnw8kqISSbffGNPK85y",
+      1275936
+    ],
+    "S054R01.edf": [
+      "1wuFx6VHLtz2LWXeeh3ZRJhAq6BnZD_cT",
+      1275936
+    ],
+    "S054R03.edf": [
+      "1-jr5x1Fs4b6waZ3Modz7VwVhjcE_tUry",
+      2555616
+    ],
+    "S054R04.edf": [
+      "1Pp1q82_PpdhXzciMFNCCCJKWyOCNcWPu",
+      2555616
+    ],
+    "S054R05.edf": [
+      "1tt0qAobj3mUakPXKXznFfhEmhIB1g2xW",
+      2555616
+    ],
+    "S054R06.edf": [
+      "1hHxyFvO3ERJTTwo1YdUHufdV-ptCwuOx",
+      2555616
+    ],
+    "S054R07.edf": [
+      "1sikWg7LURrgfP-q26czMckTFHFgpPBSQ",
+      2555616
+    ],
+    "S054R08.edf": [
+      "1Aai0ptS9pesi-3iIJXBpk4LPsnCx_CeP",
+      2555616
+    ],
+    "S054R09.edf": [
+      "1M9AyLi0gnIoXmoyCnQBQcfLytnPiRdj4",
+      2555616
+    ],
+    "S054R11.edf": [
+      "1PSP2Rwu--_BDO0ZM6VI0AwfvHJcHFboq",
+      2555616
+    ],
+    "S054R10.edf": [
+      "1sj8eg480tF2SDWQYC9bH8GoN9YvWOFX8",
+      2555616
+    ],
+    "S054R12.edf": [
+      "1oXf9wRTday3nqlM0zyzC1prvzTIu_Hf0",
+      2555616
+    ],
+    "S054R13.edf": [
+      "1h0gqrD4NZkEIuV38S9aO5rHhnI6sBov_",
+      2555616
+    ],
+    "S054R14.edf": [
+      "1Gqi2F4fZYoINwR8lgg5RNd2LaYN_PtEq",
+      2555616
+    ],
+    "S058R02.edf": [
+      "1gemfN28TaFeLf9qZatBf02hEMRvVFS2b",
+      1275936
+    ],
+    "S058R01.edf": [
+      "10twGRCYsDWNFs7kBYxwlf5a_umNzYfy2",
+      1275936
+    ],
+    "S058R03.edf": [
+      "1FY8bqSS2Wl9nmRQM8X9XShVbVSRVWR5j",
+      2555616
+    ],
+    "S058R04.edf": [
+      "1dPdOeCsOT8frwA7Us5AcLF-DjyewB7vf",
+      2555616
+    ],
+    "S058R05.edf": [
+      "1wwFpJjzWtGaTydSFeedtwEEV9vLpW8aP",
+      2555616
+    ],
+    "S058R06.edf": [
+      "1u9HPXDsV8rZfne6NIZE-24Vb1t2gSECD",
+      2555616
+    ],
+    "S058R07.edf": [
+      "1pRnNs4YbKfPDMihgR9kMGeGzS7Y1WEPv",
+      2555616
+    ],
+    "S058R08.edf": [
+      "1zmAALl9KT3JN3SLd39tQ6Cjr-HC7NjI3",
+      2555616
+    ],
+    "S058R09.edf": [
+      "1fJkuoLBKBJSH5PaDs67uM9gFy8esfPgf",
+      2555616
+    ],
+    "S058R10.edf": [
+      "11HR3zrRAG-BdN_rd9E8Q3N4WVYCdxQNF",
+      2555616
+    ],
+    "S058R11.edf": [
+      "1zIQyUDQQmPrpzNLX1lqfiPBA-Vh5vHh2",
+      2555616
+    ],
+    "S058R12.edf": [
+      "137hJAjCTMTT2Lf5jN4DP6xhI2fYcRYpg",
+      2555616
+    ],
+    "S058R14.edf": [
+      "14diuOY0-ipWoB8yqbobbvwXvAePgfG-4",
+      2555616
+    ],
+    "S058R13.edf": [
+      "17j8GiJ_q8v7Yi52xbmM9I41HO6BxPFga",
+      2555616
+    ],
+    "S057R01.edf": [
+      "1evIuHQACPAz4Gb7ARh90QnxLV1jGdezi",
+      1275936
+    ],
+    "S057R02.edf": [
+      "164PFTBjLhnt-t_b4iydl9kIweLO6eDFA",
+      1275936
+    ],
+    "S057R03.edf": [
+      "1FZOiGcx48XtLu5atHi0LIAswwtvpt7JV",
+      2596896
+    ],
+    "S057R04.edf": [
+      "1LTLKbOu_B2HVAx8ZBuKDm48lXf8bbnQv",
+      2596896
+    ],
+    "S057R05.edf": [
+      "1GMwDeC5RdEYuI3CABIEZecXCWahr0pkS",
+      2596896
+    ],
+    "S057R06.edf": [
+      "1uLKJ66YGMIszi3tvTs8GM1eNPc27cfQR",
+      2596896
+    ],
+    "S057R07.edf": [
+      "1EuSzwOt4G4BQXtWpeChU6oDoO8SEFTU6",
+      2596896
+    ],
+    "S057R08.edf": [
+      "1OYiQmGmR6cYAxCKHWAf6wshFgZAg8hkC",
+      2596896
+    ],
+    "S057R09.edf": [
+      "1BhTWHUfHGFgj-WJeV-bK-Y3hwkCJUpwQ",
+      2596896
+    ],
+    "S057R11.edf": [
+      "1BLDTCauYTKXrzb5mB1bffTQhrBh7Z57O",
+      2596896
+    ],
+    "S057R10.edf": [
+      "1Rlx9nlkkTGosGH5uwP6WmKcPFEPT8Qvc",
+      2596896
+    ],
+    "S057R12.edf": [
+      "1L6eOjZ8sGAOZ6zhJ2bIY1YVHWIiytKCh",
+      2596896
+    ],
+    "S057R13.edf": [
+      "1FOEjTNtbr19SSNS5ftS-oqyhzrcHSzPg",
+      2596896
+    ],
+    "S057R14.edf": [
+      "1CaNs6_gwYWqLXQyN-7bbHfGqt6Xw-YkK",
+      2596896
+    ],
+    "S056R01.edf": [
+      "11gJxD6-Bm9jh68-QZod1z70ajaR-mhrV",
+      1275936
+    ],
+    "S056R02.edf": [
+      "1y0cLLkyqanLUDbDYTBJbMrRfFS4_UBzs",
+      1275936
+    ],
+    "S056R04.edf": [
+      "1CvYBTFLQn0ja8aBtkfSGo86JGRgszLVf",
+      2555616
+    ],
+    "S056R03.edf": [
+      "124waE7QPnNAFRNYzkkZmUc8xwvs9YcPu",
+      2555616
+    ],
+    "S056R05.edf": [
+      "1fkOBs23OO5T_bBVj3fLCOHDmZ2YkkN6O",
+      2555616
+    ],
+    "S056R06.edf": [
+      "1kI8R7dyU_zejIUzFnvsasKwpG2xzqGbY",
+      2555616
+    ],
+    "S056R08.edf": [
+      "1VLpvAjA_BqrbgB4UqlU9kNI9xm_xfqBR",
+      2555616
+    ],
+    "S056R07.edf": [
+      "1BfMsue2EqcKlWxP45BUIk_IgH0ZRAmsZ",
+      2555616
+    ],
+    "S056R09.edf": [
+      "1iK5SXMzU7iKYWJJyELrELwMQNShKc8s_",
+      2555616
+    ],
+    "S056R10.edf": [
+      "1oQd1ao6bWPTkJ_oDvDUfJJn5ivbygxFV",
+      2555616
+    ],
+    "S056R12.edf": [
+      "1Ee66JyT_QyQM3KhBSnAseHnd4v0ALHNA",
+      2555616
+    ],
+    "S056R11.edf": [
+      "13T44rc02njukEVkjF-Ixgzt-1J0kxk0g",
+      2555616
+    ],
+    "S056R13.edf": [
+      "122-Adc4kAMksSB42i_62qYvHpcutpfhH",
+      2555616
+    ],
+    "S056R14.edf": [
+      "1u0EgPt792YW7N9Y89jVM9oAA8-U4nigt",
+      2555616
+    ],
+    "S059R02.edf": [
+      "1y-G_KNykRnypOvLpYAdAZ0JqqOq8tdDy",
+      1275936
+    ],
+    "S059R01.edf": [
+      "1ln8eKfN-eyDHE4qQx8rKIqFMNhPE2Wmy",
+      1275936
+    ],
+    "S059R03.edf": [
+      "1uI_ptmz6CZJPgqn5-_c5Db00SqczMQE_",
+      2555616
+    ],
+    "S059R04.edf": [
+      "13ewyW-zkVizpwMXb2bOr0AZR5sQGuKdd",
+      2555616
+    ],
+    "S059R05.edf": [
+      "1CTkMMy05bD3sqCkIhpaHV2UOcwYj3R8p",
+      2555616
+    ],
+    "S059R06.edf": [
+      "1Zswzg-rZyg5P7-hi_WMTVohVwAuufjQD",
+      2555616
+    ],
+    "S059R08.edf": [
+      "1L59CspNk7VlBKCgPk0Tpc06oeJ2AhUBc",
+      2555616
+    ],
+    "S059R07.edf": [
+      "1YgbUVh3lEoO57tV0f3yqqpSboMHeP9Kr",
+      2555616
+    ],
+    "S059R09.edf": [
+      "168ZYlxjPjJ4qdBiLvB1qJsC436WrXl2_",
+      2555616
+    ],
+    "S059R10.edf": [
+      "17Uha1ryT2s2lWVhWklOSuKRaZVAyoHAt",
+      2555616
+    ],
+    "S059R11.edf": [
+      "1xy8x_9-lEwfuVKMiUuTQAr__i0lyEOVo",
+      2555616
+    ],
+    "S059R13.edf": [
+      "1i9OUtLz-AkHomwGR4Yl79H2SjV6EKnGg",
+      2555616
+    ],
+    "S059R12.edf": [
+      "1JjIy0wvZ1uufUc6W-ZCjsRE-b02MwRGu",
+      2555616
+    ],
+    "S059R14.edf": [
+      "1PSpgF6Z81uwKPdJCXujlas6cIQcWPZhF",
+      2555616
+    ],
+    "S060R01.edf": [
+      "1jc5bMs52EXgv3Be1MKzXpWCSO1LtFy29",
+      1275936
+    ],
+    "S060R02.edf": [
+      "1b3nNlWxyUQBxvFPk-_5rW66icZ8w0K_f",
+      1275936
+    ],
+    "S060R04.edf": [
+      "1R7DMEVybl_MaDbxtRNHWvvU2a2HXMN3h",
+      2555616
+    ],
+    "S060R03.edf": [
+      "158Xfmta_Qf67oEpcDZaXf5LyCy34RmfQ",
+      2555616
+    ],
+    "S060R05.edf": [
+      "1iprjoc5WTfk9oVuGuVWvT1kC6H3Je4FO",
+      2555616
+    ],
+    "S060R06.edf": [
+      "1m3mwSPGs5RX_P4OCI-XTnT8N2jbMU11Q",
+      2555616
+    ],
+    "S060R08.edf": [
+      "10c1VRomkccEVqicGnyNgLlCpxRZT-wR4",
+      2555616
+    ],
+    "S060R07.edf": [
+      "1Pdmz4GKM8EYB7G0B_rWXJ-swLfsO-Iqs",
+      2555616
+    ],
+    "S060R09.edf": [
+      "1WfDceZnXcVI0-iUd2flCjRVnL9rMbdxD",
+      2555616
+    ],
+    "S060R10.edf": [
+      "1URYWyHF0aWvs6f0fxw1Gx_Cml8sQ-e9T",
+      2555616
+    ],
+    "S060R12.edf": [
+      "1TUIMQpyjna8tbNEpT3Zdbws6fBhmQQ9Z",
+      2555616
+    ],
+    "S060R11.edf": [
+      "1B1BIU8YMMPysWqR3juAGGO6WgM5JoDOv",
+      2555616
+    ],
+    "S060R13.edf": [
+      "1rlHxVi9jN9l4TrmN_KKjyq9d6jYCI_HK",
+      2555616
+    ],
+    "S060R14.edf": [
+      "1O885ySn1ZblXoxTJaQByg3uTKvX30Xr0",
+      2555616
+    ],
+    "S061R01.edf": [
+      "1skPmEpNtC0qnamnNuPSLGveYy8CUx1RZ",
+      1275936
+    ],
+    "S061R02.edf": [
+      "1Wii5NetuIQexn_GradBHWEkyJSFzK8lL",
+      1275936
+    ],
+    "S061R03.edf": [
+      "1hF6L-QNXgDZOrSebqyD3-4mUAvYXf5gX",
+      2596896
+    ],
+    "S061R04.edf": [
+      "11c9O1Ovfrk-qspl2OuBDnZiZ30Fq_LNc",
+      2596896
+    ],
+    "S061R05.edf": [
+      "1hwnM6kOr85iH8m66nKaAMnB7R_GZiiHJ",
+      2596896
+    ],
+    "S061R06.edf": [
+      "1BJCGg6ETCVOEh_zgBkd3xGgEX-1qCauO",
+      2596896
+    ],
+    "S061R07.edf": [
+      "19-1XylkL3tmcI-1LmMrOiu2ly9YwnT-A",
+      2596896
+    ],
+    "S061R08.edf": [
+      "1Wa1fHv9LK6JYXxFn4Kojij6ANDacUp9p",
+      2596896
+    ],
+    "S061R09.edf": [
+      "1fi7ydPF9on-YJy5IL8Xntn7v7VXUFL5l",
+      2596896
+    ],
+    "S061R10.edf": [
+      "1SzJ8DtQJ30ukVwdMCIVr8BV47Wd6i1Ge",
+      2596896
+    ],
+    "S061R12.edf": [
+      "1vy-6MFIEN_c1SA2a1Zkb7N9hFYtg15Bm",
+      2596896
+    ],
+    "S061R11.edf": [
+      "1x1afQ5MLPt782_u-WYPd5fKSrm9HWqiv",
+      2596896
+    ],
+    "S061R13.edf": [
+      "1RZ-8kjAgRq3rt4D1u3TbYsrjdoNNpaXC",
+      2596896
+    ],
+    "S061R14.edf": [
+      "1RYIoVDQgXe22JGzoJAIHlZMEMNNiE53c",
+      2596896
+    ],
+    "S062R01.edf": [
+      "1KR3GBk5tiXf1EAlLiA5jOhpjadH20HPx",
+      1275936
+    ],
+    "S062R03.edf": [
+      "1G8HIUowUfGwQcWGGtRepK6dYGdq9LlmZ",
+      2555616
+    ],
+    "S062R02.edf": [
+      "1SrVDgn0ArEpaF2rG8Q6NwZTdVcTak9Qc",
+      1275936
+    ],
+    "S062R04.edf": [
+      "1IUJctfiiDuoehY8WkANVV-O2DQJLHVnE",
+      2555616
+    ],
+    "S062R05.edf": [
+      "171nRdBFomC_-1gK3tPkecO1269Qy02bl",
+      2555616
+    ],
+    "S062R06.edf": [
+      "1j8DGEZqBqlLn_vG3tUoVszzQ_pngSesN",
+      2555616
+    ],
+    "S062R07.edf": [
+      "18byGGCXFb2-yqZUSku1ej0KjcpuXs2Sw",
+      2555616
+    ],
+    "S062R08.edf": [
+      "1Qg96SFnBx7ZEGTVmESvgbsQZmpuQEL0R",
+      2555616
+    ],
+    "S062R10.edf": [
+      "1IuUsZlZkA2ZOcvb4oHm5qNUc0z1Ub7vc",
+      2555616
+    ],
+    "S062R09.edf": [
+      "12nXG4fL1Lr7hepvdydjejrX7XTkGi7g4",
+      2555616
+    ],
+    "S062R11.edf": [
+      "1w8LRg3sZANRNHClFzvh2255KOE9WT3mJ",
+      2555616
+    ],
+    "S062R12.edf": [
+      "1BH1wye1d-CjNx4vgQzDbSqmGxkNSfESg",
+      2555616
+    ],
+    "S062R13.edf": [
+      "189NJJBwJnW2Cb8fj_baWpGoLbqyeJCzC",
+      2555616
+    ],
+    "S062R14.edf": [
+      "1kIcFz17RMSJMF4MdxuRJUZKswzGCs-qj",
+      2555616
+    ],
+    "S063R01.edf": [
+      "1RYIj4EQbr0Qcu4_jhS5R1XvCKOi0sOEW",
+      1275936
+    ],
+    "S063R02.edf": [
+      "16B4OwMogSlYMF5ItL0tRiqIu4ueezDXu",
+      1275936
+    ],
+    "S063R03.edf": [
+      "12gIqX1bEt_qr7FQ7hSYaAC04CsAfiQtw",
+      2555616
+    ],
+    "S063R04.edf": [
+      "1rO87bMdgFqqx_D9bvrh_SSGE4LbODn4A",
+      2555616
+    ],
+    "S063R05.edf": [
+      "1BsHg3WR22Pr7oi2SRXp1XzNfeVYzlkHU",
+      2555616
+    ],
+    "S063R06.edf": [
+      "1o6vu7P8QMDDoXbFuRSIqHQODLxfv9a2U",
+      2555616
+    ],
+    "S063R08.edf": [
+      "1kZKAfrh9hBJJ2ybiYwNbo6EPRgx876iB",
+      2555616
+    ],
+    "S063R07.edf": [
+      "1HPGtpwIVkoiKgirvfIYpX8qUUuuq-FlN",
+      2555616
+    ],
+    "S063R09.edf": [
+      "1fGECuSdHBy2z9NRkZf9zBFLnU-MigLi_",
+      2555616
+    ],
+    "S063R10.edf": [
+      "1sr3-TCB-Zvd8kCP0hWxKEPMMomaP-xNU",
+      2555616
+    ],
+    "S063R12.edf": [
+      "1pi4CmxrBDZFs9CxmCpwZlvct-5HYLZRU",
+      2555616
+    ],
+    "S063R11.edf": [
+      "1XInWkh5U-Vi8yw6M0AKcBDocRyLVfHSo",
+      2555616
+    ],
+    "S063R13.edf": [
+      "1fgOSFxJxMRMxzMXtHs6bbksScVYoG-2t",
+      2555616
+    ],
+    "S063R14.edf": [
+      "1LeL__dEVjKEPRtBggL4MctVrWPKAKQbS",
+      2555616
+    ],
+    "S065R01.edf": [
+      "1uH4nTZH2surv2pFmqZU3zawnCS9Gn7Se",
+      1275936
+    ],
+    "S065R02.edf": [
+      "1YtcPfjjivpCzB-coCvsyqJEw9Pi_2644",
+      1275936
+    ],
+    "S065R03.edf": [
+      "16o_g4aoNm4kkUt2aKcQhAPEBpIP-e7yi",
+      2596896
+    ],
+    "S065R04.edf": [
+      "16KIqO8rxTL_56k50wL7a39ak9wvNuO_J",
+      2596896
+    ],
+    "S065R06.edf": [
+      "1UTt8krz2LqDbBoU2FXtQQEezz38X874c",
+      2596896
+    ],
+    "S065R05.edf": [
+      "1SEeURfexI2E070FaTbXQCIN2gOfiTLib",
+      2596896
+    ],
+    "S065R07.edf": [
+      "1j1ttyY9GcdLpMBdeLtmFuxxiXvWYvtFa",
+      2596896
+    ],
+    "S065R08.edf": [
+      "1FqTfjLeIOhJ8s7RFdhAX_C2RM8JVQwtR",
+      2596896
+    ],
+    "S065R09.edf": [
+      "1LRLSWhsEa6NDzwy2rq_2vy_zWKov2ebL",
+      2596896
+    ],
+    "S065R10.edf": [
+      "1OX5eSQBIa6ZwL1ZRbobOqnae20dkFM21",
+      2596896
+    ],
+    "S065R12.edf": [
+      "1OzHd9xwWxMY1eofc5E4vZNwjByf5xIO-",
+      2596896
+    ],
+    "S065R11.edf": [
+      "1tgZbg5vJx8JUeQGnH0CQudwawBWeDpZn",
+      2596896
+    ],
+    "S065R13.edf": [
+      "1pgudgzyYgjC-TvnlkcerOEmWxya0RjwA",
+      2596896
+    ],
+    "S065R14.edf": [
+      "1zNncViFyiNMCIp83cl9phjAbvEF42uhs",
+      2596896
+    ],
+    "S064R01.edf": [
+      "1kL4jOamAPaAtlzHhtGp6jwrh_1me4OwL",
+      1275936
+    ],
+    "S064R02.edf": [
+      "1exe4bLr46UqgZbqoJ6w-a3NZbyO0O2j8",
+      1275936
+    ],
+    "S064R03.edf": [
+      "1tHftGVjivZmlQantWQHyJRGeY2jf8wXO",
+      2555616
+    ],
+    "S064R04.edf": [
+      "10jZViMV82CgjdAfT_b5oBZ2WsOeQY0XK",
+      2576256
+    ],
+    "S064R05.edf": [
+      "1y3BjN2FPlBfnIMnTahSBlK1h0uyeyUkN",
+      2555616
+    ],
+    "S064R06.edf": [
+      "1ptDKcLeAAr5EYY9PK3gavHYhnrHenCyP",
+      2576256
+    ],
+    "S064R07.edf": [
+      "1B2dqnfGFZ1_B_568bL7duHrS55X2GprC",
+      2555616
+    ],
+    "S064R08.edf": [
+      "1aSBFDUplyFOTKg7j5sUyz58GSh4V5hdh",
+      2576256
+    ],
+    "S064R09.edf": [
+      "171N86MDR2Rb1l8ZiwsGqXSqmu9wg7phl",
+      2555616
+    ],
+    "S064R10.edf": [
+      "177OvY97dvVUgjo7op0725G3MndhDgYr_",
+      2555616
+    ],
+    "S064R12.edf": [
+      "1G8S5M8OnLJxw-zhU7f8kXYne0QbqR3lC",
+      2555616
+    ],
+    "S064R11.edf": [
+      "1Lm9Xlt6RYc5wuXvdWrxWheRouglnELL1",
+      2555616
+    ],
+    "S064R13.edf": [
+      "1oneSVGARfazJLuLNVNxnzcHcurgxMKIk",
+      2555616
+    ],
+    "S064R14.edf": [
+      "1-8OYendZ1rpa2te2o9i_EhRsA591HOq4",
+      2555616
+    ],
+    "S066R01.edf": [
+      "1iQQb9cd07nmKlNURD4C661u5TffQ1Hyx",
+      1275936
+    ],
+    "S066R02.edf": [
+      "156v1pzEbIIs_gw8QH6bQLlu64Elvo7yp",
+      1275936
+    ],
+    "S066R04.edf": [
+      "1yCI0WB3dSphKDhVTQPKNljNTk5XgX7w0",
+      2596896
+    ],
+    "S066R03.edf": [
+      "1DdXdas5pS7aCGFINlFHbXpoP0QETyqXt",
+      2596896
+    ],
+    "S066R05.edf": [
+      "1xLA-PXwFlz-_6UbRbbwbuzNb2woRaW6K",
+      2596896
+    ],
+    "S066R06.edf": [
+      "1aZF0j72Z-003mx7lRdkctjQ_G1hGnlqt",
+      2596896
+    ],
+    "S066R07.edf": [
+      "1_JJqdHEKjaDTRIRZAZRT_5cWhlnpPuWf",
+      2596896
+    ],
+    "S066R08.edf": [
+      "1_K8FWXk-rwUKjlnhyPBuw60mm6BdssDC",
+      2596896
+    ],
+    "S066R09.edf": [
+      "1qCIe4T9t5QvvlNNpgMvIHGwt21rL_ywZ",
+      2596896
+    ],
+    "S066R10.edf": [
+      "1UTeFKl4MhUtIwVQYeSAgMqQ0HRqgLtbY",
+      2596896
+    ],
+    "S066R12.edf": [
+      "1BZCX310i9Ewi9m15g0CxrpdtbzHEnX9t",
+      2596896
+    ],
+    "S066R11.edf": [
+      "1BOfSrTYUbxEVYD-USULXJSLqh4wSsPX4",
+      2596896
+    ],
+    "S066R13.edf": [
+      "1EEDLJ4C6_-LJQkE5VWvPG10KVVqQ_d-7",
+      2596896
+    ],
+    "S066R14.edf": [
+      "10sxkCY1g4kAiuzdf7BEoQkk7XiTQgxRs",
+      2596896
+    ],
+    "S067R01.edf": [
+      "1LXX4s5NMHooAdyWb2G5nuKlwEICpYr6D",
+      1275936
+    ],
+    "S067R03.edf": [
+      "1guc-5qN6nUMy4d4XHa58WlkhXU-wvXb6",
+      2555616
+    ],
+    "S067R02.edf": [
+      "1m3gMNxHZo_44DC9Hzw5q3K_SQVKa5bnu",
+      1275936
+    ],
+    "S067R04.edf": [
+      "1BN9a6x4qOt7kOSwvn2X5uNYp6OPJMWrN",
+      2555616
+    ],
+    "S067R05.edf": [
+      "1_SBz-3zNcYy8G1l5GquLx0iSrk1eN3IP",
+      2555616
+    ],
+    "S067R06.edf": [
+      "1Bfp4QMGd4IC9RQUGlF3PowH7yIDvqYM8",
+      2555616
+    ],
+    "S067R07.edf": [
+      "1r4jR_xpcCUIKHb3DjZWmbC9gbYaAD0gr",
+      2555616
+    ],
+    "S067R08.edf": [
+      "11Hy3nmzBdWExHzkzO9XramnJXNzJ4RjJ",
+      2555616
+    ],
+    "S067R09.edf": [
+      "1tMEmIxKiBJKtVXnF_wtNa9cu7jEjjbKH",
+      2555616
+    ],
+    "S067R10.edf": [
+      "1c-GdEK3aTmTLOFNmvIBsrDsFDB8xMzcP",
+      2555616
+    ],
+    "S067R11.edf": [
+      "11EQgQVw30pIi8ccTo5heWrYcFXrEjQ-Z",
+      2555616
+    ],
+    "S067R12.edf": [
+      "1LqfN3E30pYZhVvTZeuxtaSsrv8nXoujC",
+      2555616
+    ],
+    "S067R13.edf": [
+      "12ut_iqzenw3rJMxHj2tihCJuV3ug7r6b",
+      2555616
+    ],
+    "S067R14.edf": [
+      "1w1JDQQTFXLEg5A9jTeDdcfEEeotNulds",
+      2555616
+    ],
+    "S068R02.edf": [
+      "1y3-WwK6SCQ5ar9EimA-PMYb_lG9lv1xS",
+      1275936
+    ],
+    "S068R01.edf": [
+      "1c5b7fmaXIITYpFc2uUDmkexM-0eH1N6_",
+      1275936
+    ],
+    "S068R03.edf": [
+      "13fFfZWwZzCG2erCDdfaGoxN6xPPACw5y",
+      2555616
+    ],
+    "S068R04.edf": [
+      "14ofGQLEWm3rt_pJoOg7APSA8U8MyY2RC",
+      2555616
+    ],
+    "S068R05.edf": [
+      "1C2P7ohAc9pe3KUnAKXTZwl0HyiZmeOGw",
+      2555616
+    ],
+    "S068R06.edf": [
+      "1AvVfXLulVcQXxANg30O8sCLyXraej87H",
+      2555616
+    ],
+    "S068R07.edf": [
+      "1bd8x7Ja0vrnJDCVQJw7pPwuBdacoW9kb",
+      2555616
+    ],
+    "S068R08.edf": [
+      "1Q-zwEnmU3wf2k7bqAiRgHFLu0J3jRyVS",
+      2555616
+    ],
+    "S068R10.edf": [
+      "1lxubJAhSb0R1KODjx3vWcfRquEbBH4fP",
+      2555616
+    ],
+    "S068R09.edf": [
+      "1iaVycrkzEIXTQK_A8m0_B-o4cZVTFo3J",
+      2555616
+    ],
+    "S068R11.edf": [
+      "1HbFedIicJaCHSh3J5FWmFnnh1XNI7_tF",
+      2555616
+    ],
+    "S068R13.edf": [
+      "1GajYGaTIl8fspAcRR5rhNBjGh61_UK1D",
+      2555616
+    ],
+    "S068R12.edf": [
+      "1kUlZJOUhvInG9Eq8iM-mjlcvd3MRpblb",
+      2555616
+    ],
+    "S068R14.edf": [
+      "1sUtKOiaVN_h5WxagfCZWjpY_c03UpuuM",
+      2555616
+    ],
+    "S069R01.edf": [
+      "1l2TDevh7xzPqu_5JfS-wrj6xQOAs4eHB",
+      1255296
+    ],
+    "S069R02.edf": [
+      "13Y0m3Xs44xqeJxroOKflAUkzoma8-Rp3",
+      1275936
+    ],
+    "S069R03.edf": [
+      "1i_VrQTrxjmWPSUsx4TNqvTPoNV38_tVg",
+      2555616
+    ],
+    "S069R04.edf": [
+      "1wkcRcSDTdWhquHNytscmQt0s_ixFiB6A",
+      2555616
+    ],
+    "S069R05.edf": [
+      "126_IKrZqxiU7WTWCwQM86ZJf8hb4ihtu",
+      2555616
+    ],
+    "S069R06.edf": [
+      "1PaJ3_KyP4ed2auQ3Hn-QqheSjb3gbfii",
+      2555616
+    ],
+    "S069R07.edf": [
+      "1Tb-5w24Cyf2ZqhMheRfUslSMkscVer3L",
+      2555616
+    ],
+    "S069R08.edf": [
+      "1xoRWkbiJkmptcXnyNVeL6FW2VGgEogz3",
+      2555616
+    ],
+    "S069R09.edf": [
+      "1opsGR-kRWAeMWv3t9VelctGOKkKvD-ks",
+      2555616
+    ],
+    "S069R10.edf": [
+      "1gBfSt3leVDHfvyknOu7GqmxdD3_KYQ1m",
+      2555616
+    ],
+    "S069R11.edf": [
+      "1MzuGbpHqk2Cs3h2wnr92BjuzEGgq2OAj",
+      2555616
+    ],
+    "S069R13.edf": [
+      "1uzI5hcjQy6oNVkByBooR6jz3mSPcTAgV",
+      2555616
+    ],
+    "S069R12.edf": [
+      "1Cj5fZTnwINlFoNqXRxSitO0I_-QNhpxP",
+      2555616
+    ],
+    "S069R14.edf": [
+      "1-pygvE-Xu5Dr3Td60ZPcmKVXKtFXP-Fo",
+      2555616
+    ],
+    "S070R01.edf": [
+      "1lnCcedHfFIkv-78Wr3O4vOC-qi_WiuCH",
+      1275936
+    ],
+    "S070R02.edf": [
+      "1RbZRd_JUaRYYHVazO4UDIukB65L5uQOo",
+      1275936
+    ],
+    "S070R03.edf": [
+      "16D0JELhTU_ZdHy_M0GcMWCGhqmpv4mM-",
+      2555616
+    ],
+    "S070R04.edf": [
+      "1OmN5o1yR1a4aTp7-7uR_PZqn-c7Cp9Df",
+      2555616
+    ],
+    "S070R05.edf": [
+      "1XL2rJ0oNxbdFfaw9jMqsIziTN-xdZHAG",
+      2555616
+    ],
+    "S070R07.edf": [
+      "17LkoVg0rYFWb6BmUCubrxJNROvnNHtGp",
+      2555616
+    ],
+    "S070R06.edf": [
+      "1P8Y8xFHDuoEDcYZmucVjerA0Z8MMfxvD",
+      2555616
+    ],
+    "S070R08.edf": [
+      "1AGrPeF_LazGcb9m60CVOklYdbenzSBE3",
+      2555616
+    ],
+    "S070R09.edf": [
+      "1A8qw__0wjmwzd_4ZJFAl-etcMSzzV4BL",
+      2555616
+    ],
+    "S070R10.edf": [
+      "1iHlKKwn6BaBUT5WMg3kuZrV_MgIu5DN-",
+      2555616
+    ],
+    "S070R11.edf": [
+      "1y8ou_kxGK4lETKG7hzrnDesfifR6IqoW",
+      2555616
+    ],
+    "S070R12.edf": [
+      "1eicWC4wLSoLNvbqV_HEcm89luqFPWfy8",
+      2555616
+    ],
+    "S070R13.edf": [
+      "1QQQ_PF2HLN8E9fsV2Mob5t0qpgogOBj4",
+      2555616
+    ],
+    "S070R14.edf": [
+      "1Vwzlhc_7Y6WlOX2P3hSNZ_WbdV6aabAu",
+      2555616
+    ],
+    "S073R01.edf": [
+      "1kz7CDRMNyTiAv1W8pL7DwAlF3jsAjx9c",
+      1275936
+    ],
+    "S073R02.edf": [
+      "1Yp_jPBg4ITcKvbwFk5mt669ir-YSD0DP",
+      1275936
+    ],
+    "S073R03.edf": [
+      "1xQne0vBPMDe54xjfFl9SryjKbJBl7Utn",
+      2555616
+    ],
+    "S073R04.edf": [
+      "1nrESnkc4gWrhkjx2PEnxK-F3WWNIPwtl",
+      2555616
+    ],
+    "S073R05.edf": [
+      "1R-0_Gi6uMQdzeATL-PEGySUi_k55HW-R",
+      2555616
+    ],
+    "S073R06.edf": [
+      "1jdcfJELC9INwKORNRW29NbjjF3BlfFvs",
+      2555616
+    ],
+    "S073R08.edf": [
+      "1JBZFqp3XG65CJmX0a_YeTTX2Vy5tHG0z",
+      2555616
+    ],
+    "S073R07.edf": [
+      "1H6ce02_FabMgnviBpa7n6p041XVVRdGH",
+      2555616
+    ],
+    "S073R09.edf": [
+      "1kcEMxZWzv9PwjYP52t8f96J4aTPKiMUa",
+      2555616
+    ],
+    "S073R10.edf": [
+      "1a5LBBCzBCtabP2E5aQaJZ0DuvxZ3EMuA",
+      2555616
+    ],
+    "S073R11.edf": [
+      "1wu8Q81USrAuf2LMk8KLVzgNAIrCuS4Be",
+      2555616
+    ],
+    "S073R12.edf": [
+      "1QCpcTUU8CZ1v5BxJYMSKk9oBIO5WleGg",
+      2555616
+    ],
+    "S073R13.edf": [
+      "1Ya7fD2pEtJwe8A_t7YRxlwi9mDPrSwet",
+      2555616
+    ],
+    "S073R14.edf": [
+      "1Msfeu3YFhOGf0peBdV_1qnOD9_kpW0-x",
+      2555616
+    ],
+    "S071R02.edf": [
+      "1IZhN9CaAbLv1xz7USxgNuV5726Vv-lE7",
+      1275936
+    ],
+    "S071R01.edf": [
+      "1cBOQG0GTtom26urrPMLS-rpazRsE8cI0",
+      1275936
+    ],
+    "S071R03.edf": [
+      "12h2zYfrM9O0c7YNtpqfUMMxRrwuCQJQH",
+      2596896
+    ],
+    "S071R04.edf": [
+      "1XVhZPA8HI7dxN7tbPoY52c38fQsMUi2e",
+      2596896
+    ],
+    "S071R06.edf": [
+      "1ZTGsD5257Nnso5JCSmFoK4RaOpE53Ni8",
+      2596896
+    ],
+    "S071R05.edf": [
+      "1bLOMy6b2uPhAB5UTPAVmpIRjOzo6wPiM",
+      2596896
+    ],
+    "S071R07.edf": [
+      "15t70An9OmAzMTBduTu_LA4AzDlvMSTPO",
+      2596896
+    ],
+    "S071R08.edf": [
+      "1eu5l7rYISdICEgdQtRDe0FT-yMOJnmaV",
+      2596896
+    ],
+    "S071R10.edf": [
+      "1oIOiRBT1tuBI0TTSttJpMtVgVaYFlNbU",
+      2596896
+    ],
+    "S071R09.edf": [
+      "1HNgMW21mreAhZLXN2sN5v3i3RnssATGh",
+      2596896
+    ],
+    "S071R11.edf": [
+      "1q2obFcLgmQ-c9J3wZnHJh3bDZZaelb0s",
+      2596896
+    ],
+    "S071R12.edf": [
+      "18_GMPDdniGMtC6CzpBMWFaKGKlM2F1VL",
+      2596896
+    ],
+    "S071R14.edf": [
+      "1KAyBBEDYdzJvPzpUHgjNEXyBgItYdL9d",
+      2596896
+    ],
+    "S071R13.edf": [
+      "1xmk5ZpqAScIbIS_GyN8APxabGLb0d8cO",
+      2596896
+    ],
+    "S072R02.edf": [
+      "1JzS9wBoGHJBqslLD80e_6KXKVWNBfNio",
+      1275936
+    ],
+    "S072R01.edf": [
+      "1o1-VKGsYiYBc3VfXC_7flzhqOzucT5uV",
+      1275936
+    ],
+    "S072R03.edf": [
+      "1-_1vqxigTKx0p7rC-uFm2f-Mkm4yt0Wg",
+      2555616
+    ],
+    "S072R04.edf": [
+      "1_14YNXx6dc9q3BipNQC3EhdSl4fvaJLL",
+      2555616
+    ],
+    "S072R05.edf": [
+      "1ctMwybteHf9mi7S_vWy_adw7msXXoRWT",
+      2555616
+    ],
+    "S072R06.edf": [
+      "1x_PxHHfqcV4oFy37GlT7EcFGvFKJXN0t",
+      2555616
+    ],
+    "S072R07.edf": [
+      "1MeXonCwscbtIxf3iFju8RAssfjqvvPiq",
+      2555616
+    ],
+    "S072R08.edf": [
+      "1emHTHUrjy-oj7vylZr2sXHCcOft6mijV",
+      2555616
+    ],
+    "S072R09.edf": [
+      "1jHoNLObPnKlEP1_6mgDIVNR-YH8NMf1C",
+      2555616
+    ],
+    "S072R10.edf": [
+      "115IJlJEeZ2_2UWG7kbqXlXr90_G40DSV",
+      2555616
+    ],
+    "S072R11.edf": [
+      "1TDEm4EXtUeYFAlQYPrIUCDpovxrG3GTg",
+      2555616
+    ],
+    "S072R12.edf": [
+      "12ZIyEDXDlMQvnEkpYowitiInjM_7S8c9",
+      2576256
+    ],
+    "S072R13.edf": [
+      "14YZaKV_UqB9UF3rSoC8klNATyYWU3mU3",
+      2555616
+    ],
+    "S072R14.edf": [
+      "1vhwplfirp4rx3ogq0AFfNWUjeHAx3LpZ",
+      2555616
+    ],
+    "S074R01.edf": [
+      "1au43o1I1nKIlpFd5qSLVMLn_Em6XLU-l",
+      1275936
+    ],
+    "S074R02.edf": [
+      "1OKjs1oW5C8niCZj57m-bCP1Tbh-trCLD",
+      1275936
+    ],
+    "S074R03.edf": [
+      "1tqnMmty9yhd1tTqlVR-aNhK8O5L2VghY",
+      2555616
+    ],
+    "S074R04.edf": [
+      "13wFGAWlHfjrrORjO7SzX6C_WWGBXXdvx",
+      2576256
+    ],
+    "S074R05.edf": [
+      "10chFr8pcoKuSaN_dd37XPtILOELakYxY",
+      2555616
+    ],
+    "S074R06.edf": [
+      "1m7mNkh5R_HjQX8Ve4Ke8WIoeuHO2tLD_",
+      2555616
+    ],
+    "S074R07.edf": [
+      "1ccxuXnHl9ZOpxEjMpy3iQorYKm09ujHy",
+      2555616
+    ],
+    "S074R08.edf": [
+      "1ircxdrpJrHM0MtROOy9Y86nn1MQC4cqq",
+      2555616
+    ],
+    "S074R09.edf": [
+      "1tvkGWxr_iBIylSRgy1SMWAFF8Dakg2TV",
+      2555616
+    ],
+    "S074R11.edf": [
+      "1re7ne9UK5laVgiqE8b60fcUnmZCesC9q",
+      2555616
+    ],
+    "S074R10.edf": [
+      "1wkCKgXgQweJMogE3eXNH0q8yd_NgRD90",
+      2555616
+    ],
+    "S074R12.edf": [
+      "14wpJOIO1J0dLPm7FsPbNfWQ0ivlRYxUA",
+      2555616
+    ],
+    "S074R13.edf": [
+      "108oyLAXVjCzXN6lx5FgK4xuZ38Yk39dV",
+      2555616
+    ],
+    "S074R14.edf": [
+      "17sqLQQWklHXGz7MFH4K_O9g-x5YlVTbA",
+      2555616
+    ],
+    "S078R01.edf": [
+      "1oZrBrcP_t50ehEzHbWW-gcXU7t6EDVyX",
+      1275936
+    ],
+    "S078R02.edf": [
+      "1FMVS83if_-j0_HayKfwj-MZ7gbWXEwid",
+      1275936
+    ],
+    "S078R03.edf": [
+      "1OWcYRBQArh6iy3lhqrLtCU5MGlL0M5FT",
+      2555616
+    ],
+    "S078R04.edf": [
+      "1OYcMYXrZ3DOEs-hvp2TN2V7LMmS-TlTn",
+      2555616
+    ],
+    "S078R05.edf": [
+      "16bBUQn6nmFJH4dgybeIkzL-ZfEV2ojqt",
+      2555616
+    ],
+    "S078R07.edf": [
+      "1Qd8Xw7rsgqMm-UmX4WHtpU1lFTNVUZmu",
+      2555616
+    ],
+    "S078R06.edf": [
+      "1XVcUShV6adstzS9wOfDiYtDJMmGP9kEZ",
+      2555616
+    ],
+    "S078R08.edf": [
+      "1ynaMgZUO-UEvxZGPAPSvhO_GWyBjkC7W",
+      2555616
+    ],
+    "S078R09.edf": [
+      "1M_YkUq94LmiKWBcuauYqWMorLIupyeVU",
+      2555616
+    ],
+    "S078R10.edf": [
+      "1N82XSBPc6iy8faTHENCDFqvWGkuXeQj5",
+      2555616
+    ],
+    "S078R12.edf": [
+      "1dCUXnCwVb-OtS4mUvZjSb-oEy1aM4o_W",
+      2555616
+    ],
+    "S078R11.edf": [
+      "1NpZl7ToWd2e9FDsnR7Lq3Czxxl02HHDK",
+      2555616
+    ],
+    "S078R14.edf": [
+      "1lMqR58m1qsuI_v4WmSumq_KkQlf3jZIQ",
+      2555616
+    ],
+    "S078R13.edf": [
+      "125OGdgSjz0sRwBM8pTeSdOQCcZEUM2GJ",
+      2555616
+    ],
+    "S077R02.edf": [
+      "1daTo5KbqDBChPbSi9L33u_Pjqua4neR2",
+      1275936
+    ],
+    "S077R01.edf": [
+      "1mIYNEILJtcOlGqF_wlZUVfyi0o_kbwW9",
+      1275936
+    ],
+    "S077R04.edf": [
+      "1Id7f_qdFTECsL6jlQOeth5s1j1dbFM0-",
+      2555616
+    ],
+    "S077R03.edf": [
+      "1w67UB3Y7kAHwYzeiGGwHQMIzrdYBibBd",
+      2555616
+    ],
+    "S077R05.edf": [
+      "1Ysa75zxP1lCpUl3pDvYpXZkOVISuJr8E",
+      2555616
+    ],
+    "S077R06.edf": [
+      "1OjzMl2jQQHfW_FvLmhir61fwSOLtqgHQ",
+      2555616
+    ],
+    "S077R07.edf": [
+      "14Q6LUFcPvKyJOklWi1KdvHAQTq9Ze7tL",
+      2555616
+    ],
+    "S077R08.edf": [
+      "1FxPp6wTtkXnar902UwuobB0n28x-wXPi",
+      2555616
+    ],
+    "S077R09.edf": [
+      "1mLBFp8zS1W-WRWdZyQQlQsP6qkpriRyM",
+      2555616
+    ],
+    "S077R11.edf": [
+      "1fDXRpYlWOIy-msewk4GHgl6urD-sNcTc",
+      2555616
+    ],
+    "S077R10.edf": [
+      "18bsTnz24NIgyUK7XA8lg43fEONvFUVUs",
+      2555616
+    ],
+    "S077R13.edf": [
+      "1sgxu_XIMDwRGcH-bpg9yJgo9pirT-T4D",
+      2555616
+    ],
+    "S077R12.edf": [
+      "13EbG_gyq56PTtYx9Z6FMIuOwSKgn9Czl",
+      2555616
+    ],
+    "S077R14.edf": [
+      "1ncI1cY2RnFbwbJO2nDSWnTV1JIjIZCaF",
+      2555616
+    ],
+    "S075R01.edf": [
+      "1gpykMQXHBPUZn44RvV1xwHKWmADMqwe4",
+      1275936
+    ],
+    "S075R02.edf": [
+      "1sDiFhcS27c6z4NjGXVI9XoWHSeG706DR",
+      1275936
+    ],
+    "S075R03.edf": [
+      "1q9FwQema_JLjSyxvP6WS5NKcoDJ4yyOd",
+      2555616
+    ],
+    "S075R04.edf": [
+      "1POcxs_GV0KTubAOs-ordVH3S7174fdH_",
+      2555616
+    ],
+    "S075R05.edf": [
+      "1fw0Vm7kG7ihs3wI-yS1bQnKOw3b75RIH",
+      2555616
+    ],
+    "S075R07.edf": [
+      "18i5ZfJZtCCaVrNQfJyNvgwX9XmQkTamn",
+      2555616
+    ],
+    "S075R06.edf": [
+      "16gTmHKddCF2loDov8j-6-Ch5mLMS1Sou",
+      2555616
+    ],
+    "S075R08.edf": [
+      "1fKvGBPIQMDQfqLGPXasYpOUJz4bu-Iq0",
+      2555616
+    ],
+    "S075R09.edf": [
+      "1ERABXJa-g0bNlNgTaEentaDaAej2Sx8-",
+      2555616
+    ],
+    "S075R10.edf": [
+      "1I8Ej9dbET0uaikz4WdifgfY-NlqPs6yn",
+      2555616
+    ],
+    "S075R11.edf": [
+      "1jBUweTCoOBIgmAn85mxS2Z68KbEIdaup",
+      2555616
+    ],
+    "S075R12.edf": [
+      "1g4beJjkFsHInOxQv8bc658bJ_A7I2c9k",
+      2555616
+    ],
+    "S075R13.edf": [
+      "1gioFXecmg2sJx-vYLmbaW6jxWFAam4fx",
+      2555616
+    ],
+    "S075R14.edf": [
+      "1vBVy-Qg-Y5LRoZhH0tSAzBLm0nYNMlyG",
+      2555616
+    ],
+    "S076R02.edf": [
+      "1vjvwxfbXA-2rFEasXqa04c_93jtf0e38",
+      1275936
+    ],
+    "S076R01.edf": [
+      "1tvA6NGdx3BvtqS2hKJdWIZ-l00cqRANd",
+      1275936
+    ],
+    "S076R03.edf": [
+      "1aPI8uRO67jAwj6iXFJfa3IW4IQM1PWRP",
+      2555616
+    ],
+    "S076R04.edf": [
+      "1mpMv4pjo1gosWVEICm4-m5ooKsl0I6R0",
+      2555616
+    ],
+    "S076R06.edf": [
+      "1ZoOZwvzu5LInKHRSKTWUunquOFkpofkC",
+      2555616
+    ],
+    "S076R05.edf": [
+      "1UrJykIF2pNSq3hL50kvqjr1EBOCW0eFs",
+      2555616
+    ],
+    "S076R07.edf": [
+      "1oSAC_pS_TcIFyHlkZv1bTyCIpOR4J_s4",
+      2555616
+    ],
+    "S076R08.edf": [
+      "1C966lyb7NU9cX-ZjkErmqy7cle4C73fV",
+      2555616
+    ],
+    "S076R09.edf": [
+      "1EgqeNuDZah80DCEevyFyTB2yp85vIpBL",
+      2555616
+    ],
+    "S076R10.edf": [
+      "1Y5AR7e3xRgOih6MtmYfei-bmhDWufEDr",
+      2555616
+    ],
+    "S076R11.edf": [
+      "1ADIuzJChLttrmnhQHr6T_BXagJuhiGds",
+      2555616
+    ],
+    "S076R12.edf": [
+      "1MxcEV6zSNKugL1EJJMpG9602RKh3ctUX",
+      2555616
+    ],
+    "S076R13.edf": [
+      "1DpRYwzRyn0GB1XgYTuUxsw-tFxdGsAU4",
+      2555616
+    ],
+    "S076R14.edf": [
+      "1snv9BPVOQBEKGQn3MkgBol5Wm3w96FSC",
+      2555616
+    ],
+    "S079R01.edf": [
+      "1VYhvwYBSyFZWQ871jZu6M54EzQra0Noo",
+      1275936
+    ],
+    "S079R02.edf": [
+      "1mFeePrhBOSy_hoKNOFBEfXCdIDN0JhIP",
+      1275936
+    ],
+    "S079R03.edf": [
+      "1S48eUP_y1vm_4-p4Kn5w1nlkXaavys8H",
+      2596896
+    ],
+    "S079R04.edf": [
+      "1Mn5B_vaeK87Yzetx9aT8DCaY6i_sptU8",
+      2596896
+    ],
+    "S079R06.edf": [
+      "1cS2E_vJYaBGVghP4XXOqie7xSJdb2YSN",
+      2596896
+    ],
+    "S079R05.edf": [
+      "1Vvan2Fcp_534dvCvCHGB-qz53ub8yeY3",
+      2596896
+    ],
+    "S079R07.edf": [
+      "1yl3VJkMcNsAVWWNN4o0yJhLV9Q6e1qBA",
+      2596896
+    ],
+    "S079R08.edf": [
+      "1MwLTlAvEhmj7fsg5O5zNT7vzK6pMRQ-F",
+      2596896
+    ],
+    "S079R09.edf": [
+      "10P2r3GkQsOp5dlP47Dvete-JrbDirH32",
+      2596896
+    ],
+    "S079R10.edf": [
+      "1k8RAEBfh3DvR05bYT1usJVkxTOT6_8w5",
+      2596896
+    ],
+    "S079R11.edf": [
+      "1HR0aR4DqEZRh8H3IOm1L0jh-gm1FD9LJ",
+      2596896
+    ],
+    "S079R12.edf": [
+      "1zfCAfHqohItQGMyH_osymhQxH0fhp9q6",
+      2596896
+    ],
+    "S079R13.edf": [
+      "1W3ENOtgVdpArONlpPbH2P2BzBKJTEvHr",
+      2596896
+    ],
+    "S079R14.edf": [
+      "1MRK9WtHmBfQaiAEDIEtITgW2iBRudSeZ",
+      2596896
+    ],
+    "S080R01.edf": [
+      "1Bsb0dghUTCmacmc9vEBhQrSXfCXPeOCV",
+      1275936
+    ],
+    "S080R02.edf": [
+      "1RJ3wa3NlB7KzKn_7k7r207PDtDP1EUBc",
+      1275936
+    ],
+    "S080R03.edf": [
+      "1Gz9-uOw2dHQgbspRi0B7pwBbkpXdQp3G",
+      2555616
+    ],
+    "S080R04.edf": [
+      "1VHuuGTNb4s__YB5a71joTlddiZiNLxl3",
+      2555616
+    ],
+    "S080R06.edf": [
+      "1nFg4cKxXSd43d0-gENuy8IsA-1VV1wcg",
+      2555616
+    ],
+    "S080R05.edf": [
+      "1Hnhqq6Bg-Ylf6d48bkJVvUxthvPQXTcM",
+      2555616
+    ],
+    "S080R07.edf": [
+      "17EL7BOBHVMAb2Q0JVPFEKdOgVsWtGZa4",
+      2555616
+    ],
+    "S080R08.edf": [
+      "1YW8bcqBML_l2_7EH0KDVkEFt-gbXBmRD",
+      2555616
+    ],
+    "S080R09.edf": [
+      "1kyVopUhtKlZ9qoJWqk3DhN0-mJKkVSY_",
+      2555616
+    ],
+    "S080R10.edf": [
+      "1FqZQ1rM8nmOrq2jIbZZ4qZJHLH7t_7YC",
+      2555616
+    ],
+    "S080R11.edf": [
+      "1jRFmBj3AwyxbUoVSxP9ey_bZiWlEvhqx",
+      2555616
+    ],
+    "S080R12.edf": [
+      "1_KHTsUFPU9gwaOz2azitviocd1flepLS",
+      2555616
+    ],
+    "S080R13.edf": [
+      "1qQkFclRqKABxL-mGZNPwWB7SAsunNZBa",
+      2555616
+    ],
+    "S080R14.edf": [
+      "1xSKVRLeEaugM8DDOkxy3Ut2JRBy1qXvT",
+      2555616
+    ],
+    "S081R02.edf": [
+      "1nh4ijzrQC5VsO0ZaO5CM2JYFRE0uHeZL",
+      1275936
+    ],
+    "S081R01.edf": [
+      "12r-Nb11t7Fj_64kC8ldt8G5nldnVabB-",
+      1275936
+    ],
+    "S081R03.edf": [
+      "1dpjdPgoM9FLr1xJWzUQ9HaAGM7NQq1JJ",
+      2555616
+    ],
+    "S081R04.edf": [
+      "1pKINrHMgIQksz1-m8BKppxwEzHQi0bjB",
+      2555616
+    ],
+    "S081R05.edf": [
+      "1I1yiBVkk-iUJ7WUC8VlE9-fu36KtpB2k",
+      2555616
+    ],
+    "S081R06.edf": [
+      "1K0PDgZs2JXjnAUqz2Z6xGVphWMXDdab1",
+      2555616
+    ],
+    "S081R07.edf": [
+      "18hQJWubt9Pgr4xAlw6nudv7WESy-bPI-",
+      2555616
+    ],
+    "S081R09.edf": [
+      "1vFDrrWUr61h7SsGTjmApBYF_z58u4Y7o",
+      2555616
+    ],
+    "S081R08.edf": [
+      "1rFpKI2RofGiXgAWGByF336X_npcRihkK",
+      2555616
+    ],
+    "S081R10.edf": [
+      "1_thjjsv9d0U7H_PvI2_EyVyULPcQPPx3",
+      2555616
+    ],
+    "S081R11.edf": [
+      "1hvyfMrISRaKqB8EsFANdluElViD7Ytoi",
+      2555616
+    ],
+    "S081R12.edf": [
+      "1zYvXBQePevx6aS15DtYdfwcfxY-OWrFC",
+      2555616
+    ],
+    "S081R13.edf": [
+      "1UK7CSfjFt3egLFwPTUlxzaREJibQhSmO",
+      2555616
+    ],
+    "S081R14.edf": [
+      "1PMvniRZPPQT_ry9b2zcU52ibhAHjCgEO",
+      2555616
+    ],
+    "S083R01.edf": [
+      "1puKv_louJSnF8Y9e10163vlkMdH3KsgF",
+      1275936
+    ],
+    "S083R02.edf": [
+      "1rASORVtAq6VIkeVY6NVlFMPQZTOw9OcS",
+      1275936
+    ],
+    "S083R03.edf": [
+      "1nLe7K-4sybGSJlffw-txb2QXBDhJtzGv",
+      2596896
+    ],
+    "S083R04.edf": [
+      "1IwzijmIHmNyATrDXosYACzl1F40MQ2-X",
+      2596896
+    ],
+    "S083R05.edf": [
+      "1rTGKAVgbdr6964VQNlMe5z7AzPLRrQB0",
+      2596896
+    ],
+    "S083R06.edf": [
+      "1TDy5VpBcbzg5f3cmMKgeiSzVAhpxHea9",
+      2596896
+    ],
+    "S083R07.edf": [
+      "1mbuc2HowWeaF_kKLzU8y0JJ0TDlgNwTe",
+      2596896
+    ],
+    "S083R08.edf": [
+      "1iAGn-vZZzNxWcPvj_Mv9C6LJdUSNM9Ng",
+      2596896
+    ],
+    "S083R10.edf": [
+      "1FtgNypdC8KrHnj965a9QL7tz9DOfxOGG",
+      2596896
+    ],
+    "S083R09.edf": [
+      "1jqVkcwDrL4xGIMKU6c-d2yyKtnBC5ErF",
+      2596896
+    ],
+    "S083R11.edf": [
+      "1P8MiFjYAyd13wRwIms0Fj05EB27U1Y4g",
+      2596896
+    ],
+    "S083R12.edf": [
+      "1DWAzdUq4xi0Msd_k9ZLH32eRiG7X__Ul",
+      2596896
+    ],
+    "S083R13.edf": [
+      "1RS4WThj6U9KjF76kWEHG_WO9Ml45LRmS",
+      2596896
+    ],
+    "S083R14.edf": [
+      "153c2ta_Up49Iq_qaB8Spgj5t5RS_9lf1",
+      2596896
+    ],
+    "S082R01.edf": [
+      "1fNKMooyRbIIYGm6o36cKPnABS-ElDuqc",
+      1275936
+    ],
+    "S082R02.edf": [
+      "1KIS0aQoHeNEMElHJArFH0jQPOkB1u7A1",
+      1275936
+    ],
+    "S082R03.edf": [
+      "1UsH7hg5U2OO51uG3kZIBWglx287iutpj",
+      2555616
+    ],
+    "S082R04.edf": [
+      "1MGkOLOIFJQdJv5HvZLTJHDRrjMTih_Kz",
+      2555616
+    ],
+    "S082R05.edf": [
+      "1lzgkwIGPWZ_QHEraTV4u8HPFyiaPfKDn",
+      2555616
+    ],
+    "S082R07.edf": [
+      "1ieWg6t4YtTwxCdwBNM-IMDrjOeydo1Hs",
+      2555616
+    ],
+    "S082R06.edf": [
+      "1dcEJJ-kAfKOIEsb4zgDOXFxxbLwwzFRP",
+      2555616
+    ],
+    "S082R08.edf": [
+      "1oPJ67v7-U0Yfjk-DjRKbhhQhsq9PgClP",
+      2555616
+    ],
+    "S082R09.edf": [
+      "1ub0dB8kejfmwDyGdkIIkf-jYFfGzplse",
+      2555616
+    ],
+    "S082R11.edf": [
+      "1HLgWIhqr99s9LZ4q3hmWB2F7dm6uAi5-",
+      2555616
+    ],
+    "S082R10.edf": [
+      "11A5qphp_VxPNqoDfHoo_LlRlWByUjEVL",
+      2555616
+    ],
+    "S082R12.edf": [
+      "1WfvB6dJBcWH8ZYpS_8_HSS3XkGKP9Ar9",
+      2555616
+    ],
+    "S082R13.edf": [
+      "1bhwti8WKL2o9MyvyA9OVDfNNvzTCb_GC",
+      2555616
+    ],
+    "S082R14.edf": [
+      "1L3lw1yrnqCevhi1Nmd4vFrS5x0-B3JeP",
+      2555616
+    ],
+    "S084R02.edf": [
+      "1mcG7t7Ep4cFiODikYIKPVOeqxPuaLcBP",
+      1275936
+    ],
+    "S084R01.edf": [
+      "1AfUafZi8l5KDeXsdtj_4F7Cs47GpgAUq",
+      1275936
+    ],
+    "S084R03.edf": [
+      "18SA8_CFqPPiZkpvkmS992G95RGrHTnNR",
+      2555616
+    ],
+    "S084R04.edf": [
+      "1E0-SnAsR7WeIzmHAoFDnEci7DjmDVF6T",
+      2555616
+    ],
+    "S084R05.edf": [
+      "1z8kE_0eqoLIdiYrLlkDmdgq613e6-UL7",
+      2555616
+    ],
+    "S084R06.edf": [
+      "15eccFP_AcNP3jI1FBN7S0uvpn4SdAWGJ",
+      2555616
+    ],
+    "S084R07.edf": [
+      "1V12M-89fVfbHury2k_DSgxw3ksFgP5bJ",
+      2555616
+    ],
+    "S084R08.edf": [
+      "1wIpsBF1_nklx_PzlU6fAYVhmXLLefktU",
+      2555616
+    ],
+    "S084R09.edf": [
+      "1UT3QsYvWFbRHT1tgK34ep0YPHzBl8NRM",
+      2555616
+    ],
+    "S084R10.edf": [
+      "1ZktGnJrXNU_mu1cszt1M6iDLFNTioc1b",
+      2555616
+    ],
+    "S084R11.edf": [
+      "1hGQ6UKqvgI9-5huvckXbqcwCOwI484Sq",
+      2555616
+    ],
+    "S084R13.edf": [
+      "1IupQ6IbQUDNoF7bZvBn5fUtm7v1LdAsW",
+      2555616
+    ],
+    "S084R12.edf": [
+      "1OMIn5mwOQqjabCo80YM9N1GlGK2qbey5",
+      2555616
+    ],
+    "S084R14.edf": [
+      "1zRCpxGzJgeC_KCSz1K-wsYq0F8CnYBYv",
+      2555616
+    ],
+    "S085R02.edf": [
+      "1bObk2uPPu-j3mVZy7QAFXjSmMr6aUyKS",
+      1275936
+    ],
+    "S085R01.edf": [
+      "1YwQdLM7FR_gJCGlpieQ4r3IO9mlZYztH",
+      1275936
+    ],
+    "S085R04.edf": [
+      "1jpBrBjASR5hrE2vfmCWt3P6Uag0iHXzD",
+      2555616
+    ],
+    "S085R03.edf": [
+      "1T3LaplA4b7FA9dvvNja-rQJ1xpqDuLhI",
+      2555616
+    ],
+    "S085R05.edf": [
+      "1RHI4r-wy349EP-kUe0v3tit3PbnIwqlV",
+      2555616
+    ],
+    "S085R06.edf": [
+      "14i0dXkEaZkFZui-LRegz8F88EGwlVbph",
+      2555616
+    ],
+    "S085R07.edf": [
+      "1olfDb6t3ntS8L4oLVU7luKJEVif-Ie6p",
+      2555616
+    ],
+    "S085R08.edf": [
+      "1YJoGGuLtIjT5V4vB1GFzNRHFt3AVZnqL",
+      2555616
+    ],
+    "S085R09.edf": [
+      "15tE0pEA69MjZLrnkdAW_huJ27VFzGIgt",
+      2555616
+    ],
+    "S085R10.edf": [
+      "1Sjww2BVT9XrOqxvKKBvDdMSAHKYqSWUp",
+      2555616
+    ],
+    "S085R11.edf": [
+      "1OnM54triwf-8OAArkKyN7Mr_C3pb_Rob",
+      2555616
+    ],
+    "S085R12.edf": [
+      "1xZ0qsXQNqBAuIyIg-cP2Pbn3wpKHUWjy",
+      2555616
+    ],
+    "S085R13.edf": [
+      "19QxF1AeFYc6GaX8cWuMyPnUlgTkY4A4W",
+      2555616
+    ],
+    "S085R14.edf": [
+      "1nlz9L9Xunp0EiTeluSMCReNCNtH1mqO3",
+      2555616
+    ],
+    "S086R01.edf": [
+      "1UO2KJA6PBW3kpK3QcW9c7geTpCUUZnQY",
+      1275936
+    ],
+    "S086R03.edf": [
+      "1g_Qbv7i053-9zd1b7JV6n1iiryLpdBoH",
+      2596896
+    ],
+    "S086R02.edf": [
+      "1yYZuJUCG9lDQqirTU9c0MU4W-vYnpYS1",
+      1275936
+    ],
+    "S086R04.edf": [
+      "1OtE7zXyTEX1uSA8HebTWOUOOk39EtI4y",
+      2596896
+    ],
+    "S086R05.edf": [
+      "1j__FVwPHncGpdtrt-tV6u0O6DJN3nyQc",
+      2596896
+    ],
+    "S086R06.edf": [
+      "1VXWYLAddrJ2R_i6_mOFHaXNRHh_u-wWS",
+      2596896
+    ],
+    "S086R07.edf": [
+      "1PN-tkEvkhYrob7jcCO3bY9sAtBWHb6SL",
+      2596896
+    ],
+    "S086R08.edf": [
+      "12srZ4QBjQxK23gIZWpZ9hBjhryfrDYVl",
+      2596896
+    ],
+    "S086R10.edf": [
+      "1S7mYP6QmvSn_eP70OM2wyUAk-BuSzXb0",
+      2596896
+    ],
+    "S086R09.edf": [
+      "1lsz-xmzmMoodQqVV3RNgpmGVAj4BuY_J",
+      2596896
+    ],
+    "S086R11.edf": [
+      "1C_bJ8FASsUIsYXorl9UJxTD9A-qH1Rk-",
+      2596896
+    ],
+    "S086R12.edf": [
+      "1S5nVWZhUzjd_g1kaaLMmQn1h8YL1Phq6",
+      2596896
+    ],
+    "S086R14.edf": [
+      "1UBDx-ec_ZBLfrHwkbvzyJb3sugiQ229z",
+      2596896
+    ],
+    "S086R13.edf": [
+      "1snaF_Otf9r8i_1lxwi23zYjq5VbtnxLV",
+      2596896
+    ],
+    "S088R02.edf": [
+      "16oXtvRNQEU6F5YoFU6DgnU5NqD93ZOrq",
+      1275936
+    ],
+    "S088R01.edf": [
+      "1Jo24YdvABtsNla7_GHojbePYMhI6lTEi",
+      1275936
+    ],
+    "S088R03.edf": [
+      "1Dq78SHgZD1BdbeKxHXcP54yZ8QJcv_9D",
+      2064384
+    ],
+    "S088R04.edf": [
+      "1jWUTZalkaRYW_o-kiY0LglAR4_XNk6au",
+      2064384
+    ],
+    "S088R05.edf": [
+      "1ocL7snfK_VNnkxGng-rBEDQLlz_dN3KT",
+      2064384
+    ],
+    "S088R07.edf": [
+      "1-3GJQeIbXuFCTeSOQrCIVFb6uIUXJISU",
+      2064384
+    ],
+    "S088R06.edf": [
+      "15bCu9GERxxZ5gNMKBub-A6fTGatFznRG",
+      2064384
+    ],
+    "S088R08.edf": [
+      "1ACopU6IMkjkiDbRiUUiVUb3rIV1RzXre",
+      2064384
+    ],
+    "S088R10.edf": [
+      "1MD72gJGb_uyiZM3wStI1Cx-6yMBAGU7o",
+      2064384
+    ],
+    "S088R09.edf": [
+      "1q0R1F-3kGLDBlAE2s8XpzeDpQx26Efd-",
+      2064384
+    ],
+    "S088R11.edf": [
+      "1Z19x0PF8V1cM3mIjtxBMgTguDMCimVky",
+      2064384
+    ],
+    "S088R12.edf": [
+      "1s6v0o2mMmIhCYQVJx27k_5vCA7HemNM2",
+      2064384
+    ],
+    "S088R13.edf": [
+      "1ADC_e250axcqOlrooDndjbr_6aOqL_8B",
+      2064384
+    ],
+    "S088R14.edf": [
+      "17eeIY5rdH1ZH4sP5JZxQJndlzFDgxyOv",
+      2064384
+    ],
+    "S087R02.edf": [
+      "1G2aVzmpZSnwsxp6y_7rkh2TH-JMwVwVK",
+      1275936
+    ],
+    "S087R01.edf": [
+      "19feUA3T8Ub-h25tN7Cu8oxj0zvt8iTSL",
+      1275936
+    ],
+    "S087R03.edf": [
+      "1DOp5Bi92Sw9U260P9iGqgrDGb9A30eUb",
+      2555616
+    ],
+    "S087R05.edf": [
+      "1DdaOWNOvN_Olknz-tsqVv76pp3dbikIl",
+      2555616
+    ],
+    "S087R04.edf": [
+      "1OnZorm2sXMP0aer3I9cmi8gvbvChFtAb",
+      2555616
+    ],
+    "S087R06.edf": [
+      "19QIRN-bqMH-B2PHXAhysvu9mo1MXAGZW",
+      2555616
+    ],
+    "S087R07.edf": [
+      "1u45yf4TsihXx69ZztK4yDuD3lv75szYZ",
+      2555616
+    ],
+    "S087R08.edf": [
+      "1haKPs5I-F7XYV3rI37EPgdsVOhtnitDp",
+      2555616
+    ],
+    "S087R10.edf": [
+      "1nzciIws_Xc8Yti6XJKZVAXhV6DLsgq1G",
+      2555616
+    ],
+    "S087R09.edf": [
+      "1Zs_7WOPcYbOVIUM1C0A-X5_Fskfk7WVt",
+      2555616
+    ],
+    "S087R11.edf": [
+      "1qPJz8I_Vx-bgzsFM6S14QpJW-U8GIURz",
+      2555616
+    ],
+    "S087R12.edf": [
+      "1Od4aFoA2mbxmvFKUhNig7Wn-bYFtPKlq",
+      2555616
+    ],
+    "S087R13.edf": [
+      "1pvRmbbIcyv7m8XlNlxTc3bjsPjx0tyN2",
+      2555616
+    ],
+    "S087R14.edf": [
+      "1OENo2_Co5L3qD7MarVUb4KuwcezAZ6A9",
+      2555616
+    ],
+    "S089R02.edf": [
+      "1IceStUNfLbIcQLp1-8TIQY2461E-GqpH",
+      1275936
+    ],
+    "S089R01.edf": [
+      "1Vw_BzmwEt2GVHVxyjuvOMZMSe6DaW0vs",
+      1275936
+    ],
+    "S089R04.edf": [
+      "13UBLr193oyCIU3gFZ2gpK7B2rIueMqVI",
+      2555616
+    ],
+    "S089R03.edf": [
+      "15EU7Yu12ZnRKyd2Ac1w86wuTHRlmT68x",
+      3752736
+    ],
+    "S089R05.edf": [
+      "10rayxzLulrgBWQXdOLcYK9uIcJOF3sDV",
+      2555616
+    ],
+    "S089R06.edf": [
+      "1ZCNWes46MjPkurcr5D0g3ikeLdGxI6QC",
+      2555616
+    ],
+    "S089R07.edf": [
+      "19TQU0TklV0LF51bt5tdfI12XbkKOVLXI",
+      2555616
+    ],
+    "S089R08.edf": [
+      "1Ah9EY8p2RmjixzDDN4TSV7mOQpg3Jiwe",
+      2555616
+    ],
+    "S089R09.edf": [
+      "12RZ_UY6AXCd7w6kijaAEES4Uz27Z5raD",
+      2555616
+    ],
+    "S089R10.edf": [
+      "1Y8m49l_XY2zU2U7KaxGmHELEKBrdUpVD",
+      2555616
+    ],
+    "S089R12.edf": [
+      "1TO7LX7EAYN-WNhAXsTYdy9Qwu_g7M7eP",
+      2555616
+    ],
+    "S089R11.edf": [
+      "1t5-5vforvTFUS-nsqJmU5dMPb6iCOeYC",
+      2555616
+    ],
+    "S089R13.edf": [
+      "1V2dMX9nvshJbkuxz4RzmGZLTp-Tv7vBz",
+      2555616
+    ],
+    "S089R14.edf": [
+      "140pQC-nsaLEeM7jRvnYxX4VtKW9wjo4S",
+      2555616
+    ],
+    "S090R01.edf": [
+      "1E-aHwkTTKVD2w4xVsJ-H2GGqaswMRYrn",
+      1275936
+    ],
+    "S090R02.edf": [
+      "1RCJokII5yJp3SR8m_dkwsVUv2uA_rdeL",
+      1275936
+    ],
+    "S090R03.edf": [
+      "1ZdPObsku-p_jLNCvO2x8YnnI_A2MUlBs",
+      2555616
+    ],
+    "S090R04.edf": [
+      "1ugbeJbomZRpp0ze4-nZmsz1wXzHZ60UQ",
+      2555616
+    ],
+    "S090R06.edf": [
+      "19UVQZ1jvDT6crVQL2rxVOx-8uhhsd6uv",
+      2555616
+    ],
+    "S090R05.edf": [
+      "1u-LbtxX9wmUDNuARUl86VVvHzvL4kVtQ",
+      2555616
+    ],
+    "S090R07.edf": [
+      "13Ehg-FvUKpxSXQovNCyS4vMhxJAe9cm0",
+      2555616
+    ],
+    "S090R08.edf": [
+      "1HjrAljVr_Dy2gB0yU7EuVKPj_Jkq2awS",
+      2555616
+    ],
+    "S090R10.edf": [
+      "1LQSmjJaXijNfHU78wLZZ9Ge0h-01w7nv",
+      2555616
+    ],
+    "S090R09.edf": [
+      "1-ULHsu2qZ-Skt6P9zuD5-k1l3JojMBIC",
+      2555616
+    ],
+    "S090R11.edf": [
+      "1uvW0ntKvbfsh_8tv1vFc4KRiw6w09mwp",
+      2555616
+    ],
+    "S090R12.edf": [
+      "12gWDKTPwr05FQM3aXn4buCpRlkTsa2U4",
+      2555616
+    ],
+    "S090R14.edf": [
+      "1NQzxwY0Ytj6FNLbUAKo8zS1Y3UuGCtsP",
+      2555616
+    ],
+    "S090R13.edf": [
+      "1XfJWzDDMBxodr7eKgiJODvjJWxxckrRU",
+      2555616
+    ],
+    "S091R01.edf": [
+      "12VOrmELjn7gHrAZhkdAZYw0Dp61a7d-J",
+      1275936
+    ],
+    "S091R02.edf": [
+      "1KuNAmZkZ-Xufcffl7V-e7hQeigHgASEw",
+      1275936
+    ],
+    "S091R03.edf": [
+      "1a8SimC2aP7_-16Xt7B7aN4ghdEy3H-MX",
+      2555616
+    ],
+    "S091R04.edf": [
+      "14mIrdT1kk9ONGngod_x28bE7NTOhwbSR",
+      2555616
+    ],
+    "S091R05.edf": [
+      "1k0cI2IhQmCzKccBY-AaRLu97D-pC-Wu4",
+      2555616
+    ],
+    "S091R06.edf": [
+      "1KXO0JpirChIahUlPPUf1Z6VVsjwF7uit",
+      2555616
+    ],
+    "S091R07.edf": [
+      "1v8wz1pm6b0N-gHXpnkatu8-4oYWP1-Px",
+      2555616
+    ],
+    "S091R09.edf": [
+      "1Pc3Y6lgPkIgDACX7XCCB0Rl-q_3fXWO8",
+      2555616
+    ],
+    "S091R08.edf": [
+      "1UHutBXaDX_pCPtMc-aestcb0NUnNoySO",
+      2555616
+    ],
+    "S091R10.edf": [
+      "1EUNCC-BiCMwI4wei769MqQMVNFJqoUgr",
+      2555616
+    ],
+    "S091R11.edf": [
+      "17uRvpJIOi7k2VbTyD_KWzw9ieNuBhqBB",
+      2555616
+    ],
+    "S091R12.edf": [
+      "1pdDfZluAmIesHQ9chlpiADR4jp9KYql0",
+      2555616
+    ],
+    "S091R13.edf": [
+      "1qmYiBnLGoZxkfXB47_JIHVZjVTi1c6Vd",
+      2555616
+    ],
+    "S091R14.edf": [
+      "1Iy3lW0WJ7vn7pAagwrfJQ1hKWvJkZXVE",
+      2555616
+    ],
+    "S094R02.edf": [
+      "1f3H1B1sYSTrWbkxx70vsjgSImQNAtagz",
+      1275936
+    ],
+    "S094R01.edf": [
+      "1Q7RfGKswLvKIgSQRqhMCI-MAWdog2er1",
+      1275936
+    ],
+    "S094R03.edf": [
+      "1yhQPxxUqeS5Ftmsmb5X5GkPriAoM6cp0",
+      2555616
+    ],
+    "S094R04.edf": [
+      "1M-bUZBXmeOxzldHt2aqJsV0klI_9wuF3",
+      2555616
+    ],
+    "S094R05.edf": [
+      "1_QH_AAWydTGeiYZo3eq9-FlTTMFoRz7s",
+      2555616
+    ],
+    "S094R06.edf": [
+      "15QZnRFoqcF43Okmkh_jYmF8TUijrVyhH",
+      2555616
+    ],
+    "S094R07.edf": [
+      "1sl72Zi-NDqNWRPcZZXYZzsk-vVCbbMET",
+      2555616
+    ],
+    "S094R08.edf": [
+      "1pDWZIhR0M2P53emX4lD69gQHbre7a56E",
+      2555616
+    ],
+    "S094R10.edf": [
+      "1N4hwYSszRAVQ0Yw0mmJACFJjxbkFFaAx",
+      2555616
+    ],
+    "S094R09.edf": [
+      "16V7oOrG8HV0zQ5995MPPA5L6GNBmyaee",
+      2555616
+    ],
+    "S094R11.edf": [
+      "1o7v9rIO5nFJcR4Ask-H7cuaHaC50TTkM",
+      2555616
+    ],
+    "S094R12.edf": [
+      "1rk_ysRn4je57H70CtrSPP2IV6NBa8UT9",
+      2555616
+    ],
+    "S094R13.edf": [
+      "14eXVhMwt4suH1BJU0Q9JvEMt9Ya5Uo9m",
+      2555616
+    ],
+    "S094R14.edf": [
+      "1KgBwuM7IWYQ9XyQkhvG6PcNmBaYPqy7n",
+      2555616
+    ],
+    "S092R01.edf": [
+      "1Yks0fjxpMjVwWqwgRhwAubxZCa1c5Xn8",
+      1275936
+    ],
+    "S092R02.edf": [
+      "1eEBRwDIiMcvDezsS-3OMuHdw9CdYpjjB",
+      1275936
+    ],
+    "S092R03.edf": [
+      "1RhMa0jqUZQhj557L6AXar4DYcjuEtJyY",
+      2064384
+    ],
+    "S092R04.edf": [
+      "1ba6kcdKewrlWFOZWcXJn8nVXV3-pN0x9",
+      2064384
+    ],
+    "S092R05.edf": [
+      "1zOP7QqELn0oaTErf6gQSg2j2DgABuC12",
+      2064384
+    ],
+    "S092R07.edf": [
+      "1xtOsjgUxQPGxCrq8dkvcUHv5L3cZjp8x",
+      2064384
+    ],
+    "S092R06.edf": [
+      "1QLudoJzo-O-4cXqo8gtapE38eExx3lap",
+      2064384
+    ],
+    "S092R08.edf": [
+      "19Pb2C8-2zrSAZDh9M1rjjyCt_ItiZPNx",
+      2064384
+    ],
+    "S092R09.edf": [
+      "1MKfPyjVt7MQF_ND4i6cxjug_qk0NXEd-",
+      2064384
+    ],
+    "S092R10.edf": [
+      "1N0gfV253NlRt-jJvUMUUJWAlroepPbJD",
+      2064384
+    ],
+    "S092R12.edf": [
+      "1qmeJq2UUDTpI7dAIIdg9TOiq_tL-O2bv",
+      2064384
+    ],
+    "S092R11.edf": [
+      "1JhxKXFmG9CAPoifdUib2zLEbigaEsUot",
+      2064384
+    ],
+    "S092R13.edf": [
+      "1ptdRY_ZfTspncf8KLV7_scS73I4tP_N9",
+      2064384
+    ],
+    "S092R14.edf": [
+      "1o3RyJppgFE7MUGNQhh6zlYvjw4sFGQ48",
+      2064384
+    ],
+    "S093R01.edf": [
+      "1sYFHBClnbDJZy-z-yOnBBWPiVLIweXAa",
+      1275936
+    ],
+    "S093R03.edf": [
+      "1i7LLL6slK4Hhqfms_iK_JmxX5IoET_z-",
+      2555616
+    ],
+    "S093R02.edf": [
+      "1174AA19yCl4MGEq7ofAAZJX9Rvs8UqCH",
+      1275936
+    ],
+    "S093R04.edf": [
+      "1EBhvMTmZM7V_e-XWmmVIHFkgSSPm-Fod",
+      2555616
+    ],
+    "S093R05.edf": [
+      "1idGT-9h_R0tj7mguF0SL7k9ZX2h5UvAm",
+      2555616
+    ],
+    "S093R06.edf": [
+      "1htsgwYT25XEdQZW21EjKSBNx0ibLjjMv",
+      2555616
+    ],
+    "S093R07.edf": [
+      "1tRZ8e-DvfLJBd1-n6Mx2gQd3jH4sRQpp",
+      2555616
+    ],
+    "S093R08.edf": [
+      "1Cn3vfngj4EWNgTnmWfItzmtObOVWYX_7",
+      2555616
+    ],
+    "S093R09.edf": [
+      "17KaJlwWDnuDjhLoQq420p6yiwdaP5t3b",
+      2555616
+    ],
+    "S093R10.edf": [
+      "1LBe3584NogomDhIrQRa3P-M-nFjX3h0x",
+      2555616
+    ],
+    "S093R11.edf": [
+      "1CMtItFgJFJiUFrYAMrZd42n3XpOJzTnq",
+      2555616
+    ],
+    "S093R12.edf": [
+      "10ZgyxAmC29UoNP_Fyxoww-LE72EPYMWg",
+      2555616
+    ],
+    "S093R13.edf": [
+      "1W7taXg3x2B1_ERH_W9lpmaBJMvWYq8jG",
+      2555616
+    ],
+    "S093R14.edf": [
+      "1vTDcSZeOpbg2eHLf8yAgyxezM_9Y6RBu",
+      2555616
+    ]
+  },
+  "PhysionetMMI metadata": {
+    "wfdbcal": [
+      "1_Yx5fNE3yQ-GQb1eXbNNWyYOR6Kl8R9U",
+      1664
+    ],
+    "64_channel_sharbrough.pdf": [
+      "1v_nMQOy_9WN69l2I5I13yzdvxY4anSE_",
+      17315
+    ],
+    "ANNOTATORS": [
+      "1gcCJKeNMlgqXc0n9pd42ps9gQZGYBKQa",
+      24
+    ],
+    "64_channel_sharbrough-old.png": [
+      "1pJDabIDR0pi5Ly3_okMCCSsnjpWtLsk9",
+      57490
+    ],
+    "64_channel_sharbrough.png": [
+      "1Yd8CNmhd3XyMS10Zu5grJRpYfAjHSGBG",
+      63288
+    ],
+    "RECORDS": [
+      "10C-R8XAwLniqkDLs4qgxCTSdJt6T6hrw",
+      25942
+    ],
+    "SHA256SUMS.txt": [
+      "1FgBYXclWw1k9DbYsRT8tPWetIMcDPnUl",
+      259919
+    ]
+  }
+}

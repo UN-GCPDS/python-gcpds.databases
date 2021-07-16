@@ -1,0 +1,42 @@
+{
+  "DUMMY training": {
+    "dummy_data-07.npy": [
+      "1q-acjxr7mYH6a0BvS07U_UfqzkkxzeC6",
+      7680128
+    ],
+    "dummy_data-05.npy": [
+      "1IrMgTd_NPUieYgWINBxvgX9zLNTR209m",
+      7680128
+    ],
+    "dummy_data-01.npy": [
+      "1m7EB3I5cysR3MDeWWze-Ar56H2TJnS3m",
+      7680128
+    ],
+    "dummy_data-06.npy": [
+      "1G8GpHXEcjLtOLH8Wn9Qyo9mj_AQDg-u4",
+      7680128
+    ],
+    "dummy_data-03.npy": [
+      "1P9kGKBt9CjUnBsJzJvpuUeI6T1ljGzHU",
+      7680128
+    ],
+    "dummy_data-04.npy": [
+      "1XXy0uKlRJ79Sg4fSvg4SVPWvQYJjws3Y",
+      7680128
+    ],
+    "dummy_data-02.npy": [
+      "1KcIJ3kGqlQVIFLGde_AK1db4RuZ_JVdN",
+      7680128
+    ]
+  },
+  "DUMMY metadata": {
+    "gnu-manifesto.pdf": [
+      "1_YX3kfaJB3goFQh45gdnvrF6Gm5LzDWD",
+      76612
+    ],
+    "Linus": [
+      "1eErkZgHmSgCzOvPdUMEPpMj0ECCYkILy",
+      753
+    ]
+  }
+}
