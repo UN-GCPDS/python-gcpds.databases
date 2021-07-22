@@ -178,7 +178,7 @@ class Database(DatabaseBase):
             return np.concatenate(runs), np.concatenate(classes_out)
 
     # ----------------------------------------------------------------------
-    def non_task(self, non_task_classes: Optional[list] = ALL, runs: Optional = None, channels: Optional[list] = ALL) -> np.ndarray:
+    def non_task(self, non_task_classes: Optional[list] = ALL, runs: Optional[list] = None, channels: Optional[list] = ALL) -> np.ndarray:
         """"""
         channels = self.format_channels_selectors(channels)
         non_task_classes = self.format_non_class_selector(non_task_classes)

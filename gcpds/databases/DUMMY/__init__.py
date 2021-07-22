@@ -44,7 +44,20 @@ class Database(DatabaseBase):
                      subject: int,
                      mode: str = 'training',
                      ) -> None:
-        """"""
+        """Load subject
+
+        Search for the file and load their content.
+
+        Parameters
+        ----------
+        subject
+            The integer `ID` for some subject.
+        mode
+            Some databases contain different data labels, by default is
+            `training`. Literal ['training', 'evaluation']
+        """
+
+        #  This method work with a variety of data types
         self.data = super().load_subject(subject, mode)
 
     # ----------------------------------------------------------------------
@@ -54,7 +67,33 @@ class Database(DatabaseBase):
                 channels: Optional[list] = ALL,
                 reject_bad_trials: Optional[bool] = True,
                 ) -> Tuple[np.ndarray, np.ndarray]:
-        """"""
+        """Return EEG data for specific run.
+
+        This method automatically format the classes and the channels into a
+        single format in order to standarize the scripts.
+
+        Parameters
+        ----------
+        run
+            The number of the desired run (0-based index).
+        classes
+            A list with the target classes, can be strings like in metadata or
+            integers with the class position in the metadata. Default all.
+        channels
+            A list of channels to filter the database, channels can be strings
+            (from metadata) or 1-based index.
+        reject_bad_trials
+            Boolean to show if bad trials should be removed or not.
+
+
+        Returns
+        -------
+        run
+            Tuple of Trials and Classes. Trials are numpy arrays of shape
+            (trial, channels, time). Classes are one-dimensional  arrays with
+            integers that show the class according to the metadata.
+        """
+
         classes = self.format_class_selector(classes)
         channels = self.format_channels_selectors(channels)
 
@@ -66,18 +105,41 @@ class Database(DatabaseBase):
     # ----------------------------------------------------------------------
     def non_task(self,
                  non_task_classes: Optional[list] = ALL,
-                 runs: Optional = None,
+                 runs: Optional[list] = ALL,
                  channels: Optional[list] = ALL,
                  ) -> np.ndarray:
-        """"""
+        """Non task trials.
+
+        Must return a list of list of trials (run, non-task, trial, channel, time)
+
+        Parameters
+        ----------
+
+        non_task_classes
+            Similarly to the classes for `get_run` method. Default all.
+        runs
+            List of runs. Default all.
+        channels
+            List of channels. Default all.
+
+        Returns
+        -------
+        non_task
+            List of trials for each `non-task` and `run`, a 5-dimensional
+            indexable object.
+        """
+
         channels = self.format_channels_selectors(channels)
         non_task_classes = self.format_non_class_selector(non_task_classes)
 
         data = [np.random.random(size=(10, 16, 1000)) for i in range(
             len(self.metadata['non_task_classes']))]
+
         return data
 
 
+# ------------------------------------------------------------------------------
+#  Keep this code
 ########################################################################
 class CallableModule(ModuleType):
     # ----------------------------------------------------------------------
@@ -88,3 +150,4 @@ class CallableModule(ModuleType):
 
 sys.modules[__name__].__class__ = CallableModule
 
+# ------------------------------------------------------------------------------

@@ -74,7 +74,6 @@ class Database(DatabaseBase):
         return run[:, channels - 1, :], np.array(classes_out)
 
     # ----------------------------------------------------------------------
-
     def non_task(self, non_task_classes: Optional[list] = ALL, runs: Optional[list] = ALL, channels: Optional[list] = ALL) -> np.ndarray:
         """"""
         channels = self.format_channels_selectors(channels)
