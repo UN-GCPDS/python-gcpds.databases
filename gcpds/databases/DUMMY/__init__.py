@@ -23,7 +23,7 @@ class Database(DatabaseBase):
                              ],
         'sampling_rate': 1000,
         'montage': 'standard_1005',
-        'tmin': -2,
+        'tmin': -3,
         'duration': 7,
         'reference': '',
         'subjects': 7,
@@ -84,7 +84,6 @@ class Database(DatabaseBase):
             (from metadata) or 1-based index.
         reject_bad_trials
             Boolean to show if bad trials should be removed or not.
-
 
         Returns
         -------
