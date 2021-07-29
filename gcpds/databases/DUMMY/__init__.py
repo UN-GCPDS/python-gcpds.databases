@@ -17,7 +17,7 @@ class Database(DatabaseBase):
         'channels': [f'CH-{ch}' for ch in range(1, 17)],
         'classes': ['class 0',
                     'class 1',
-                    'class 2',
+                    'class 4',
                     ],
         'non_task_classes': ['non-task 0',
                              'non-task 1',
