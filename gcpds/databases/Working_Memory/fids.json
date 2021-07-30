@@ -1,0 +1,110 @@
+{
+  "EEG_data_raw subjects": {
+    "S12.bdf": [
+      "1-0lTnRfYyo8P7njPDpJNUWWNgu0dULVs",
+      168210944
+    ],
+    "S03.bdf": [
+      "1-2XZooyBTNFXNiOEI7n9SMsoF_LPcuEj",
+      168210944
+    ],
+    "S21.bdf": [
+      "1-7XCwJASuYT33Umit3-eyylmWit4cVTe",
+      183460352
+    ],
+    "S16.bdf": [
+      "1-E0flBb4u8FmIIDe9KJs7Enf9MIcY7yy",
+      179872256
+    ],
+    "S07.bdf": [
+      "1-LDZTA74kt0ThMdgB5Ftl8gNvf_4DaFz",
+      174490112
+    ],
+    "S14.bdf": [
+      "1-N_LIPYdTphOm-bc2kJx56lmIwwapfsE",
+      168210944
+    ],
+    "S05.bdf": [
+      "1-NpA6xSmbyQtt1QKDiIhY-jIy7VCEhcS",
+      181217792
+    ],
+    "S23.bdf": [
+      "1-WZgZhEe-iUBVtObl17UutBsyLc1170q",
+      174938624
+    ],
+    "S18.bdf": [
+      "1-XDsXliHgXevegwITL617vVvFEM2zeT3",
+      173144576
+    ],
+    "S09.bdf": [
+      "1-YBYjQ0vdlnCx8VotQtAoWXXHklAfu5Z",
+      163277312
+    ],
+    "S01.bdf": [
+      "1-Zdh9UthMm_mc88eTTMoPZpGHQpcpGVN",
+      164174336
+    ],
+    "S10.bdf": [
+      "1-ow-DLvcjWdbUYq1-kDUtr9R-G5Csclp",
+      165071360
+    ],
+    "S13.bdf": [
+      "100tZwpQU8ywdUfqYQx_wWxu1aURuE-Gc",
+      164174336
+    ],
+    "S04.bdf": [
+      "108NZVRQkREevTCKVB1YHXhp6zfk66wjQ",
+      164622848
+    ],
+    "S22.bdf": [
+      "109pcsuIu4Dxggoeu90h5-n-GCaq6syjH",
+      188393984
+    ],
+    "S17.bdf": [
+      "10DhlTc-Zj2KKc73TckJe7Hmjr79Q7jMl",
+      161931776
+    ],
+    "S08.bdf": [
+      "10GXsRN40wVN2lIFpqoXZYuKEYWFN5ikD",
+      168210944
+    ],
+    "S15.bdf": [
+      "10NrNCNrAvcQNaf6MLcrO1cA6uG_xKwyh",
+      161483264
+    ],
+    "S06.bdf": [
+      "10Rzqo7jGdIQw73VLFUCUD04JhitJTQbo",
+      180320768
+    ],
+    "S19.bdf": [
+      "10TiG14o7ZvMyCjFfsAgfkRMdIjX-FqrX",
+      177629696
+    ],
+    "S02.bdf": [
+      "10ab6vOrXZx2-7HvTdEGFKRTi-DpdC3Ny",
+      171350528
+    ],
+    "S20.bdf": [
+      "10cZy7H9rl2S4OB_IhU0OkFDx-y87zkpb",
+      182114816
+    ],
+    "S11.bdf": [
+      "10faKhGoKJ2pPf70z0ofyXMatdgpDZFI6",
+      1042360832
+    ]
+  },
+  "EEG_data_raw Metadata": {
+    "Phase_kTE_paper_MDPI.pdf": [
+      "1Z6Nkoilkh3IAR1ow_jVhCHvDtdZZeoEp",
+      6042968
+    ],
+    "vogel2004.pdf": [
+      "1ivJDRMEDX56lmh3xz0AT5kKazOo9lhYO",
+      188267
+    ],
+    "Data in brief.pdf": [
+      "1tKsZsgZIdwOZfnqssp15tZvr7vfMO9ra",
+      1322514
+    ]
+  }
+}
