@@ -38,11 +38,9 @@ class Database(DatabaseBase):
         'runs_training': [1] * 23,
 
         'subject_training_files': fids['EEG_data_raw subjects'],
-        'subject_training_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
+        'subject_training_pattern': lambda subject: f'EEG_data_raw-{str(subjects).rjust(2, "0")}.bdf',
 
-        # 'subject_evaluation_files': fids['DUMMY evaluation'],
-        # 'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
-
+   
         'metadata': fids['EEG_data_raw Metadata'],
         'directory': 'databases/EEG_data_raw',
     }
