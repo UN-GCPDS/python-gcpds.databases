@@ -1,5 +1,6 @@
 import os
 import sys
+import mne
 from types import ModuleType
 from typing import Optional, Tuple
 
@@ -19,7 +20,7 @@ class Database(DatabaseBase):
         'PO3', 'O1', 'Iz', 'Oz', 'POz', 'Pz', 'CPz', 'Fpz', 'Fp2', 'AF8', 'AF4', 'AFz', 'Fz', 
         'F2', 'F4', 'F6', 'F8', 'FT8', 'FC6', 'FC4', 'FC2', 'FCz', 'Cz', 'C2', 'C4', 'C6', 'T8',
         'TP8', 'CP6', 'CP4', 'CP2', 'P2', 'P4', 'P6', 'P8', 'P10', 'PO8', 'PO4', 'O2', 'EXG1',
-        'EXG2', 'EXG3', 'EXG4', 'EXG5', 'EXG6', 'EXG7', 'EXG8', 'Status']
+        'EXG2', 'EXG3', 'EXG4', 'EXG5', 'EXG6', 'EXG7', 'EXG8', 'Status'],
         
         
         'classes': ['low memory load',
@@ -27,7 +28,7 @@ class Database(DatabaseBase):
                     'high memory load'
                     ],
                     
-        'non_task_classes': []
+        'non_task_classes': [],
                              
         'sampling_rate': 2048,
         'montage': 'standard_1020',
@@ -38,9 +39,11 @@ class Database(DatabaseBase):
         'runs_training': [1] * 23,
 
         'subject_training_files': fids['EEG_data_raw subjects'],
-        'subject_training_pattern': lambda subject: f'EEG_data_raw-{str(subjects).rjust(2, "0")}.bdf',
+        'subject_training_pattern': lambda subject: f'S{str(subject).rjust(2, "0")}.bdf',
 
-   
+        # 'subject_evaluation_files': fids['DUMMY evaluation'],
+        # 'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
+
         'metadata': fids['EEG_data_raw Metadata'],
         'directory': 'databases/EEG_data_raw',
     }
@@ -108,15 +111,13 @@ class Database(DatabaseBase):
         right_hemifield_keys = [10,13,20,23,40,43] # The stimulus was presented on the right visual hemifield
         left_hemifield_keys = [11,12,21,22,41,42]  # The stimulus was presented on the left visual hemifield
         Ntrials = 96      
-        
+        fs = 2048
         Xdata = self.data.get_data()
         events = mne.find_events(self.data)
         trial_range = np.array([-200, 3000])/1000 
         trial_ind = np.zeros((Ntrials, 2))
-        trials = np.zeros(Ntrials)
         labels = np.zeros(Ntrials)
         count_1 = 0
-        count_2 = 0
         
         for i in range(len(events)):
           if ((events[i][2] in right_hemifield_keys) or ((events[i][2] in left_hemifield_keys))):   
