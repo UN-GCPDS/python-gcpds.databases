@@ -1,17 +1,15 @@
-from gcpds.databases import DUMMY
+from gcpds.databases import EEG_data_raw
 
 
-db = DUMMY()
+db = EEG_data_raw()
 print(db)
 
 db.load_subject(1)
 
-db.get_data(classes=['class 0', 'class 1', ],
-            channels=['CH-1', 'CH-2', 'CH-4'])
+data, cls = db.get_data()
 
-
-db.get_data(classes=[0, 1],
-            channels=[1, 2, 4])
+data, cls = db.get_data(
+    channels=['Fp1', 'AF7', 'AF3', 'F1', 'F3'], classes = [0])
 
 
 db.test_integrity()
