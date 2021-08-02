@@ -61,6 +61,11 @@ def load_mat(path: str, mat: str, fid: str, size: Optional[int] = None, overwrit
                 return np.load(filepath)
             except:
                 pass
+        elif filepath.endswith('.bdf'):
+            try:
+                return mne.io.read_raw_bdf(filepath)
+            except:
+                pass
 
         if loop > 2:
             logging.warning(
@@ -155,7 +160,7 @@ class DatabaseBase(metaclass=ABCMeta):
         return '\n'.join(lines)
 
     # ----------------------------------------------------------------------
-    @ abstractmethod
+    @abstractmethod
     def load_subject(self, subject: int, mode: str) -> None:
         """"""
         if not mode in ['training', 'evaluation']:
@@ -416,6 +421,6 @@ class DatabaseBase(metaclass=ABCMeta):
 
         ndata = self.non_task()
 
-        if len(ndata) != len(self.metadata['non_task_classes']):
+        if ndata and len(ndata) != len(self.metadata['non_task_classes']):
             logging.error(
                 "The method 'non_task' must return a tuple of the same size of 'non_task_classes' classes.")
