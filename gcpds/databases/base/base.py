@@ -177,7 +177,7 @@ class DatabaseBase(metaclass=ABCMeta):
         if self.path is None:
             if drive_mounted():
                 self.path = os.path.abspath(os.path.join(
-                    '/', 'content', 'drive', 'Shareddrives', 'GCPDS', 'databases', self.metadata['directory']))
+                    '/', 'content', 'drive', 'Shareddrives', 'GCPDS', self.metadata['directory']))
             else:
                 self.path = self.metadata['directory']
 
