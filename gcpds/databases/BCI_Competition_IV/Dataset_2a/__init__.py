@@ -87,7 +87,8 @@ class Database(DatabaseBase):
                             tmax=self.metadata['duration'] + self.metadata['tmin'], reject_by_annotation=True, event_repeated='merge')
         epochs.rename_channels({old: new for old, new in zip(
             epochs.ch_names, self.metadata['channels'])})
-        epochs.pick_channels(np.array(self.metadata['channels'])[channels])
+        epochs.pick_channels(
+            np.array(self.metadata['channels'])[channels - 1])
 
         data = []
         classes_ = []
