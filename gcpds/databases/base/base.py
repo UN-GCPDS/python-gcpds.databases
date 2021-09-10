@@ -175,7 +175,11 @@ class DatabaseBase(metaclass=ABCMeta):
         filename_subject = self.metadata[f'subject_{mode}_pattern'](subject)
 
         if self.path is None:
-            self.path = self.metadata['directory']
+            if drive_mounted():
+                os.path.abspath(os.path.join(
+                    '/', 'content', 'drive', self.metadata['directory']))
+            else:
+                self.path = self.metadata['directory']
 
         if os.path.split(filename_subject)[-1] not in self.metadata[f'subject_{mode}_files'].keys():
             raise Exception(f"Subject {subject} not in list of subjects.")
@@ -188,6 +192,7 @@ class DatabaseBase(metaclass=ABCMeta):
 
         self.runs = self.metadata[f'runs_{mode}'][subject - 1]
         # self.data = load_mat(self.path, filename_subject, fid)['eeg'][0][0]
+
         return load_mat(self.path, filename_subject, fid, size)
 
     # # ----------------------------------------------------------------------
