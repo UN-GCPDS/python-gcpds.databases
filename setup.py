@@ -18,9 +18,21 @@ setup(
 
     download_url='',
 
-    install_requires=[
-       
-    ],
+    install_requires=['numpy',
+                      'scipy',
+                      'matplotlib',
+                      'mne',
+                      'tables',
+                      'tqdm',
+                      ],
+
+    extras_require={
+        'utils': ['sphinx',
+                  'colorama',
+                  'jinja2',
+                  'ipython',
+                  ],
+    },
 
     include_package_data=True,
     license='Simplified BSD License',
