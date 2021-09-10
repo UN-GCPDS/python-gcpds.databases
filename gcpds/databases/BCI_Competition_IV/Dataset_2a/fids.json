@@ -1,86 +1,78 @@
 {
   "BCI2a training": {
-    "A07T.mat": [
-      "13Wi9WyooD8OVpvN4NuEJDwEUEBarE6j1",
-      42809746
+    "A01T.gdf": [
+      "1nWbzOXc2pvtglmogj0jQK_43seiXuQYP",
+      33640300
     ],
-    "A05T.mat": [
-      "13VAuMDGBJvteq-wd5d7aCn9P0gQppTTw",
-      42452392
+    "A02T.gdf": [
+      "1hQmxDRP9qX8OZzz0daIlB-P9QTQ0bqCN",
+      33872386
     ],
-    "A03T.mat": [
-      "13U3OAbT9mHYogDFPUGRJidZtdZNbQKrF",
-      44057065
+    "A03T.gdf": [
+      "1OVkQkq35yO3SRMlY7obn1kaWpOcU1hvb",
+      33040436
     ],
-    "A04T.mat": [
-      "13M9-YcFfLsNbxZbcoC6vvHIgarHqcnMI",
-      37150377
+    "A04T.gdf": [
+      "1YKGrLuhc4uHQ8tYipZPpXF1y2B9BL4J9",
+      30059734
     ],
-    "A02T.mat": [
-      "13HwRr33M4-AF29fax5dEe4-gbsjxcsHB",
-      43068077
+    "A05T.gdf": [
+      "1r-IpaZY8745N0RgQ9ZTI0lbIwsoo3ECt",
+      34320032
     ],
-    "A01T (1).mat": [
-      "12zyaUpCdnCdAV1rZCtps9zVFdiFQcM9T",
-      42806453
+    "A06T.gdf": [
+      "15n3h5FyDCILwMORQJaX-a5gOHuClDpI1",
+      33963548
     ],
-    "A09T.mat": [
-      "13nLMfIma-U6cMMzr0G_FMzXa_70m6Lgd",
-      44785478
+    "A07T.gdf": [
+      "18MwwTR5-ZxEDOlBLt7SVGhhourUZK15n",
+      34067474
     ],
-    "A08T.mat": [
-      "13fBcezRcNkT0HclYQZAO4cYrgJswDd8t",
-      45032065
+    "A08T.gdf": [
+      "1x-2908g_0sgb1BN5jjt9x5GA7BRyiVm0",
+      33777508
     ],
-    "A06T.mat": [
-      "13kDYn4xC_qN1A_uhjguHRf58A9r1mRAb",
-      44581256
-    ],
-    "A01T.mat": [
-      "1nZj4Gw09BV_jbMMkuuVTiORmDIivtT_t",
-      42806453
+    "A09T.gdf": [
+      "1LfRURsjp7uMHwBNm9fsPOXwwO6rY4Aiz",
+      33680732
     ]
   },
   "BCI2a evaluation": {
-    "A07E.mat": [
-      "13_iqEX87BZKBQa4brpA-DjHEW2fnxPp1",
-      42242294
+    "A01E.gdf": [
+      "1YEjACqyV7lHPZhGR2TSBCdgt-FkLRSsD",
+      34363804
     ],
-    "A03E.mat": [
-      "13PA1waTczdnEC3etiIXMFsS8Wi2ofqBX",
-      42316292
+    "A02E.gdf": [
+      "1SnQ1z_afiIwJ6N-mWeF8lm5lX9jnQ1Ni",
+      33147080
     ],
-    "A01E (1).mat": [
-      "13DGTlmhomXx5NSC8xRZJVcaciZQdK_gk",
-      43772146
+    "A03E.gdf": [
+      "1VZXHcMexVcliKwcJ6nWHEyh6kVSMvyr4",
+      32452650
     ],
-    "A04E.mat": [
-      "13SLX3vei-NPedFVYMjgaVjjU4vk-u640",
-      41730824
+    "A04E.gdf": [
+      "1bLH2CdarYJADfE7sw2jWwaRdcdZROIbL",
+      33016790
     ],
-    "A09E.mat": [
-      "13GKLK2Zeo2fRHFuvpVfcd87WYYaQl5dY",
-      44780912
+    "A05E.gdf": [
+      "1hGieTSBeMb8Bt6P_1KqyFi2SYBexIsAZ",
+      34007014
     ],
-    "A02E.mat": [
-      "13Q1LLbCl7folvH6tim3atsPCl_HHBCI4",
-      44218409
+    "A06E.gdf": [
+      "1830jTg4qfNAbStDZ6wyoZDFLW46Us80T",
+      33333246
     ],
-    "A05E.mat": [
-      "13VIvxTq9MrpNXBh-j9XPpVvssrEMDwWE",
-      44392496
+    "A07E.gdf": [
+      "1XpS_W47GdUDQzZQdyAMqOQeN6jJGai_8",
+      33670602
     ],
-    "A08E.mat": [
-      "13psNQzm6QF0l4q2fgNEs6mXlBTJT2xiI",
-      46282127
+    "A08E.gdf": [
+      "1bvVbLV0HTBUWOseOlJ5cLDEc6NMWQ8Uq",
+      34403524
     ],
-    "A06E.mat": [
-      "13ers-B4ZDXQwUZDJagfdPoJ9AuqiAEpO",
-      43395510
-    ],
-    "A01E.mat": [
-      "1-5GmvQ6yW226Ge24fcfygJHyV6khJPgF",
-      43772146
+    "A09E.gdf": [
+      "12y2fz1d3NoLXpVpg_Y2mkF86v_MTGyPF",
+      33768908
     ]
   },
   "BCI2a metadata": {

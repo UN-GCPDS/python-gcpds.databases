@@ -66,6 +66,11 @@ def load_mat(path: str, mat: str, fid: str, size: Optional[int] = None, overwrit
                 return mne.io.read_raw_bdf(filepath)
             except:
                 pass
+        elif filepath.endswith('.gdf'):
+            try:
+                return mne.io.read_raw_gdf(filepath)
+            except:
+                pass
 
         if loop > 2:
             logging.warning(
@@ -336,8 +341,9 @@ class DatabaseBase(metaclass=ABCMeta):
             print(f"Missing {channels_missings} channels in {montage_name} montage.\n"
                   f"Missing channels will be removed from MNE Epochs")
 
-        info = mne.create_info(
-            list(channels_names), sfreq=self.metadata['sampling_rate'], ch_types="eeg")
+        info = mne.create_info(list(channels_names),
+                               sfreq=self.metadata['sampling_rate'], ch_types=["eeg"] * len(
+                                   channels))
         info.set_montage(self.metadata['montage'])
 
         if run != ALL:
