@@ -51,8 +51,10 @@ class Database(DatabaseBase):
         channels = self.format_channels_selectors(channels)
         super().get_run(run, classes, channels, reject_bad_trials)
 
+        data_ = self.data.copy()
+
         # Renombrar anotaciones para que sea más fácil de manipular
-        ann = self.data.annotations
+        ann = data_.annotations
         ann.description = [d.replace('769', 'left hand')
                            for d in ann.description]
         ann.description = [d.replace('770', 'right hand')
@@ -67,9 +69,9 @@ class Database(DatabaseBase):
         if reject_bad_trials:
             ann.description = [d.replace('1023', 'bad trial')
                                for d in ann.description]
-        self.data.set_annotations(ann)
+        data_.set_annotations(ann)
 
-        events, event_id = mne.events_from_annotations(self.data)
+        events, event_id = mne.events_from_annotations(data_)
         sesions = events[events[:, 2] == event_id['run']][:, 0]
         sesions = np.concatenate([sesions, [events[-1][0]]])
 
@@ -83,7 +85,7 @@ class Database(DatabaseBase):
         event_id = {k: event_id[k]
                     for k in event_id if k in self.metadata['classes']}
 
-        epochs = mne.Epochs(self.data, split_events[run], event_id, tmin=self.metadata['tmin'], preload=True,
+        epochs = mne.Epochs(data_, split_events[run], event_id, tmin=self.metadata['tmin'], preload=True,
                             tmax=self.metadata['duration'] + self.metadata['tmin'], reject_by_annotation=True, event_repeated='merge')
         epochs.rename_channels({old: new for old, new in zip(
             epochs.ch_names, self.metadata['channels'])})
