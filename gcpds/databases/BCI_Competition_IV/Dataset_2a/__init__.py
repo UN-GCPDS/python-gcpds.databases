@@ -30,10 +30,14 @@ class Database(DatabaseBase):
         'runs_evaluation': [6, 6, 6, 6, 6, 6, 6, 6, 6],
 
         'subject_training_files': fids['BCI2a training'],
-        'subject_training_pattern': lambda subject: f'A{str(subject).rjust(2, "0")}T.gdf',
+        'subject_training_pattern': [lambda subject: f'A{str(subject).rjust(2, "0")}T.gdf',
+                                     lambda subject: f'A{str(subject).rjust(2, "0")}T.mat',
+                                     ],
 
         'subject_evaluation_files': fids['BCI2a evaluation'],
-        'subject_evaluation_pattern': lambda subject: f'A{str(subject).rjust(2, "0")}E.gdf',
+        'subject_evaluation_pattern': [lambda subject: f'A{str(subject).rjust(2, "0")}E.gdf',
+                                       lambda subject: f'A{str(subject).rjust(2, "0")}E.mat',
+                                       ],
 
         'metadata': fids['BCI2a metadata'],
         'directory': 'databases/BCI_Competition_IV/dataset_2a',
@@ -42,7 +46,8 @@ class Database(DatabaseBase):
     # ----------------------------------------------------------------------
     def load_subject(self, subject: int, mode: str = 'training') -> None:
         """"""
-        self.data = super().load_subject(subject, mode)
+        self.data, self.labels = super().load_subject(subject, mode)
+        self.labels = self.labels['classlabel'][:, 0].tolist()
 
     # ----------------------------------------------------------------------
     def get_run(self, run: int, classes: Optional[list] = ALL, channels: Optional[list] = ALL, reject_bad_trials: Optional[bool] = True) -> Tuple[np.ndarray, np.ndarray]:
@@ -55,6 +60,18 @@ class Database(DatabaseBase):
 
         # Renombrar anotaciones para que sea más fácil de manipular
         ann = data_.annotations
+
+        labels = self.labels.copy()
+        if self.mode == 'evaluation':
+            dsc = []
+            for k in ann.description:
+                if k == '783':
+                    dsc.append({1: '769', 2: '770', 3: '771',
+                                4: '772'}[labels.pop(0)])
+                else:
+                    dsc.append(k)
+            ann.description = dsc
+
         ann.description = [d.replace('769', 'left hand')
                            for d in ann.description]
         ann.description = [d.replace('770', 'right hand')
@@ -62,6 +79,8 @@ class Database(DatabaseBase):
         ann.description = [d.replace('771', 'feet') for d in ann.description]
         ann.description = [d.replace('772', 'tongue')
                            for d in ann.description]
+        # ann.description = [d.replace('783', 'unknown')
+                           # for d in ann.description]
         ann.description = [d.replace('32766', 'run')
                            for d in ann.description]
 
@@ -94,15 +113,17 @@ class Database(DatabaseBase):
 
         data = []
         classes_ = []
-        for cls in classes:
 
+        for cls in classes:
             data.append(epochs[self.metadata['classes'][cls]].get_data())
             classes_.append([cls] * data[-1].shape[0])
+        classes_ = np.concatenate(classes_)
 
-        return np.concatenate(data), np.concatenate(classes_)
-
+        return np.concatenate(data), classes_
 
 ########################################################################
+
+
 class CallableModule(ModuleType):
     # ----------------------------------------------------------------------
     def __call__(self, *args, **kwargs):
