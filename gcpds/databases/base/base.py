@@ -172,28 +172,41 @@ class DatabaseBase(metaclass=ABCMeta):
             raise Exception(
                 f"No mode {mode} available, only 'training', 'evaluation'")
 
-        filename_subject = self.metadata[f'subject_{mode}_pattern'](subject)
+        if not isinstance(self.metadata[f'subject_{mode}_pattern'], (list, tuple)):
+            self.metadata[f'subject_{mode}_pattern'] = [
+                self.metadata[f'subject_{mode}_pattern']]
 
-        if self.path is None:
-            if drive_mounted():
-                self.path = os.path.abspath(os.path.join(
-                    '/', 'content', 'drive', 'Shareddrives', 'GCPDS', self.metadata['directory']))
-            else:
-                self.path = self.metadata['directory']
+        pats = []
+        for pat in self.metadata[f'subject_{mode}_pattern']:
 
-        if os.path.split(filename_subject)[-1] not in self.metadata[f'subject_{mode}_files'].keys():
-            raise Exception(f"Subject {subject} not in list of subjects.")
+            filename_subject = pat(subject)
 
-        fid, size = self.metadata[f'subject_{mode}_files'][os.path.split(
-            filename_subject)[-1]]
+            if self.path is None:
+                if drive_mounted():
+                    self.path = os.path.abspath(os.path.join(
+                        '/', 'content', 'drive', 'Shareddrives', 'GCPDS', self.metadata['directory']))
+                else:
+                    self.path = self.metadata['directory']
 
-        self.subject = subject
-        self.mode = mode
+            if os.path.split(filename_subject)[-1] not in self.metadata[f'subject_{mode}_files'].keys():
+                raise Exception(
+                    f"Subject {subject} not in list of subjects.")
 
-        self.runs = self.metadata[f'runs_{mode}'][subject - 1]
-        # self.data = load_mat(self.path, filename_subject, fid)['eeg'][0][0]
+            fid, size = self.metadata[f'subject_{mode}_files'][os.path.split(
+                filename_subject)[-1]]
 
-        return load_mat(self.path, filename_subject, fid, size)
+            self.subject = subject
+            self.mode = mode
+
+            self.runs = self.metadata[f'runs_{mode}'][subject - 1]
+            # self.data = load_mat(self.path, filename_subject, fid)['eeg'][0][0]
+
+            pats.append(load_mat(self.path, filename_subject, fid, size))
+
+        if len(pats) == 1:
+            return pats[0]
+        else:
+            return pats
 
     # # ----------------------------------------------------------------------
     # def to_menmap(self, array):
@@ -209,6 +222,7 @@ class DatabaseBase(metaclass=ABCMeta):
         # return mmap
 
     # ----------------------------------------------------------------------
+
     @ abstractmethod
     def get_run(self, run: int, classes: Union[int, str], channels=Union[int, str], reject_bad_trials: Optional[bool] = True) -> np.ndarray:
         """"""
