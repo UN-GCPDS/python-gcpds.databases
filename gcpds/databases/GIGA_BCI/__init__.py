@@ -3,7 +3,7 @@ from typing import Optional, Tuple
 
 import numpy as np
 
-from ..base import DatabaseBase, ALL, load_fids, load_mat
+from ..base import DatabaseBase, ALL, load_fids, load_mat, drive_mounted
 
 
 fids = load_fids(os.path.join(os.path.dirname(__file__), 'fids.json'))
