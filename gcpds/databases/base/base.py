@@ -455,7 +455,7 @@ class DatabaseBase(metaclass=ABCMeta):
         info = mne.create_info(
             list(channels_names),
             sfreq=self.metadata['sampling_rate'],
-            ch_types=["eeg"] * len(source),
+            ch_types=["eeg"] * len(channels_names),
         )
         info.set_montage(self.metadata['montage'])
 
