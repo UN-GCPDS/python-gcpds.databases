@@ -1,8 +1,17 @@
 from .google_drive_downloader import GoogleDriveDownloader as gdd
+import os.path
+import io
+
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.http import MediaIoBaseDownload
+from googleapiclient.discovery import build
+
 from scipy.io import loadmat
 import os
 from abc import ABCMeta, abstractmethod
-from typing import Union, Optional
+from typing import Union, Optional, Tuple
 import numpy as np
 
 # from .databases import databases
@@ -14,7 +23,9 @@ import logging
 
 ALL = 'all'
 mne.set_log_level('CRITICAL')
-
+SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+CREDENTIAL_FILE_NAME='credentials.json'
+TOKEN_FILE_NAME='token.json'
 
 # ----------------------------------------------------------------------
 def drive_mounted():
@@ -37,6 +48,8 @@ def load_mat(
     path: str,
     mat: str,
     fid: str,
+    token_path: str,
+    credentials_path: str,
     size: Optional[int] = None,
     overwrite: Optional[bool] = False,
     loop: Optional[int] = 0,
@@ -99,7 +112,7 @@ def load_mat(
         else:
             logging.warning('Corrupt database!!\noverwriting...')
             return load_mat(
-                path, mat, fid, size, overwrite=True, loop=loop + 1
+                path, mat, fid, token_path, credentials_path, size, overwrite=True, loop=loop + 1
             )
 
     else:
@@ -114,15 +127,43 @@ def load_mat(
             sys.exit()
 
         os.makedirs(path, exist_ok=True)
-        gdd.download_file_from_google_drive(
-            file_id=fid,
-            dest_path=filepath,
-            unzip=False,
-            overwrite=overwrite,
-            size=size,
-        )
-        return load_mat(path, mat, fid, size, loop=loop + 1)
+        ### download with google-frive API v3
+        creds = None
+        # The file token.json stores the user's access and refresh tokens, and is
+        # created automatically when the authorization flow completes for the first
+        # time.
+        if os.path.exists(token_path):
+            creds = Credentials.from_authorized_user_file(token_path, SCOPES)
+        # If there are no (valid) credentials available, let the user log in.
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            else:
+                flow = InstalledAppFlow.from_client_secrets_file(
+                    credentials_path, SCOPES)
+                creds = flow.run_local_server(port=7075)
+            # Save the credentials for the next run
+            with open(token_path, 'w') as token:
+                token.write(creds.to_json())  
 
+        service = build('drive', 'v3', credentials=creds)  
+        request = service.files().get_media(fileId=fid,supportsAllDrives=True)
+        #fh = io.BytesIO()
+        fh = io.FileIO(filepath, mode='wb')
+        downloader = MediaIoBaseDownload(fh, request, chunksize=5000000)
+        done = False   
+        while done is False:
+            status, done = downloader.next_chunk()
+            logging.warning("Downloading: %d%%." % int(status.progress() * 100))    
+        ####
+        # gdd.download_file_from_google_drive(
+        #     file_id=fid,
+        #     dest_path=filepath,
+        #     unzip=False,
+        #     overwrite=overwrite,
+        #     size=size,
+        # )
+        return load_mat(path, mat, fid, token_path, credentials_path, size, loop=loop + 1)
 
 # ----------------------------------------------------------------------
 def download_metadata(path, metadata):
@@ -163,6 +204,8 @@ class DatabaseBase(metaclass=ABCMeta):
             logging.info('Using the Google Drive environment')
 
         self.path = path
+        self.credentials_path = os.path.join(os.path.dirname(__file__),'credentials_google_drive',CREDENTIAL_FILE_NAME)
+        self.token_path = os.path.join(os.path.dirname(__file__),'credentials_google_drive',TOKEN_FILE_NAME)
         # self.usemenmap = usemenmap
 
     # ----------------------------------------------------------------------
@@ -240,7 +283,7 @@ class DatabaseBase(metaclass=ABCMeta):
             self.runs = self.metadata[f'runs_{mode}'][subject - 1]
             # self.data = load_mat(self.path, filename_subject, fid)['eeg'][0][0]
 
-            pats.append(load_mat(self.path, filename_subject, fid, size))
+            pats.append(load_mat(self.path, filename_subject, fid, self.token_path, self.credentials_path, size))
 
         if len(pats) == 1:
             return pats[0]
@@ -269,7 +312,7 @@ class DatabaseBase(metaclass=ABCMeta):
         classes: Union[int, str],
         channels=Union[int, str],
         reject_bad_trials: Optional[bool] = True,
-    ) -> np.ndarray:
+    ) -> Tuple[np.ndarray, np.ndarray]:
         """"""
         if run > self.runs:
             raise Exception(f'The current user only have {self.runs} runs.')

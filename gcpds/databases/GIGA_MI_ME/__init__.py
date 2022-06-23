@@ -13,7 +13,6 @@ from ..base import DatabaseBase, ALL, load_fids
 class Database(DatabaseBase):
     """"""
     fids = load_fids(os.path.join(os.path.dirname(__file__), 'fids.json'))
-
     metadata = {'channels': ['Fp1', 'AF7' , 'AF3', 'F1', 'F3', 'F5', 'F7', 'FT7'
                              , 'FC5', 'FC3', 'FC1', 'C1', 'C3', 'C5', 'T7',
                              'TP7', 'CP5', 'CP3', 'CP1', 'P1', 'P3', 'P5', 'P7',
@@ -150,33 +149,33 @@ class Database(DatabaseBase):
 
         return run, np.array(classes_out)
 
-    # ----------------------------------------------------------------------
-    def get_data(self, classes: Optional[list] = ALL, channels: Optional[list] = ALL, reject_bad_trials: Optional[bool] = True, keep_runs_separated: bool = False) -> list:
-        """Return all runs."""
-        classes = self.format_class_selector(classes)
+    # # ----------------------------------------------------------------------
+    # def get_data(self, classes: Optional[list] = ALL, channels: Optional[list] = ALL, reject_bad_trials: Optional[bool] = True, keep_runs_separated: bool = False) -> list:
+    #     """Return all runs."""
+    #     classes = self.format_class_selector(classes)
 
-        runs_copy = self.runs
-        runs = []
-        classes_out = []
+    #     runs_copy = self.runs
+    #     runs = []
+    #     classes_out = []
 
-        for cls in classes:
-            if cls in [2, 3]:  # mm
-                self.runs = 1
-                r, c = super().get_data([cls], channels, reject_bad_trials)
-            elif cls in [0, 1]:  # mi
-                self.runs = runs_copy
-                r, c = super().get_data([cls], channels, reject_bad_trials)
+    #     for cls in classes:
+    #         if cls in [2, 3]:  # mm
+    #             self.runs = 1
+    #             r, c = super().get_data([cls], channels, reject_bad_trials)
+    #         elif cls in [0, 1]:  # mi
+    #             self.runs = runs_copy
+    #             r, c = super().get_data([cls], channels, reject_bad_trials)
 
-            runs.append(r)
-            classes_out.append(c)
+    #         runs.append(r)
+    #         classes_out.append(c)
 
-        self.runs = runs_copy
+    #     self.runs = runs_copy
 
-        if keep_runs_separated:
-            return list(zip(runs, classes_out))
+    #     if keep_runs_separated:
+    #         return list(zip(runs, classes_out))
 
-        else:
-            return np.concatenate(runs), np.concatenate(classes_out)
+    #     else:
+    #         return np.concatenate(runs), np.concatenate(classes_out)
 
     # ----------------------------------------------------------------------
     def non_task(self, non_task_classes: Optional[list] = ALL, runs: Optional[list] = None, channels: Optional[list] = ALL) -> np.ndarray:
