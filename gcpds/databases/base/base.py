@@ -332,6 +332,8 @@ class DatabaseBase(metaclass=ABCMeta):
         channels: Optional[list] = ALL,
         reject_bad_trials: Optional[bool] = True,
         keep_runs_separated: bool = False,
+        initial_time: Optional[float] = None,
+        final_time: Optional[float] = None,
     ):
         """Return all runs."""
 
@@ -363,7 +365,13 @@ class DatabaseBase(metaclass=ABCMeta):
                 if not r_ is None:
                     r = np.concatenate([r, r_], axis=0)
                     c = np.concatenate([c, c_])
-
+            sfreq=self.metadata['sampling_rate']
+            if initial_time and final_time:
+                r = r[:,:,int(initial_time*sfreq):int(final_time*sfreq)]
+            elif initial_time:
+                r = r[:,:,int(initial_time*sfreq):]
+            elif final_time:
+                r = r[:,:,:int(final_time*sfreq)]
             return r, c
 
             # start = 0
