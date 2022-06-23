@@ -128,41 +128,27 @@ def load_mat(
 
         os.makedirs(path, exist_ok=True)
         ### download with google-frive API v3
-        creds = None
-        # The file token.json stores the user's access and refresh tokens, and is
-        # created automatically when the authorization flow completes for the first
-        # time.
         if os.path.exists(token_path):
+            logging.warning('Downloading with credentials google drive API')
             creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-        # If there are no (valid) credentials available, let the user log in.
-        if not creds or not creds.valid:
-            if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
-                flow = InstalledAppFlow.from_client_secrets_file(
-                    credentials_path, SCOPES)
-                creds = flow.run_local_server(port=7075)
-            # Save the credentials for the next run
-            with open(token_path, 'w') as token:
-                token.write(creds.to_json())  
-
-        service = build('drive', 'v3', credentials=creds)  
-        request = service.files().get_media(fileId=fid,supportsAllDrives=True)
-        #fh = io.BytesIO()
-        fh = io.FileIO(filepath, mode='wb')
-        downloader = MediaIoBaseDownload(fh, request, chunksize=5000000)
-        done = False   
-        while done is False:
-            status, done = downloader.next_chunk()
-            logging.warning("Downloading: %d%%." % int(status.progress() * 100))    
-        ####
-        # gdd.download_file_from_google_drive(
-        #     file_id=fid,
-        #     dest_path=filepath,
-        #     unzip=False,
-        #     overwrite=overwrite,
-        #     size=size,
-        # )
+            service = build('drive', 'v3', credentials=creds)  
+            request = service.files().get_media(fileId=fid,supportsAllDrives=True)
+            #fh = io.BytesIO()
+            fh = io.FileIO(filepath, mode='wb')
+            downloader = MediaIoBaseDownload(fh, request, chunksize=5000000)
+            done = False   
+            while done is False:
+                status, done = downloader.next_chunk()
+                logging.warning("Downloading: %d%%." % int(status.progress() * 100))    
+        else:
+            logging.warning('Downloading with GoogleDriveDownloader')
+            gdd.download_file_from_google_drive(
+                file_id=fid,
+                dest_path=filepath,
+                unzip=False,
+                overwrite=overwrite,
+                size=size,
+            )
         return load_mat(path, mat, fid, token_path, credentials_path, size, loop=loop + 1)
 
 # ----------------------------------------------------------------------
