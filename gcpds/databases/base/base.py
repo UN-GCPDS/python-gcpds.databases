@@ -7,6 +7,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.http import MediaIoBaseDownload
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 from scipy.io import loadmat
 import os
@@ -131,15 +132,23 @@ def load_mat(
         if os.path.exists(token_path):
             logging.warning('Downloading with credentials google drive API')
             creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-            service = build('drive', 'v3', credentials=creds)  
-            request = service.files().get_media(fileId=fid,supportsAllDrives=True)
-            #fh = io.BytesIO()
-            fh = io.FileIO(filepath, mode='wb')
-            downloader = MediaIoBaseDownload(fh, request, chunksize=5000000)
-            done = False   
-            while done is False:
-                status, done = downloader.next_chunk()
-                logging.warning("Downloading: %d%%." % int(status.progress() * 100))    
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            with open(token_path, 'w') as token:
+                token.write(creds.to_json())
+            try:
+                service = build('drive', 'v3', credentials=creds)  
+                request = service.files().get_media(fileId=fid,supportsAllDrives=True)
+                #fh = io.BytesIO()
+                fh = io.FileIO(filepath, mode='wb')
+                downloader = MediaIoBaseDownload(fh, request, chunksize=5000000)
+                done = False   
+                while done is False:
+                    status, done = downloader.next_chunk()
+                    logging.warning("Downloading: %d%%." % int(status.progress() * 100))
+            except HttpError as error:
+                # TODO(developer) - Handle errors from drive API.
+                print(f'An error occurred: {error}') 
         else:
             logging.warning('Downloading with GoogleDriveDownloader')
             gdd.download_file_from_google_drive(
@@ -178,7 +187,7 @@ class DatabaseBase(metaclass=ABCMeta):
     """"""
 
     # ----------------------------------------------------------------------
-    def __init__(self, path: Optional[str] = None) -> None:
+    def __init__(self, path: Optional[str] = None, token_path: Optional[str] = None) -> None:
         """Constructor"""
 
         if path and drive_mounted():
@@ -191,7 +200,10 @@ class DatabaseBase(metaclass=ABCMeta):
 
         self.path = path
         self.credentials_path = os.path.join(os.path.dirname(__file__),'credentials_google_drive',CREDENTIAL_FILE_NAME)
-        self.token_path = os.path.join(os.path.dirname(__file__),'credentials_google_drive',TOKEN_FILE_NAME)
+        if token_path:
+            self.token_path = token_path
+        else:
+            self.token_path = os.path.join(os.path.dirname(__file__),'credentials_google_drive',TOKEN_FILE_NAME)
         # self.usemenmap = usemenmap
 
     # ----------------------------------------------------------------------
