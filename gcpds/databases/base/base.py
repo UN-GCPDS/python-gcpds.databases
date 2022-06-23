@@ -132,10 +132,10 @@ def load_mat(
         if os.path.exists(token_path):
             logging.warning('Downloading with credentials google drive API')
             creds = Credentials.from_authorized_user_file(token_path, SCOPES)
-            if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            with open(token_path, 'w') as token:
-                token.write(creds.to_json())
+            # if creds and creds.expired and creds.refresh_token:
+            #     creds.refresh(Request())
+            # with open(token_path, 'w') as token:
+            #     token.write(creds.to_json())
             try:
                 service = build('drive', 'v3', credentials=creds)  
                 request = service.files().get_media(fileId=fid,supportsAllDrives=True)
