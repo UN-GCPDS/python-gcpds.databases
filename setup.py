@@ -24,6 +24,7 @@ setup(
                       'mne',
                       'tables',
                       'tqdm',
+                      'gdown',
                       ],
 
     extras_require={

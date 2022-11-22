@@ -1,9 +1,13 @@
-from .google_drive_downloader import GoogleDriveDownloader as gdd
+#from .google_drive_downloader import GoogleDriveDownloader as gdd
 from scipy.io import loadmat
 import os
 from abc import ABCMeta, abstractmethod
 from typing import Union, Optional
 import numpy as np
+import gdown
+import zipfile
+import warnings
+from sys import stdout
 
 # from .databases import databases
 import json
@@ -14,6 +18,33 @@ import logging
 
 ALL = 'all'
 mne.set_log_level('CRITICAL')
+
+
+# ----------------------------------------------------------------------
+def download_file_from_google_drive(file_id, dest_path, overwrite=False, unzip=False, showsize=False, size=None):
+    """"""
+    destination_directory = os.path.dirname(dest_path)
+    if not os.path.exists(destination_directory):
+        os.makedirs(destination_directory)
+
+    if overwrite and os.path.exists(dest_path):
+        os.remove(dest_path)
+
+    if os.path.exists(dest_path):
+        return
+
+    gdown.download(id=file_id, output=dest_path, quiet=False)
+
+    if unzip:
+        try:
+            print('Unzipping...')
+            stdout.flush()
+            with zipfile.ZipFile(dest_path, 'r') as z:
+                z.extractall(destination_directory)
+            print('Done.')
+        except zipfile.BadZipfile:
+            warnings.warn(
+                f'Ignoring `unzip` since "{dest_path}" does not look like a valid zip file')
 
 
 # ----------------------------------------------------------------------
@@ -114,7 +145,7 @@ def load_mat(
             sys.exit()
 
         os.makedirs(path, exist_ok=True)
-        gdd.download_file_from_google_drive(
+        download_file_from_google_drive(
             file_id=fid,
             dest_path=filepath,
             unzip=False,
@@ -130,7 +161,7 @@ def download_metadata(path, metadata):
     os.makedirs(path, exist_ok=True)
     for file in metadata:
         fid, size = metadata[file]
-        gdd.download_file_from_google_drive(
+        download_file_from_google_drive(
             file_id=fid,
             dest_path=os.path.join(path, file),
             unzip=False,
@@ -187,7 +218,7 @@ class DatabaseBase(metaclass=ABCMeta):
         return '\n'.join(lines)
 
     # ----------------------------------------------------------------------
-    @abstractmethod
+    @ abstractmethod
     def load_subject(self, subject: int, mode: str) -> None:
         """"""
         if not mode in ['training', 'evaluation']:
@@ -262,7 +293,7 @@ class DatabaseBase(metaclass=ABCMeta):
 
     # ----------------------------------------------------------------------
 
-    @abstractmethod
+    @ abstractmethod
     def get_run(
         self,
         run: int,
@@ -357,8 +388,8 @@ class DatabaseBase(metaclass=ABCMeta):
                 (
                     list(map(str.lower, self.metadata['channels'])).index(
                         ch.lower()
-                    )
-                    + 1
+                    ) +
+                    1
                 )
                 if isinstance(ch, str)
                 else (ch)
