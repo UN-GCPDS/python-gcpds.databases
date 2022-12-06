@@ -4,6 +4,7 @@ import os
 from abc import ABCMeta, abstractmethod
 from typing import Union, Optional
 import numpy as np
+import pandas as pd
 
 # from .databases import databases
 import json
@@ -98,9 +99,7 @@ def load_mat(
             return
         else:
             logging.warning('Corrupt database!!\noverwriting...')
-            return load_mat(
-                path, mat, fid, size, overwrite=True, loop=loop + 1
-            )
+            return load_mat(path, mat, fid, size, overwrite=True, loop=loop + 1)
 
     else:
         logging.warning('Database not found!')
@@ -180,9 +179,7 @@ class DatabaseBase(metaclass=ABCMeta):
         lines.append(f"Trials tmin: {self.metadata['tmin']}")
         lines.append(f"Classes: {self.metadata['classes']}")
         if 'non_task_classes' in self.metadata:
-            lines.append(
-                f"Non-task classes: {self.metadata['non_task_classes']}"
-            )
+            lines.append(f"Non-task classes: {self.metadata['non_task_classes']}")
         lines.append('#' * 50)
         return '\n'.join(lines)
 
@@ -191,13 +188,9 @@ class DatabaseBase(metaclass=ABCMeta):
     def load_subject(self, subject: int, mode: str) -> None:
         """"""
         if not mode in ['training', 'evaluation']:
-            raise Exception(
-                f"No mode {mode} available, only 'training', 'evaluation'"
-            )
+            raise Exception(f"No mode {mode} available, only 'training', 'evaluation'")
 
-        if not isinstance(
-            self.metadata[f'subject_{mode}_pattern'], (list, tuple)
-        ):
+        if not isinstance(self.metadata[f'subject_{mode}_pattern'], (list, tuple)):
             self.metadata[f'subject_{mode}_pattern'] = [
                 self.metadata[f'subject_{mode}_pattern']
             ]
@@ -226,9 +219,7 @@ class DatabaseBase(metaclass=ABCMeta):
                 os.path.split(filename_subject)[-1]
                 not in self.metadata[f'subject_{mode}_files'].keys()
             ):
-                raise Exception(
-                    f"Subject {subject} not in list of subjects."
-                )
+                raise Exception(f"Subject {subject} not in list of subjects.")
 
             fid, size = self.metadata[f'subject_{mode}_files'][
                 os.path.split(filename_subject)[-1]
@@ -280,9 +271,7 @@ class DatabaseBase(metaclass=ABCMeta):
         if isinstance(classes, (list, tuple)) and np.max(classes) >= len(
             self.metadata['classes']
         ):
-            raise Exception(
-                f"The class index {np.max(classes)} is out of range."
-            )
+            raise Exception(f"The class index {np.max(classes)} is out of range.")
 
     # ----------------------------------------------------------------------
     def get_data(
@@ -354,12 +343,7 @@ class DatabaseBase(metaclass=ABCMeta):
 
         if channels != ALL:
             channels = [
-                (
-                    list(map(str.lower, self.metadata['channels'])).index(
-                        ch.lower()
-                    )
-                    + 1
-                )
+                (list(map(str.lower, self.metadata['channels'])).index(ch.lower()) + 1)
                 if isinstance(ch, str)
                 else (ch)
                 for ch in channels
@@ -374,9 +358,7 @@ class DatabaseBase(metaclass=ABCMeta):
         """"""
         if classes != ALL:
             classes = [
-                self.metadata['classes'].index(cls)
-                if isinstance(cls, str)
-                else cls
+                self.metadata['classes'].index(cls) if isinstance(cls, str) else cls
                 for cls in classes
             ]
         else:
@@ -408,9 +390,7 @@ class DatabaseBase(metaclass=ABCMeta):
             return range(self.runs)
 
     # ----------------------------------------------------------------------
-    def get_epochs(
-        self, run=ALL, classes=ALL, channels=ALL, kwargs_run={}, **kwargs
-    ):
+    def get_epochs(self, run=ALL, classes=ALL, channels=ALL, kwargs_run={}, **kwargs):
         """"""
         # # Remove channels that not correspond with the montage
         # montage = mne.channels.make_standard_montage(self.metadata['montage'])
@@ -424,9 +404,7 @@ class DatabaseBase(metaclass=ABCMeta):
         # f"Missing {channels_missings} channels in {self.metadata['montage']} montage.\n"
         # f"Missing channels will be removed from MNE Epochs")
 
-        montage = mne.channels.make_standard_montage(
-            self.metadata['montage']
-        )
+        montage = mne.channels.make_standard_montage(self.metadata['montage'])
 
         # Channels names with the MNE standard capitalization
 
@@ -443,9 +421,7 @@ class DatabaseBase(metaclass=ABCMeta):
                     channels_names.append(ch_t)
 
         # Missing channels
-        channels_missings = set(channels_names).difference(
-            set(montage.ch_names)
-        )
+        channels_missings = set(channels_names).difference(set(montage.ch_names))
         if channels_missings:
             print(
                 f"Missing {channels_missings} channels in {montage_name} montage.\n"
@@ -455,7 +431,7 @@ class DatabaseBase(metaclass=ABCMeta):
         info = mne.create_info(
             list(channels_names),
             sfreq=self.metadata['sampling_rate'],
-            ch_types=["eeg"] * len(source),
+            ch_types=["eeg"] * len(channels_names),
         )
         info.set_montage(self.metadata['montage'])
 
@@ -470,9 +446,7 @@ class DatabaseBase(metaclass=ABCMeta):
 
         events = [[i, 1, cls] for i, cls in enumerate(classes_)]
         event_id = {
-            e: i
-            for i, e in enumerate(self.metadata['classes'])
-            if i in classes_
+            e: i for i, e in enumerate(self.metadata['classes']) if i in classes_
         }
 
         return mne.EpochsArray(
@@ -502,9 +476,7 @@ class DatabaseBase(metaclass=ABCMeta):
         import logging
 
         if 'runs_training' in self.metadata:
-            if self.metadata['subjects'] != len(
-                self.metadata['runs_training']
-            ):
+            if self.metadata['subjects'] != len(self.metadata['runs_training']):
                 logging.error(
                     "Number of 'subjects' not correspond with the number of 'runs' for training."
                 )
@@ -523,9 +495,7 @@ class DatabaseBase(metaclass=ABCMeta):
                 pass
 
         if 'runs_evaluation' in self.metadata:
-            if self.metadata['subjects'] != len(
-                self.metadata['runs_evaluation']
-            ):
+            if self.metadata['subjects'] != len(self.metadata['runs_evaluation']):
                 logging.error(
                     "Number of 'subjects' not correspond with the number of 'runs' for evaluation."
                 )
@@ -575,3 +545,29 @@ class DatabaseBase(metaclass=ABCMeta):
             logging.error(
                 "The method 'non_task' must return a tuple of the same size of 'non_task_classes' classes."
             )
+
+    # ----------------------------------------------------------------------
+    def get_dataframe(
+        self,
+        trial,
+        index=None,
+        classes: Optional[list] = ALL,
+        channels: Optional[list] = ALL,
+        reject_bad_trials: Optional[bool] = True,
+    ):
+
+        data, _ = self.get_data(
+            classes, channels, reject_bad_trials, keep_runs_separated=False
+        )
+
+        eeg_dict = {ch: t for ch, t in zip(self.metadata['channels'], data[trial])}
+
+        if index:
+            eeg_dict[index] = np.linspace(0, self.metadata['duration'], data.shape[-1])
+
+        df = pd.DataFrame.from_dict(eeg_dict)
+
+        if index:
+            df.set_index(index, inplace=True)
+
+        return df
