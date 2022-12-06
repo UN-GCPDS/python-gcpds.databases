@@ -23,6 +23,7 @@ setup(
         'tables',
         'tqdm',
         'pandas',
+        'gdown',
     ],
     extras_require={
         'utils': [
