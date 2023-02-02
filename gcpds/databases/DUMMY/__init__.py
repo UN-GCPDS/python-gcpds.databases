@@ -37,7 +37,7 @@ class Database(DatabaseBase):
         # 'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
 
         'metadata': fids['DUMMY metadata'],
-        'directory': 'databases/DUMMY',
+        'directory': 'DUMMY',
     }
 
     # ----------------------------------------------------------------------

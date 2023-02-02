@@ -56,7 +56,7 @@ class Database(DatabaseBase):
         'subject_evaluation_pattern': lambda subject: os.path.join('test', f'{subject}.mat'),
 
         'metadata': fids['HighGamma metadata'],
-        'directory': 'databases/HighGamma-ME',
+        'directory': 'HighGamma-ME',
     }
 
     # ----------------------------------------------------------------------

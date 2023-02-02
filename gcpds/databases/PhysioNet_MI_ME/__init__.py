@@ -104,7 +104,7 @@ class Database(DatabaseBase):
             f'S{str(subject).rjust(3, "0")}R{str(run).rjust(2, "0")}.edf',
         ),
         'metadata': fids['PhysionetMMI metadata'],
-        'directory': 'databases/PhysioNet-MI_ME',
+        'directory': 'PhysioNet-MI_ME',
     }
 
     # ----------------------------------------------------------------------
@@ -213,14 +213,14 @@ class Database(DatabaseBase):
                     [
                         raw_data[
                             :,
-                            int((cl - 4) * 160) : int((cl - 4) * 160)
-                            + (160 * 8),
+                            int((cl - 4) * 160): int((cl - 4) * 160) +
+                            (160 * 8),
                         ]
                         for cl in self.data_[
                             runs[run] - 1
                         ].annotations.onset[
-                            self.data_[runs[run] - 1].annotations.description
-                            == desc
+                            self.data_[runs[run] - 1].annotations.description ==
+                            desc
                         ]
                     ]
                 )

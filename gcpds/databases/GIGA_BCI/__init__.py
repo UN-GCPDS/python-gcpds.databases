@@ -224,7 +224,7 @@ class GIGA_BCI(DatabaseBase):
             f'sess{str(run).rjust(2, "0")}_subj{str(subject).rjust(2, "0")}_EEG_Artifact.mat',
         ),
         'metadata': fids['BCIilliteracy metadata'],
-        'directory': 'databases/GIGA-BCI',
+        'directory': 'GIGA-BCI',
     }
 
     # ----------------------------------------------------------------------
@@ -310,7 +310,7 @@ class GIGA_BCI(DatabaseBase):
         starts = data[2][0]
         end = int(self.metadata['sampling_rate'] * self.metadata['duration'])
 
-        run = np.array([data[1][start : start + end] for start in starts])
+        run = np.array([data[1][start: start + end] for start in starts])
 
         # trial x channel x time
         run = np.moveaxis(run, 2, 1)

@@ -45,7 +45,7 @@ class Database(DatabaseBase):
         # 'subject_evaluation_pattern': lambda subject: f'dummy_data-{str(subject).rjust(2, "0")}.npy',
 
         'metadata': fids['EEG_data_raw Metadata'],
-        'directory': 'databases/EEG_data_raw',
+        'directory': 'EEG_data_raw',
     }
 
     # ----------------------------------------------------------------------
@@ -117,7 +117,7 @@ class Database(DatabaseBase):
         events = mne.find_events(self.data)
         trial_range = np.array([-200, 3000]) / 1000
         trial_ind = np.zeros((Ntrials, 2))
-        labels = np.zeros(Ntrials, dtype = int)
+        labels = np.zeros(Ntrials, dtype=int)
         count_1 = 0
 
         for i in range(len(events)):

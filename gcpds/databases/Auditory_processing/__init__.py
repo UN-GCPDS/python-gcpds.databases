@@ -37,7 +37,7 @@ class Database(DatabaseBase):
         'subject_training_pattern': lambda subject: f'P{subject}_BCMI_frontHN_2017.mat',
 
         'metadata': fids['AuditoryProcessing metadata'],
-        'directory': 'databases/Auditory_processing',
+        'directory': 'Auditory_processing',
     }
 
     # ----------------------------------------------------------------------

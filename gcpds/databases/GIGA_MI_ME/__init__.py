@@ -53,7 +53,7 @@ class Database(DatabaseBase):
     'subject_evaluation_pattern': lambda subject: f's{str(subject).rjust(2, "0")}.mat',
 
     'metadata': fids['GIGA metadata'],
-    'directory': 'databases/GIGA-MI_ME',
+    'directory': 'GIGA-MI_ME',
     }
 
 

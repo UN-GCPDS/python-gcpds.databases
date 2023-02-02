@@ -63,7 +63,7 @@ class Database(DatabaseBase):
             lambda subject: f'A{str(subject).rjust(2, "0")}E.mat',
         ],
         'metadata': fids['BCI2a metadata'],
-        'directory': 'databases/BCI_Competition_IV/dataset_2a',
+        'directory': 'BCI_Competition_IV/dataset_2a',
     }
 
     # ----------------------------------------------------------------------
