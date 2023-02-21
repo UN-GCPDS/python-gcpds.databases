@@ -57,7 +57,7 @@ def drive_mounted():
     return (
         '/content' in sys.path
         and '/env/python' in sys.path
-        and os.path.exists('/content/drive/Shareddrives/GCPDS - databases')
+        and os.path.exists('/content/drive/Shareddrives/GCPDS-databases')
     )
 
 
